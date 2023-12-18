@@ -1,4 +1,4 @@
-namespace LeetCodeNet.Tests.G0001_0100.S0001_two_sum {
+namespace LeetCodeNet.G0001_0100.S0001_two_sum {
 using System;
 using Xunit;
 
