@@ -6,7 +6,11 @@ on:
   pull_request:
     branches: [ main ]
 
-permissions: write-all
+permissions:
+  contents: write
+  pull-requests: write
+  repository-projects: write
+
 jobs:
   check-format:
     runs-on: windows-2019
