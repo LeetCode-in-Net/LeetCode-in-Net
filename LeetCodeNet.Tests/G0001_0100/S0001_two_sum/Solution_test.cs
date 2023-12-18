@@ -2,7 +2,7 @@ namespace LeetCodeNet.G0001_0100.S0001_two_sum {
 using System;
 using Xunit;
 
-public class SolutionTest {
+public class Solution_test {
     [Fact]
     public void TwoSum() {
         Assert.Equal(new int[] {0, 1}, new Solution().TwoSum(new int[] {2, 7, 11, 15}, 9));
