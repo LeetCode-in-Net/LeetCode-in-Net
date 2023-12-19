@@ -1,4 +1,4 @@
-name: Dotnet format
+name: Dotnet CI
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  check-format:
+  build-windows:
     runs-on: windows-2019
     
     steps:
