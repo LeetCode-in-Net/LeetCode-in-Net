@@ -44,5 +44,6 @@ jobs:
         shell: powershell
         run: |
           .\.sonar\scanner\dotnet-sonarscanner begin /k:"LeetCode-in-Net_LeetCode-in-Net" /o:"leetcode-in-net" /d:sonar.token="c6b2e3f1c8c1d9d0cb4c6a943dd0ae8eefd2f9b8" /d:sonar.host.url="https://sonarcloud.io"
-
+          dotnet build --configuration Release
+          dotnet test --logger "trx;LogFileName=test-results.trx" || true
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.token="c6b2e3f1c8c1d9d0cb4c6a943dd0ae8eefd2f9b8"
