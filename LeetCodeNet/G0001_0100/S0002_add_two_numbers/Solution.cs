@@ -1,6 +1,6 @@
 namespace LeetCodeNet.G0001_0100.S0002_add_two_numbers {
 
-using LeetCodeNet.Com_github_leetcode.ListNode;
+using LeetCodeNet.Com_github_leetcode;
 
 public class Solution {
     public ListNode AddTwoNumbers(ListNode l1, ListNode l2) {
