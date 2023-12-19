@@ -1,4 +1,4 @@
-namespace LeetCodeNet.G0001_0100.S0001_two_sum {
+namespace LeetCodeNet.G0001_0100.S0002_add_two_numbers {
 
 using LeetCodeNet.Com_github_leetcode.ListNode;
 
