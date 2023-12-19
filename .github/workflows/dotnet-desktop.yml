@@ -1,9 +1,13 @@
-name: Dotnet format
+name: Dotnet CI
 
-on: push
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
-  check-format:
+  build-windows:
     runs-on: windows-2019
     
     steps:
@@ -25,12 +29,3 @@ jobs:
 
        - name: Test
          run: dotnet test --logger "trx;LogFileName=test-results.trx" || true
-
-       - name: Test Report
-         uses: dorny/test-reporter@v1
-         if: always()
-         with:
-           name: DotNET Tests
-           path: "**/test-results.trx"                            
-           reporter: dotnet-trx
-           fail-on-error: true
