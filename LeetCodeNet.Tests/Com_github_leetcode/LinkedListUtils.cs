@@ -3,7 +3,8 @@ namespace LeetCodeNet.Com_github_leetcode {
 public class LinkedListUtils {
     public static ListNode ContructLinkedList(int[] nums) {
         if (nums == null || nums.Length == 0) {
-            return null;
+            throw new ArgumentException(
+                    "Please pass in a valid listValues to create a linked list.");
         }
         ListNode pre = new ListNode(-1);
         ListNode head = new ListNode(nums[0]);
