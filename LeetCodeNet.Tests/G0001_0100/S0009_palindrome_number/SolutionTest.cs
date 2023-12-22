@@ -3,7 +3,7 @@ namespace LeetCodeNet.G0001_0100.S0009_palindrome_number {
 using Xunit;
 using System;
 
-class SolutionTest {
+public class SolutionTest {
     [Fact]
     public void IsPalindrome() {
         Assert.Equal(true, new Solution().IsPalindrome(121));

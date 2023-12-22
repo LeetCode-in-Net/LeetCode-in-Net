@@ -3,7 +3,7 @@ namespace LeetCodeNet.G0001_0100.S0008_string_to_integer_atoi {
 using Xunit;
 using System;
 
-class SolutionTest {
+public class SolutionTest {
     [Fact]
     public void MyAtoi() {
         Assert.Equal(42, new Solution().MyAtoi("42"));

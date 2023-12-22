@@ -3,7 +3,7 @@ namespace LeetCodeNet.G0001_0100.S0007_reverse_integer {
 using Xunit;
 using System;
 
-class SolutionTest {
+public class SolutionTest {
     [Fact]
     public void Reverse() {
         Assert.Equal(321, new Solution().Reverse(123));

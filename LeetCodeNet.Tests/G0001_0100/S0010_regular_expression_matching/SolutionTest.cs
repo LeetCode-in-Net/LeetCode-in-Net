@@ -3,7 +3,7 @@ namespace LeetCodeNet.G0001_0100.S0010_regular_expression_matching {
 using Xunit;
 using System;
 
-class SolutionTest {
+public class SolutionTest {
     [Fact]
     public void IsMatch() {
         Assert.Equal(false, new Solution().IsMatch("aa", "a"));
