@@ -1,7 +1,7 @@
 namespace LeetCodeNet.Com_github_leetcode {
 
 public class LinkedListUtils {
-    public static ListNode ContructLinkedList(int[] nums) {
+    public static ListNode ConstructLinkedList(int[] nums) {
         if (nums == null || nums.Length == 0) {
             throw new ArgumentException(
                     "Please pass in a valid listValues to create a linked list.");
