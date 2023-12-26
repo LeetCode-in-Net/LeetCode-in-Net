@@ -2,7 +2,7 @@ namespace LeetCodeNet.G0001_0100.S0015_3sum {
 
 // #Medium #Top_100_Liked_Questions #Top_Interview_Questions #Array #Sorting #Two_Pointers
 // #Data_Structure_II_Day_1_Array #Algorithm_II_Day_3_Two_Pointers #Udemy_Two_Pointers
-// #Big_O_Time_O(n*log(n))_Space_O(n^2)
+// #Big_O_Time_O(n*log(n))_Space_O(n^2) #2023_12_26_Time_173_ms_(75.85%)_Space_74.7_MB_(28.23%)
 
 public class Solution {
     public IList<IList<int>> ThreeSum(int[] nums) {
