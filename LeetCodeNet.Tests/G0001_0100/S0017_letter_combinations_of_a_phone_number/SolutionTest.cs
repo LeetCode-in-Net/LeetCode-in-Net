@@ -42,7 +42,7 @@ public class SolutionTest {
         Assert.Equal(new List<string> { "p", "q", "r", "s" }, new Solution().LetterCombinations("7"));
     }
 
-    @Fact
+    [Fact]
     public void LetterCombinations8() {
         Assert.Equal(new List<string> { "t", "u", "v" }, new Solution().LetterCombinations("8"));
     }
