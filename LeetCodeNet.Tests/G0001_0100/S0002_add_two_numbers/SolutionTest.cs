@@ -6,8 +6,8 @@ using LeetCodeNet.Com_github_leetcode;
 public class SolutionTest {
     [Fact]
     public void AddTwoNumbers() {
-        ListNode listNode1 = LinkedListUtils.ContructLinkedList(new int[] {2, 4, 3});
-        ListNode listNode2 = LinkedListUtils.ContructLinkedList(new int[] {5, 6, 4});
+        ListNode listNode1 = LinkedListUtils.ConstructLinkedList(new int[] {2, 4, 3});
+        ListNode listNode2 = LinkedListUtils.ConstructLinkedList(new int[] {5, 6, 4});
         Assert.Equal("7, 0, 8", new Solution().AddTwoNumbers(listNode1, listNode2).ToString());
     }
 
@@ -18,8 +18,8 @@ public class SolutionTest {
 
     [Fact]
     public void AddTwoNumbers3() {
-        ListNode listNode1 = LinkedListUtils.ContructLinkedList(new int[] {9, 9, 9, 9, 9, 9, 9});
-        ListNode listNode2 = LinkedListUtils.ContructLinkedList(new int[] {9, 9, 9, 9});
+        ListNode listNode1 = LinkedListUtils.ConstructLinkedList(new int[] {9, 9, 9, 9, 9, 9, 9});
+        ListNode listNode2 = LinkedListUtils.ConstructLinkedList(new int[] {9, 9, 9, 9});
         Assert.Equal("8, 9, 9, 9, 0, 0, 0, 1", new Solution().AddTwoNumbers(listNode1, listNode2).ToString());
     }
 }

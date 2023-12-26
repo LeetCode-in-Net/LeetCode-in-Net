@@ -2,6 +2,7 @@ namespace LeetCodeNet.G0001_0100.S0023_merge_k_sorted_lists {
 
 using Xunit;
 using System.Collections.Generic;
+using LeetCodeNet.Com_github_leetcode;
 
 public class SolutionTest {
     [Fact]

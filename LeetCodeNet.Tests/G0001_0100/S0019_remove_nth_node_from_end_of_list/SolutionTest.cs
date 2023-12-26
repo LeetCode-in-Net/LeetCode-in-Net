@@ -1,6 +1,7 @@
 namespace LeetCodeNet.G0001_0100.S0019_remove_nth_node_from_end_of_list {
 
 using Xunit;
+using LeetCodeNet.Com_github_leetcode;
 
 public class SolutionTest {
     [Fact]
