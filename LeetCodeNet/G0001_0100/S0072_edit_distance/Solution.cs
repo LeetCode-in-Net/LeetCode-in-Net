@@ -6,7 +6,7 @@ namespace LeetCodeNet.G0001_0100.S0072_edit_distance {
 // #2024_01_05_Time_51_ms_(95.38%)_Space_44.5_MB_(20.65%)
 
 public class Solution {
-    public int MinDistance(string word1, string word2 {
+    public int MinDistance(string word1, string word2) {
         var map = new int[word1.Length + 1, word2.Length + 1];
         for (int i = 0; i <= word1.Length; i++) {
             map[i, 0] = i;
