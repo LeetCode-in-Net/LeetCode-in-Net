@@ -658,7 +658,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0074 |[Search a 2D Matrix](LeetCodeNet/G0001_0100/S0074_search_a_2d_matrix/Solution.cs)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Matrix, Big_O_Time_O(endRow+endCol)_Space_O(1) | 75 | 92.10
+| 0074 |[Search a 2D Matrix](LeetCodeNet/G0001_0100/S0074_search_a_2d_matrix/Solution.cs)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Matrix, Big_O_Time_O(endRow+endCol)_Space_O(1) | 76 | 90.98
 | 0033 |[Search in Rotated Sorted Array](LeetCodeNet/G0001_0100/S0033_search_in_rotated_sorted_array/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Binary_Search, Big_O_Time_O(log_n)_Space_O(1) | 63 | 96.89
 
 #### Day 9 Binary Search Tree
@@ -691,7 +691,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0003 |[Longest Substring Without Repeating Characters](LeetCodeNet/G0001_0100/S0003_longest_substring_without_repeating_characters/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Sliding_Window, Big_O_Time_O(n)_Space_O(1) | 50 | 98.40
-| 0076 |[Minimum Window Substring](LeetCodeNet/G0001_0100/S0076_minimum_window_substring/Solution.cs)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Sliding_Window, Big_O_Time_O(s.length())_Space_O(1) | 66 | 93.87
+| 0076 |[Minimum Window Substring](LeetCodeNet/G0001_0100/S0076_minimum_window_substring/Solution.cs)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Sliding_Window, Big_O_Time_O(s.length())_Space_O(1) | 56 | 98.72
 
 #### Day 15 Tree
 
@@ -756,7 +756,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 |-|-|-|-|-|-
 | 0001 |[Two Sum](LeetCodeNet/G0001_0100/S0001_two_sum/Solution.cs)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Big_O_Time_O(n)_Space_O(n) | 134 | 81.26
 | 0055 |[Jump Game](LeetCodeNet/G0001_0100/S0055_jump_game/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Greedy, Big_O_Time_O(n)_Space_O(1) | 189 | 38.02
-| 0075 |[Sort Colors](LeetCodeNet/G0001_0100/S0075_sort_colors/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers, Big_O_Time_O(n)_Space_O(1) | 96 | 95.14
+| 0075 |[Sort Colors](LeetCodeNet/G0001_0100/S0075_sort_colors/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers, Big_O_Time_O(n)_Space_O(1) | 98 | 93.59
 | 0041 |[First Missing Positive](LeetCodeNet/G0001_0100/S0041_first_missing_positive/Solution.cs)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Big_O_Time_O(n)_Space_O(n) | 192 | 13.98
 
 #### Udemy Two Pointers
@@ -781,9 +781,9 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0074 |[Search a 2D Matrix](LeetCodeNet/G0001_0100/S0074_search_a_2d_matrix/Solution.cs)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Matrix, Big_O_Time_O(endRow+endCol)_Space_O(1) | 75 | 92.10
+| 0074 |[Search a 2D Matrix](LeetCodeNet/G0001_0100/S0074_search_a_2d_matrix/Solution.cs)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Matrix, Big_O_Time_O(endRow+endCol)_Space_O(1) | 76 | 90.98
 | 0048 |[Rotate Image](LeetCodeNet/G0001_0100/S0048_rotate_image/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Math, Matrix, Big_O_Time_O(n^2)_Space_O(1) | 92 | 97.78
-| 0073 |[Set Matrix Zeroes](LeetCodeNet/G0001_0100/S0073_set_matrix_zeroes/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Matrix, Big_O_Time_O(m\*n)_Space_O(1) | 123 | 97.51
+| 0073 |[Set Matrix Zeroes](LeetCodeNet/G0001_0100/S0073_set_matrix_zeroes/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Matrix, Big_O_Time_O(m\*n)_Space_O(1) | 124 | 96.92
 | 0056 |[Merge Intervals](LeetCodeNet/G0001_0100/S0056_merge_intervals/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Big_O_Time_O(n_log_n)_Space_O(n) | 149 | 89.48
 
 #### Udemy Linked List
@@ -824,7 +824,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 |-|-|-|-|-|-
 | 0022 |[Generate Parentheses](LeetCodeNet/G0001_0100/S0022_generate_parentheses/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Dynamic_Programming, Backtracking, Big_O_Time_O(2^n)_Space_O(n) | 81 | 99.57
 | 0039 |[Combination Sum](LeetCodeNet/G0001_0100/S0039_combination_sum/Solution.cs)| Medium | Top_100_Liked_Questions, Array, Backtracking, Big_O_Time_O(2^n)_Space_O(n+2^n) | 94 | 99.60
-| 0078 |[Subsets](LeetCodeNet/G0001_0100/S0078_subsets/Solution.cs)| Medium | Backtracking | 373 | 25.22
+| 0078 |[Subsets](LeetCodeNet/G0001_0100/S0078_subsets/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Backtracking, Big_O_Time_O(2^n)_Space_O(n\*2^n) | 101 | 94.29
 | 0017 |[Letter Combinations of a Phone Number](LeetCodeNet/G0001_0100/S0017_letter_combinations_of_a_phone_number/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Backtracking, Big_O_Time_O(4^n)_Space_O(n) | 108 | 95.24
 | 0046 |[Permutations](LeetCodeNet/G0001_0100/S0046_permutations/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Backtracking, Big_O_Time_O(n\*n!)_Space_O(n+n!) | 148 | 5.56
 
@@ -866,7 +866,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0074 |[Search a 2D Matrix](LeetCodeNet/G0001_0100/S0074_search_a_2d_matrix/Solution.cs)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Matrix, Big_O_Time_O(endRow+endCol)_Space_O(1) | 75 | 92.10
+| 0074 |[Search a 2D Matrix](LeetCodeNet/G0001_0100/S0074_search_a_2d_matrix/Solution.cs)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Matrix, Big_O_Time_O(endRow+endCol)_Space_O(1) | 76 | 90.98
 
 #### Day 6 String
 
@@ -927,7 +927,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0075 |[Sort Colors](LeetCodeNet/G0001_0100/S0075_sort_colors/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers, Big_O_Time_O(n)_Space_O(1) | 96 | 95.14
+| 0075 |[Sort Colors](LeetCodeNet/G0001_0100/S0075_sort_colors/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers, Big_O_Time_O(n)_Space_O(1) | 98 | 93.59
 | 0056 |[Merge Intervals](LeetCodeNet/G0001_0100/S0056_merge_intervals/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Big_O_Time_O(n_log_n)_Space_O(n) | 149 | 89.48
 
 #### Day 3 Array
@@ -1117,7 +1117,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 |-|-|-|-|-|-
 | 0034 |[Find First and Last Position of Element in Sorted Array](LeetCodeNet/G0001_0100/S0034_find_first_and_last_position_of_element_in_sorted_array/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Binary_Search, Big_O_Time_O(log_n)_Space_O(1) | 171 | 5.87
 | 0033 |[Search in Rotated Sorted Array](LeetCodeNet/G0001_0100/S0033_search_in_rotated_sorted_array/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Binary_Search, Big_O_Time_O(log_n)_Space_O(1) | 63 | 96.89
-| 0074 |[Search a 2D Matrix](LeetCodeNet/G0001_0100/S0074_search_a_2d_matrix/Solution.cs)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Matrix, Big_O_Time_O(endRow+endCol)_Space_O(1) | 75 | 92.10
+| 0074 |[Search a 2D Matrix](LeetCodeNet/G0001_0100/S0074_search_a_2d_matrix/Solution.cs)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Matrix, Big_O_Time_O(endRow+endCol)_Space_O(1) | 76 | 90.98
 
 #### Day 2 Binary Search
 
@@ -1160,7 +1160,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0078 |[Subsets](LeetCodeNet/G0001_0100/S0078_subsets/Solution.cs)| Medium | Backtracking | 373 | 25.22
+| 0078 |[Subsets](LeetCodeNet/G0001_0100/S0078_subsets/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Backtracking, Big_O_Time_O(2^n)_Space_O(n\*2^n) | 101 | 94.29
 
 #### Day 10 Recursion Backtracking
 
@@ -1274,7 +1274,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0074 |[Search a 2D Matrix](LeetCodeNet/G0001_0100/S0074_search_a_2d_matrix/Solution.cs)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Matrix, Big_O_Time_O(endRow+endCol)_Space_O(1) | 75 | 92.10
+| 0074 |[Search a 2D Matrix](LeetCodeNet/G0001_0100/S0074_search_a_2d_matrix/Solution.cs)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Matrix, Big_O_Time_O(endRow+endCol)_Space_O(1) | 76 | 90.98
 
 #### Day 9
 
@@ -1302,11 +1302,11 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|---------
 | 0079 |[Word Search](LeetCodeNet/G0001_0100/S0079_word_search/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Matrix, Backtracking, Algorithm_II_Day_11_Recursion_Backtracking, Big_O_Time_O(4^(m\*n))_Space_O(m\*n) | 152 | 99.69
-| 0078 |[Subsets](LeetCodeNet/G0001_0100/S0078_subsets/Solution.cs)| Medium | Backtracking, Algorithm_I_Day_11_Recursion_Backtracking | 373 | 25.22
-| 0076 |[Minimum Window Substring](LeetCodeNet/G0001_0100/S0076_minimum_window_substring/Solution.cs)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Sliding_Window, Level_2_Day_14_Sliding_Window/Two_Pointer, Big_O_Time_O(s.length())_Space_O(1) | 66 | 93.87
-| 0075 |[Sort Colors](LeetCodeNet/G0001_0100/S0075_sort_colors/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers, Data_Structure_II_Day_2_Array, Udemy_Arrays, Big_O_Time_O(n)_Space_O(1) | 96 | 95.14
-| 0074 |[Search a 2D Matrix](LeetCodeNet/G0001_0100/S0074_search_a_2d_matrix/Solution.cs)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Matrix, Data_Structure_I_Day_5_Array, Algorithm_II_Day_1_Binary_Search, Binary_Search_I_Day_8, Level_2_Day_8_Binary_Search, Udemy_2D_Arrays/Matrix, Big_O_Time_O(endRow+endCol)_Space_O(1) | 75 | 92.10
-| 0073 |[Set Matrix Zeroes](LeetCodeNet/G0001_0100/S0073_set_matrix_zeroes/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Matrix, Udemy_2D_Arrays/Matrix, Big_O_Time_O(m\*n)_Space_O(1) | 123 | 97.51
+| 0078 |[Subsets](LeetCodeNet/G0001_0100/S0078_subsets/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Backtracking, Algorithm_II_Day_9_Recursion_Backtracking, Udemy_Backtracking/Recursion, Big_O_Time_O(2^n)_Space_O(n\*2^n) | 101 | 94.29
+| 0076 |[Minimum Window Substring](LeetCodeNet/G0001_0100/S0076_minimum_window_substring/Solution.cs)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Sliding_Window, Level_2_Day_14_Sliding_Window/Two_Pointer, Big_O_Time_O(s.length())_Space_O(1) | 56 | 98.72
+| 0075 |[Sort Colors](LeetCodeNet/G0001_0100/S0075_sort_colors/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers, Data_Structure_II_Day_2_Array, Udemy_Arrays, Big_O_Time_O(n)_Space_O(1) | 98 | 93.59
+| 0074 |[Search a 2D Matrix](LeetCodeNet/G0001_0100/S0074_search_a_2d_matrix/Solution.cs)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Matrix, Data_Structure_I_Day_5_Array, Algorithm_II_Day_1_Binary_Search, Binary_Search_I_Day_8, Level_2_Day_8_Binary_Search, Udemy_2D_Arrays/Matrix, Big_O_Time_O(endRow+endCol)_Space_O(1) | 76 | 90.98
+| 0073 |[Set Matrix Zeroes](LeetCodeNet/G0001_0100/S0073_set_matrix_zeroes/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Matrix, Udemy_2D_Arrays/Matrix, Big_O_Time_O(m\*n)_Space_O(1) | 124 | 96.92
 | 0072 |[Edit Distance](LeetCodeNet/G0001_0100/S0072_edit_distance/Solution.cs)| Hard | Top_100_Liked_Questions, String, Dynamic_Programming, Algorithm_II_Day_18_Dynamic_Programming, Dynamic_Programming_I_Day_19, Udemy_Dynamic_Programming, Big_O_Time_O(n^2)_Space_O(n2) | 51 | 95.38
 | 0070 |[Climbing Stairs](LeetCodeNet/G0001_0100/S0070_climbing_stairs/Solution.cs)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Memoization, Algorithm_I_Day_12_Dynamic_Programming, Dynamic_Programming_I_Day_2, Level_1_Day_10_Dynamic_Programming, Udemy_Dynamic_Programming, Big_O_Time_O(n)_Space_O(n) | 15 | 94.90
 | 0064 |[Minimum Path Sum](LeetCodeNet/G0001_0100/S0064_minimum_path_sum/Solution.cs)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Matrix, Dynamic_Programming_I_Day_16, Udemy_Dynamic_Programming, Big_O_Time_O(m\*n)_Space_O(m\*n) | 74 | 94.37
