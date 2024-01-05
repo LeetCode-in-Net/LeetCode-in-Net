@@ -8,13 +8,13 @@ public class SolutionTest {
     [Fact]
     public void PathSum() {
         Assert.Equal(3, new Solution().PathSum(
-            TreeNode.Create(new List<int?> {10, 5, -3, 3, 2, null, 11, 3, -2, null, 1}), 8));
+            TreeNode.Create(new List<int> {10, 5, -3, 3, 2, null, 11, 3, -2, null, 1}), 8));
     }
 
     [Fact]
     public void PathSum2() {
         Assert.Equal(3, new Solution().PathSum(
-            TreeNode.Create(new List<int?> {5, 4, 8, 11, null, 13, 4, 7, 2, null, null, 5, 1}), 22));
+            TreeNode.Create(new List<int> {5, 4, 8, 11, null, 13, 4, 7, 2, null, null, 5, 1}), 22));
     }
 }
 }
