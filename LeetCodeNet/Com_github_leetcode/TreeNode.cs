@@ -8,11 +8,11 @@ public class TreeNode {
     public TreeNode left;
     public TreeNode right;
 
-    public TreeNode(int val = 0) {
-        this.val = val;
+    public TreeNode(int? val) {
+        this.val = val == null ? 0 : val;
     }
 
-    public TreeNode(int val = 0, TreeNode left = null, TreeNode right = null) {
+    public TreeNode(int val, TreeNode left, TreeNode right) {
         this.val = val;
         this.left = left;
         this.right = right;
