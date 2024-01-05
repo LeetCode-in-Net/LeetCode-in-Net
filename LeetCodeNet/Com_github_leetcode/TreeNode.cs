@@ -8,17 +8,17 @@ public class TreeNode {
     public TreeNode left;
     public TreeNode right;
 
-    public TreeNode(int val) {
+    public TreeNode(int val = 0) {
         this.val = val;
     }
 
-    public TreeNode(int val, TreeNode left, TreeNode right) {
+    public TreeNode(int val = 0, TreeNode left = null, TreeNode right = null) {
         this.val = val;
         this.left = left;
         this.right = right;
     }
 
-    public static TreeNode Create(List<int> treeValues) {
+    public static TreeNode Create(List<int?> treeValues) {
         TreeNode root = treeValues.Count == 0 ? null : new TreeNode(treeValues[0]);
         Queue<TreeNode> queue = new Queue<TreeNode>();
         queue.Enqueue(root);
