@@ -18,7 +18,7 @@ public class TreeNode {
         this.right = right;
     }
 
-    public static TreeNode Create(List<int> treeValues) {
+    public static TreeNode Create(List<int?> treeValues) {
         TreeNode root = treeValues.Count == 0 ? null : new TreeNode(treeValues[0]);
         Queue<TreeNode> queue = new Queue<TreeNode>();
         queue.Enqueue(root);
