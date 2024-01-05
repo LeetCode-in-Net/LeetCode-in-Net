@@ -6,12 +6,12 @@ using Xunit;
 public class SolutionTest {
     [Fact]
     public void CanPartition() {
-        Assert.Equal(true, new Solution().CanPartition(new int[] {1, 5, 11, 5}));
+        Assert.True(new Solution().CanPartition(new int[] {1, 5, 11, 5}));
     }
 
     [Fact]
     public void CanPartition2() {
-        Assert.Equal(false, new Solution().CanPartition(new int[] {1, 2, 3, 5}));
+        Assert.False(new Solution().CanPartition(new int[] {1, 2, 3, 5}));
     }
 }
 }
