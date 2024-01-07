@@ -4,6 +4,8 @@ namespace LeetCodeNet.G0501_0600.S0543_diameter_of_binary_tree {
 // #Udemy_Tree_Stack_Queue #Big_O_Time_O(n)_Space_O(n)
 // #2024_01_07_Time_74_ms_(84.67%)_Space_42.6_MB_(8.90%)
 
+using LeetCodeNet.Com_github_leetcode;
+
 public class Solution {
     private int diameter;
 
