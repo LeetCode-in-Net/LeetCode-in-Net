@@ -12,7 +12,7 @@ public class SolutionTest {
             new int[] {10, 13, 14, 17, 24},
             new int[] {18, 21, 23, 26, 30}
         };
-        Assert.Equal(true, new Solution().SearchMatrix(matrix, 5));
+        Assert.True(new Solution().SearchMatrix(matrix, 5));
     }
 
     [Fact]
@@ -24,7 +24,7 @@ public class SolutionTest {
             new int[] {10, 13, 14, 17, 24},
             new int[] {18, 21, 23, 26, 30}
         };
-        Assert.Equal(false, new Solution().SearchMatrix(matrix, 20));
+        Assert.False(new Solution().SearchMatrix(matrix, 20));
     }
 }
 }
