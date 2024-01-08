@@ -12,6 +12,5 @@ public class SolutionTest {
     public void LargestRectangleArea2() {
         Assert.Equal(4, new Solution().LargestRectangleArea(new int[] { 2, 4 }));
     }
-
 }
 }
