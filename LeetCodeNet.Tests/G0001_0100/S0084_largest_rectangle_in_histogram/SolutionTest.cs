@@ -4,12 +4,12 @@ using Xunit;
 
 public class SolutionTest {
     [Fact]
-    public void largestRectangleArea() {
+    public void LargestRectangleArea() {
         Assert.Equal(10, new Solution().LargestRectangleArea(new int[] { 2, 1, 5, 6, 2, 3 }));
     }
 
     [Fact]
-    public void largestRectangleArea2() {
+    public void LargestRectangleArea2() {
         Assert.Equal(4, new Solution().LargestRectangleArea(new int[] { 2, 4 }));
     }
 
