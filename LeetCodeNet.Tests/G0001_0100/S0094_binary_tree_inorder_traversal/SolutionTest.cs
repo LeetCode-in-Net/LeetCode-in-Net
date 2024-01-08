@@ -5,7 +5,7 @@ using LeetCodeNet.Com_github_leetcode;
 
 public class SolutionTest {
     [Fact]
-    public void inorderTraversal() {
+    public void InorderTraversal() {
         TreeNode treeNode = new TreeNode(1);
         TreeNode treeNode2 = new TreeNode(2);
         treeNode.right = treeNode2;
@@ -14,14 +14,13 @@ public class SolutionTest {
     }
 
     [Fact]
-    public void inorderTraversal2() {
+    public void InorderTraversal2() {
         Assert.Equal(new List<int> { }, new Solution().InorderTraversal(null));
     }
 
     [Fact]
-    public void inorderTraversal3() {
+    public void InorderTraversal3() {
         Assert.Equal(new List<int> { 1 }, new Solution().InorderTraversal(new TreeNode(1)));
     }
-
 }
 }
