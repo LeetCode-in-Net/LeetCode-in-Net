@@ -1,6 +1,5 @@
 namespace LeetCodeNet.G0101_0200.S0114_flatten_binary_tree_to_linked_list {
 
-using System;
 using Xunit;
 using LeetCodeNet.Com_github_leetcode;
 

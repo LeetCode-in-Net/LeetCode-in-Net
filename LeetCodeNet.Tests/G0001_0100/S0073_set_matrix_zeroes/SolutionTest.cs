@@ -1,6 +1,5 @@
 namespace LeetCodeNet.G0001_0100.S0073_set_matrix_zeroes {
 
-using System;
 using Xunit;
 
 public class SolutionTest {

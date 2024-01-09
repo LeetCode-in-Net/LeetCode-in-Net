@@ -1,6 +1,5 @@
 namespace LeetCodeNet.G0001_0100.S0056_merge_intervals {
 
-using System;
 using Xunit;
 
 public class SolutionTest {

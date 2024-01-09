@@ -1,7 +1,6 @@
 namespace LeetCodeNet.G0001_0100.S0004_median_of_two_sorted_arrays {
 
 using Xunit;
-using System;
 
 public class SolutionTest {
     [Fact]

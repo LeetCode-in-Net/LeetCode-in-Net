@@ -1,6 +1,5 @@
 namespace LeetCodeNet.G0001_0100.S0076_minimum_window_substring {
 
-using System;
 using Xunit;
 
 public class SolutionTest {

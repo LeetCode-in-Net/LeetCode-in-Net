@@ -1,6 +1,5 @@
 namespace LeetCodeNet.G0001_0100.S0062_unique_paths {
 
-using System;
 using Xunit;
 
 public class SolutionTest {

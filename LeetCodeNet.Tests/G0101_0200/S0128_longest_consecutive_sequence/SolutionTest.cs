@@ -1,6 +1,5 @@
 namespace LeetCodeNet.G0101_0200.S0128_longest_consecutive_sequence {
 
-using System;
 using Xunit;
 
 public class SolutionTest {

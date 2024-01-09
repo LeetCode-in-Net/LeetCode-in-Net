@@ -1,6 +1,5 @@
 namespace LeetCodeNet.G0101_0200.S0105_construct_binary_tree_from_preorder_and_inorder_traversal {
 
-using System;
 using Xunit;
 using LeetCodeNet.Com_github_leetcode;
 

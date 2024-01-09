@@ -1,7 +1,6 @@
 namespace LeetCodeNet.G0001_0100.S0003_longest_substring_without_repeating_characters {
 
 using Xunit;
-using System;
 
 public class SolutionTest {
     [Fact]

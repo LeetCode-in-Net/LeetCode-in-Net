@@ -1,6 +1,5 @@
 namespace LeetCodeNet.G0001_0100.S0053_maximum_subarray {
 
-using System;
 using Xunit;
 
 public class SolutionTest {

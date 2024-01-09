@@ -1,6 +1,5 @@
 namespace LeetCodeNet.G0001_0100.S0051_n_queens {
 
-using System;
 using Xunit;
 
 public class SolutionTest {

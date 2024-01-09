@@ -1,6 +1,5 @@
 namespace LeetCodeNet.G0001_0100.S0074_search_a_2d_matrix {
 
-using System;
 using Xunit;
 
 public class SolutionTest {

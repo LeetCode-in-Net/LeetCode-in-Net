@@ -1,6 +1,5 @@
 namespace LeetCodeNet.G0001_0100.S0075_sort_colors {
 
-using System;
 using Xunit;
 
 public class SolutionTest {

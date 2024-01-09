@@ -1,6 +1,5 @@
 namespace LeetCodeNet.G0101_0200.S0131_palindrome_partitioning {
 
-using System;
 using Xunit;
 
 public class SolutionTest {

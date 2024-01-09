@@ -1,6 +1,5 @@
 namespace LeetCodeNet.G0001_0100.S0079_word_search {
 
-using System;
 using Xunit;
 
 public class SolutionTest {
