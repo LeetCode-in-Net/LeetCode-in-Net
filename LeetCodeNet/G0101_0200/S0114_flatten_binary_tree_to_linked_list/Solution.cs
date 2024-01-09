@@ -6,19 +6,19 @@ namespace LeetCodeNet.G0101_0200.S0114_flatten_binary_tree_to_linked_list {
 
 using LeetCodeNet.Com_github_leetcode;
 
-/*
-    * Definition for a binary tree node.
-    * public class TreeNode {
-    *     public int val;
-    *     public TreeNode left;
-    *     public TreeNode right;
-    *     public TreeNode(int val=0, TreeNode left=null, TreeNode right=null) {
-    *         this.val = val;
-    *         this.left = left;
-    *         this.right = right;
-    *     }
-    * }
-    */
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     public int val;
+ *     public TreeNode left;
+ *     public TreeNode right;
+ *     public TreeNode(int val=0, TreeNode left=null, TreeNode right=null) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
 public class Solution {
     public void Flatten(TreeNode root) {
         if (root != null) {
@@ -37,15 +37,13 @@ public class Solution {
             root.left = null;
             root.right = left;
             tail.right = right;
-        }
-        else {
+        } else {
             tail = root;
         }
         // find tail of the right subtree
         if (tail.right == null) {
             return tail;
-        }
-        else {
+        } else {
             return FindTail(tail.right);
         }
     }
