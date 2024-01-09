@@ -23,7 +23,7 @@ public class Solution {
         }
         for (int i=0; i<s.Length; i++) {
              if (set.Contains(s.Substring(0, i)) && CheckWordBreak(s.Substring(i))) {
-                 visited[s]= true;
+                 visited[s] = true;
                  return true;
              }
         }
