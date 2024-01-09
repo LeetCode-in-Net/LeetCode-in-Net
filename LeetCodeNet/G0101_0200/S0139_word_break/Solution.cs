@@ -13,15 +13,15 @@ public class Solution {
         return CheckWordBreak(s);
     }
 
-    public bool CheckWordBreak(string s){
-        if(visited.ContainsKey(s)) {
+    public bool CheckWordBreak(string s) {
+        if (visited.ContainsKey(s)) {
             return visited[s];
         }
-        if(set.Contains(s)) {
+        if (set.Contains(s)) {
             return true;
         }
-        for(int i=0; i<s.Length; i++){
-             if(set.Contains(s.Substring(0, i)) && CheckWordBreak(s.Substring(i))){
+        for (int i=0; i<s.Length; i++) {
+             if (set.Contains(s.Substring(0, i)) && CheckWordBreak(s.Substring(i))) {
                  visited[s]= true;
                  return true;
              }
