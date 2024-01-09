@@ -6,24 +6,24 @@ namespace LeetCodeNet.G0101_0200.S0142_linked_list_cycle_ii {
 
 using LeetCodeNet.Com_github_leetcode;
 
-/*
-    * Definition for singly-linked list.
-    * public class ListNode {
-    *     public int val;
-    *     public ListNode next;
-    *     public ListNode(int x) {
-    *         val = x;
-    *         next = null;
-    *     }
-    * }
-    */
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     public int val;
+ *     public ListNode next;
+ *     public ListNode(int x) {
+ *         val = x;
+ *         next = null;
+ *     }
+ * }
+ */
 public class Solution {
     public ListNode DetectCycle(ListNode head) {
-        if (head == null || head.next == null) return null;
-
+        if (head == null || head.next == null) {
+           return null;
+        }
         ListNode slow = head;
         ListNode fast = head;
-
         while (fast != null && fast.next != null) {
             fast = fast.next.next;
             slow = slow.next;
@@ -31,13 +31,10 @@ public class Solution {
                 break;
             }
         }
-
         if (fast == null || fast.next == null) {
             return null;
         }
-
         slow = head;
-
         while (slow != fast) {
             slow = slow.next;
             fast = fast.next;
