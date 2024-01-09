@@ -6,7 +6,7 @@ namespace LeetCodeNet.G0101_0200.S0124_binary_tree_maximum_path_sum {
 
 using LeetCodeNet.Com_github_leetcode;
 
-/*
+/**
  * Definition for a binary tree node.
  * public class TreeNode {
  *     public int val;
