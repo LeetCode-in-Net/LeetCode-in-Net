@@ -1,21 +1,20 @@
 namespace LeetCodeNet.G0101_0200.S0139_word_break {
 
-using System;
 using Xunit;
 
 public class SolutionTest {
     [Fact]
-    public void WordBreakTest1() {
+    public void WordBreak() {
         Assert.True(new Solution().WordBreak("leetcode", new List<string> { "leet", "code" }));
     }
 
     [Fact]
-    public void WordBreakTest2() {
+    public void WordBreak2() {
         Assert.True(new Solution().WordBreak("applepenapple", new List<string> { "apple", "pen" }));
     }
 
     [Fact]
-    public void WordBreakTest3() {
+    public void WordBreak3() {
         Assert.False(new Solution().WordBreak("catsandog", new List<string> { "cats", "dog", "sand", "and", "cat" }));
     }
 }
