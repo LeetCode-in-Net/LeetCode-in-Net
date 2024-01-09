@@ -6,20 +6,19 @@ namespace LeetCodeNet.G0101_0200.S0102_binary_tree_level_order_traversal {
 
 using LeetCodeNet.Com_github_leetcode;
 
-/*
-    * Definition for a binary tree node.
-    * public class TreeNode {
-    *     public int val;
-    *     public TreeNode left;
-    *     public TreeNode right;
-    *     public TreeNode(int val=0, TreeNode left=null, TreeNode right=null) {
-    *         this.val = val;
-    *         this.left = left;
-    *         this.right = right;
-    *     }
-    * }
-    */
-
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     public int val;
+ *     public TreeNode left;
+ *     public TreeNode right;
+ *     public TreeNode(int val=0, TreeNode left=null, TreeNode right=null) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
 public class Solution {
     public IList<IList<int>> LevelOrder(TreeNode root) {
         IList<IList<int>> result = new List<IList<int>>();
