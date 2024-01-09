@@ -1,9 +1,8 @@
 namespace LeetCodeNet.G0101_0200.S0146_lru_cache {
 
-using System;
 using Xunit;
 
-public class SolutionTest {
+public class LRUCacheTest {
     [Fact]
     public void LruCache() {
         LRUCache lruCache = new LRUCache(2);
