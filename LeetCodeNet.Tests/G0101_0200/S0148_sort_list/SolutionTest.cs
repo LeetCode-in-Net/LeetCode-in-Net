@@ -1,12 +1,11 @@
 namespace LeetCodeNet.G0101_0200.S0148_sort_list {
 
-using System;
 using Xunit;
 using LeetCodeNet.Com_github_leetcode;
 
 public class SolutionTest {
     [Fact]
-    public void SortListTest1() {
+    public void SortList() {
         ListNode listNode1 = new ListNode(4);
         listNode1.next = new ListNode(2);
         listNode1.next.next = new ListNode(1);
@@ -15,7 +14,7 @@ public class SolutionTest {
     }
 
     [Fact]
-    public void SortListTest2() {
+    public void SortList2() {
         ListNode listNode1 = new ListNode(-1);
         listNode1.next = new ListNode(5);
         listNode1.next.next = new ListNode(3);
@@ -25,7 +24,7 @@ public class SolutionTest {
     }
 
     [Fact]
-    public void SortListTest3() {
+    public void SortList3() {
         Assert.Equal(null, new Solution().SortList(null));
     }
 }
