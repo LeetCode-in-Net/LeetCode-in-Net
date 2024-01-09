@@ -1,6 +1,5 @@
 namespace LeetCodeNet.G0401_0500.S0416_partition_equal_subset_sum {
 
-using System;
 using Xunit;
 
 public class SolutionTest {

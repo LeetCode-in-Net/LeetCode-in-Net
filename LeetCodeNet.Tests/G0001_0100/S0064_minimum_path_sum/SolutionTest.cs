@@ -1,6 +1,5 @@
 namespace LeetCodeNet.G0001_0100.S0064_minimum_path_sum {
 
-using System;
 using Xunit;
 
 public class SolutionTest {

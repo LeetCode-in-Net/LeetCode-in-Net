@@ -1,6 +1,5 @@
 namespace LeetCodeNet.G0101_0200.S0136_single_number {
 
-using System;
 using Xunit;
 
 public class SolutionTest {

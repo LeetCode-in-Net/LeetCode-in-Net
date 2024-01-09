@@ -1,7 +1,6 @@
 namespace LeetCodeNet.G0001_0100.S0005_longest_palindromic_substring {
 
 using Xunit;
-using System;
 
 public class SolutionTest {
     [Fact]

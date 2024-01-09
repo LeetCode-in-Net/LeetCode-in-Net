@@ -1,6 +1,5 @@
 namespace LeetCodeNet.G0101_0200.S0138_copy_list_with_random_pointer {
 
-using System;
 using Xunit;
 using LeetCodeNet.Com_github_leetcode;
 

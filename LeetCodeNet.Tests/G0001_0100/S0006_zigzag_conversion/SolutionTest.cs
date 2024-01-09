@@ -1,7 +1,6 @@
 namespace LeetCodeNet.G0001_0100.S0006_zigzag_conversion {
 
 using Xunit;
-using System;
 
 public class SolutionTest {
     [Fact]

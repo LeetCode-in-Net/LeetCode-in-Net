@@ -1,6 +1,5 @@
 namespace LeetCodeNet.G0001_0100.S0048_rotate_image {
 
-using System;
 using Xunit;
 
 public class SolutionTest {

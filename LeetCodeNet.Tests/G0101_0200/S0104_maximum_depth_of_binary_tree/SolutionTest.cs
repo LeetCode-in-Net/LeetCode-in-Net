@@ -1,6 +1,5 @@
 namespace LeetCodeNet.G0101_0200.S0104_maximum_depth_of_binary_tree {
 
-using System;
 using Xunit;
 using Com_github_leetcode;
 

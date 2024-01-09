@@ -1,6 +1,5 @@
 namespace LeetCodeNet.G0001_0100.S0072_edit_distance {
 
-using System;
 using Xunit;
 
 public class SolutionTest {

@@ -1,6 +1,5 @@
 namespace LeetCodeNet.G0001_0100.S0070_climbing_stairs {
 
-using System;
 using Xunit;
 
 public class SolutionTest {

@@ -1,6 +1,5 @@
 namespace LeetCodeNet.G0001_0100.S0055_jump_game {
 
-using System;
 using Xunit;
 
 public class SolutionTest {

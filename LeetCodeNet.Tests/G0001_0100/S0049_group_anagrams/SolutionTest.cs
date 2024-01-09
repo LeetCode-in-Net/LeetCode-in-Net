@@ -1,6 +1,5 @@
 namespace LeetCodeNet.G0001_0100.S0049_group_anagrams {
 
-using System;
 using Xunit;
 
 public class SolutionTest {

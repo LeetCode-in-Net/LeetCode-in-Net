@@ -1,7 +1,6 @@
 namespace LeetCodeNet.G0001_0100.S0008_string_to_integer_atoi {
 
 using Xunit;
-using System;
 
 public class SolutionTest {
     [Fact]
