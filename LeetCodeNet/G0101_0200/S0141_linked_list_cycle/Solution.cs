@@ -6,7 +6,7 @@ namespace LeetCodeNet.G0101_0200.S0141_linked_list_cycle {
 
 using LeetCodeNet.Com_github_leetcode;
 
-/*
+/**
  * Definition for singly-linked list.
  * public class ListNode {
  *     public int val;
