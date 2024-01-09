@@ -4,8 +4,8 @@ using System;
 using Xunit;
 
 public class SolutionTest {
-        [Fact]
-    public void LruCacheTest() {
+    [Fact]
+    public void LruCache() {
         LRUCache lruCache = new LRUCache(2);
         // cache is {1=1}
         lruCache.Put(1, 1);
