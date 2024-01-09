@@ -1,4 +1,4 @@
-using LeetCodeNet.Com_github_leetcode;
+namespace LeetCodeNet.Com_github_leetcode {
 
 public class TreeUtils {
     /*
@@ -29,4 +29,5 @@ public class TreeUtils {
         }
         return root;
     }
+}
 }
