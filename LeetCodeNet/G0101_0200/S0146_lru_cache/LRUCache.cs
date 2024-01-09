@@ -16,8 +16,7 @@ public class LRUCache {
     }
     
     public int Get(int key) {
-        if (cacheMap.TryGetValue(key, out var node))
-        {
+        if (cacheMap.TryGetValue(key, out var node)) {
             cacheList.Remove(node);
             cacheList.AddFirst(node);
             return node.Value.Value;
@@ -26,34 +25,27 @@ public class LRUCache {
     }
     
     public void Put(int key, int value) {
-        if (cacheMap.TryGetValue(key, out var node))
-        {
+        if (cacheMap.TryGetValue(key, out var node)) {
             node.Value.Value = value;
             cacheList.Remove(node);
             cacheList.AddFirst(node);
-        }
-        else
-        {
-            if (cacheMap.Count >= capacity)
-            {
+        } else {
+            if (cacheMap.Count >= capacity) {
                 var lastNode = cacheList.Last;
                 cacheMap.Remove(lastNode.Value.Key);
                 cacheList.RemoveLast();
             }
-
             var newNode = new LinkedListNode<CacheItem>(new CacheItem(key, value));
             cacheMap.Add(key, newNode);
             cacheList.AddFirst(newNode);
         }
     }
 
-    private class CacheItem
-    {
+    private class CacheItem {
         public int Key { get; }
         public int Value { get; set; }
 
-        public CacheItem(int key, int value)
-        {
+        public CacheItem(int key, int value) {
             Key = key;
             Value = value;
         }
@@ -79,7 +71,6 @@ public class KeyNode {
         get { return _next; }
         set { _next = value; }
     }
-
 
     public KeyNode() {
         _key = int.MinValue;
