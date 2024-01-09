@@ -8,6 +8,7 @@ namespace LeetCodeNet.G0101_0200.S0139_word_break {
 public class Solution {
     private Dictionary<string, bool> visited = new();
     private HashSet<string>? set;
+
     public bool WordBreak(string s, IList<string> wordDict) {
         set = new HashSet<string>(wordDict);
         return CheckWordBreak(s);
