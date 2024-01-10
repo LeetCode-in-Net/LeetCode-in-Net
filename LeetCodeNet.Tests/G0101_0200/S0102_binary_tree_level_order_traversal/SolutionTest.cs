@@ -1,7 +1,7 @@
 namespace LeetCodeNet.G0101_0200.S0102_binary_tree_level_order_traversal {
 
 using Xunit;
-using Com_github_leetcode;
+using LeetCodeNet.Com_github_leetcode;
 
 public class SolutionTest {
     [Fact]

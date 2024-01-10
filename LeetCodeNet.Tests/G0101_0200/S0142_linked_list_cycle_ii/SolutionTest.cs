@@ -25,7 +25,7 @@ public class SolutionTest {
     [Fact]
     public void DetectCycle3() {
         ListNode listNode1 = new ListNode(1);
-        Assert.Equal(null, new Solution().DetectCycle(listNode1));
+        Assert.Null(new Solution().DetectCycle(listNode1));
     }
 }
 }

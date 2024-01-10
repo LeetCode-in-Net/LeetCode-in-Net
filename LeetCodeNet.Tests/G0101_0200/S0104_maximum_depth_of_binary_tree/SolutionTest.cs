@@ -1,7 +1,7 @@
 namespace LeetCodeNet.G0101_0200.S0104_maximum_depth_of_binary_tree {
 
 using Xunit;
-using Com_github_leetcode;
+using LeetCodeNet.Com_github_leetcode;
 
 public class SolutionTest {
     [Fact]
