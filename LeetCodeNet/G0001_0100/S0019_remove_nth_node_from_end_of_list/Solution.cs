@@ -6,6 +6,17 @@ namespace LeetCodeNet.G0001_0100.S0019_remove_nth_node_from_end_of_list {
 
 using LeetCodeNet.Com_github_leetcode;
 
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     public int val;
+ *     public ListNode next;
+ *     public ListNode(int val=0, ListNode next=null) {
+ *         this.val = val;
+ *         this.next = next;
+ *     }
+ * }
+ */
 public class Solution {
     private int n;
 
