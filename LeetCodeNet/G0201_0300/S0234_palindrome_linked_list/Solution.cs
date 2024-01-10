@@ -4,6 +4,8 @@ namespace LeetCodeNet.G0201_0300.S0234_palindrome_linked_list {
 // #Recursion #Level_2_Day_3_Linked_List #Udemy_Linked_List #Big_O_Time_O(n)_Space_O(1)
 // #2024_01_10_Time_306_ms_(31.81%)_Space_66.1_MB_(33.64%)
 
+using LeetCodeNet.Com_github_leetcode;
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
