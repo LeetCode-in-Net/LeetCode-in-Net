@@ -34,7 +34,7 @@ public class Solution {
         if (node.left == null && node.right == null) {
             count++;
             if (count == k) {
-                this.val = node.val;
+                this.val = (int) node.val;
             }
             return;
         }
@@ -43,7 +43,7 @@ public class Solution {
         }
         count++;
         if (count == k) {
-            this.val = node.val;
+            this.val = (int) node.val;
             return;
         }
         if (node.right != null) {
