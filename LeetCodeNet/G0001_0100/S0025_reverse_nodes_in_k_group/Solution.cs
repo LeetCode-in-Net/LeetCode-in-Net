@@ -6,6 +6,17 @@ namespace LeetCodeNet.G0001_0100.S0025_reverse_nodes_in_k_group {
 
 using LeetCodeNet.Com_github_leetcode;
 
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     public int val;
+ *     public ListNode next;
+ *     public ListNode(int val=0, ListNode next=null) {
+ *         this.val = val;
+ *         this.next = next;
+ *     }
+ * }
+ */
 public class Solution {
     public ListNode ReverseKGroup(ListNode head, int k) {
         if (head == null || head.next == null || k == 1) {
