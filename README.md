@@ -1488,7 +1488,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 Your ideas/fixes/algorithms are more than welcome!
 
 1. Fork this repo
-2. Clone your forked repo (`git clone https://github.com/YOUR_GITHUB_USERNAME/LeetCode-in-Csharp.git`) onto your local machine
+2. Clone your forked repo (`git clone https://github.com/YOUR_GITHUB_USERNAME/LeetCode-in-Net.git`) onto your local machine
 3. `cd` into your cloned directory, create your feature branch (`git checkout -b my-awesome-fix`)
 4. `git add` your desired changes to this repo
 5. Commit your changes (`git commit -m 'Added some awesome features/fixes'`)
