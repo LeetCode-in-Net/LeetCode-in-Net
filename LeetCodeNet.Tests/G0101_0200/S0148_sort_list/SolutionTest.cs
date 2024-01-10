@@ -25,7 +25,7 @@ public class SolutionTest {
 
     [Fact]
     public void SortList3() {
-        Assert.Equal(null, new Solution().SortList(null));
+        Assert.Null(new Solution().SortList(null));
     }
 }
 }

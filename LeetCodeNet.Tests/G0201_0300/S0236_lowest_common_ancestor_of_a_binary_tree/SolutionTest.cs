@@ -1,7 +1,7 @@
 namespace LeetCodeNet.G0201_0300.S0236_lowest_common_ancestor_of_a_binary_tree {
 
 using Xunit;
-using Com_github_leetcode;
+using LeetCodeNet.Com_github_leetcode;
 
 public class SolutionTest {
     [Fact]

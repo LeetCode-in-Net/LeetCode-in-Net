@@ -1,7 +1,7 @@
 namespace LeetCodeNet.G0201_0300.S0234_palindrome_linked_list {
 
 using Xunit;
-using Com_github_leetcode;
+using LeetCodeNet.Com_github_leetcode;
 
 public class SolutionTest {
     [Fact]

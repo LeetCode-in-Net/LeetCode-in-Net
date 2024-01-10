@@ -1,7 +1,7 @@
 namespace LeetCodeNet.G0201_0300.S0206_reverse_linked_list {
 
 using Xunit;
-using Com_github_leetcode;
+using LeetCodeNet.Com_github_leetcode;
 
 public class SolutionTest {
     [Fact]
@@ -23,7 +23,7 @@ public class SolutionTest {
 
     [Fact]
     public void ReverseList3() {
-        Assert.Equal(null, new Solution().ReverseList(null));
+        Assert.Null(new Solution().ReverseList(null));
     }
 }
 }
