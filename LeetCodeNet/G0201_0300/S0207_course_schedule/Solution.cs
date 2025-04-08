@@ -1,8 +1,8 @@
 namespace LeetCodeNet.G0201_0300.S0207_course_schedule {
 
 // #Medium #Top_100_Liked_Questions #Top_Interview_Questions #Depth_First_Search
-// #Breadth_First_Search #Graph #Topological_Sort #Big_O_Time_O(N)_Space_O(N)
-// #2024_01_10_Time_95_ms_(91.94%)_Space_47.1_MB_(36.27%)
+// #Breadth_First_Search #Graph #Topological_Sort #Top_Interview_150_Graph_General
+// #Big_O_Time_O(N)_Space_O(N) #2024_01_10_Time_95_ms_(91.94%)_Space_47.1_MB_(36.27%)
 
 using System.Collections.Generic;
 

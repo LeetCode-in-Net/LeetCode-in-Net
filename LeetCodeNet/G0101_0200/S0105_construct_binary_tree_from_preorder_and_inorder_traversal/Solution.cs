@@ -1,8 +1,8 @@
 namespace LeetCodeNet.G0101_0200.S0105_construct_binary_tree_from_preorder_and_inorder_traversal {
 
 // #Medium #Top_100_Liked_Questions #Top_Interview_Questions #Array #Hash_Table #Tree #Binary_Tree
-// #Divide_and_Conquer #Data_Structure_II_Day_15_Tree #Big_O_Time_O(N)_Space_O(N)
-// #2024_01_09_Time_53_ms_(99.83%)_Space_42.5_MB_(46.06%)
+// #Divide_and_Conquer #Data_Structure_II_Day_15_Tree #Top_Interview_150_Binary_Tree_General
+// #Big_O_Time_O(N)_Space_O(N) #2024_01_09_Time_53_ms_(99.83%)_Space_42.5_MB_(46.06%)
 
 using LeetCodeNet.Com_github_leetcode;
 

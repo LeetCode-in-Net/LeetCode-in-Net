@@ -1,9 +1,8 @@
 namespace LeetCodeNet.G0301_0400.S0347_top_k_frequent_elements {
 
-// #Medium #Top_100_Liked_Questions #Top_Interview_Questions #Array #Hash_Table #Sorting
-// #Heap_Priority_Queue #Counting #Divide_and_Conquer #Quickselect #Bucket_Sort
-// #Data_Structure_II_Day_20_Heap_Priority_Queue #Big_O_Time_O(n*log(n))_Space_O(k)
-// #2024_01_07_Time_125_ms_(95.29%)_Space_50.6_MB_(12.11%)
+// #Medium #Top_100_Liked_Questions #Array #Hash_Table #Sorting #Heap_Priority_Queue #Counting
+// #Divide_and_Conquer #Quickselect #Bucket_Sort #Data_Structure_II_Day_20_Heap_Priority_Queue
+// #Big_O_Time_O(n*log(n))_Space_O(k) #2024_01_07_Time_125_ms_(95.29%)_Space_50.6_MB_(12.11%)
 
 using System;
 using System.Collections.Generic;

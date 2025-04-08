@@ -1,7 +1,8 @@
 namespace LeetCodeNet.G0001_0100.S0004_median_of_two_sorted_arrays {
 
 // #Hard #Top_100_Liked_Questions #Top_Interview_Questions #Array #Binary_Search #Divide_and_Conquer
-// #Big_O_Time_O(log(min(N,M)))_Space_O(1) #2023_12_22_Time_83_ms_(96.35%)_Space_54_MB_(6.56%)
+// #Top_Interview_150_Binary_Search #Big_O_Time_O(log(min(N,M)))_Space_O(1)
+// #AI_can_be_used_to_solve_the_task #2023_12_22_Time_83_ms_(96.35%)_Space_54_MB_(6.56%)
 
 public class Solution {
     public double FindMedianSortedArrays(int[] nums1, int[] nums2) {

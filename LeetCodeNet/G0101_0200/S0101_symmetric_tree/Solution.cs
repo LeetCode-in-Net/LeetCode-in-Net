@@ -2,7 +2,8 @@ namespace LeetCodeNet.G0101_0200.S0101_symmetric_tree {
 
 // #Easy #Top_100_Liked_Questions #Top_Interview_Questions #Depth_First_Search #Breadth_First_Search
 // #Tree #Binary_Tree #Data_Structure_I_Day_11_Tree #Level_2_Day_15_Tree
-// #Big_O_Time_O(N)_Space_O(log(N)) #2024_01_08_Time_64_ms_(97.79%)_Space_42.9_MB_(23.56%)
+// #Top_Interview_150_Binary_Tree_General #Big_O_Time_O(N)_Space_O(log(N))
+// #2024_01_08_Time_64_ms_(97.79%)_Space_42.9_MB_(23.56%)
 
 using LeetCodeNet.Com_github_leetcode;
 

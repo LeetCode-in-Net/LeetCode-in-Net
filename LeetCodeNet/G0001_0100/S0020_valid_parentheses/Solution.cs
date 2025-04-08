@@ -1,8 +1,8 @@
 namespace LeetCodeNet.G0001_0100.S0020_valid_parentheses {
 
 // #Easy #Top_100_Liked_Questions #Top_Interview_Questions #String #Stack
-// #Data_Structure_I_Day_9_Stack_Queue #Udemy_Strings #Big_O_Time_O(n)_Space_O(n)
-// #2023_12_26_Time_53_ms_(96.68%)_Space_39.3_MB_(10.78%)
+// #Data_Structure_I_Day_9_Stack_Queue #Udemy_Strings #Top_Interview_150_Stack
+// #Big_O_Time_O(n)_Space_O(n) #2023_12_26_Time_53_ms_(96.68%)_Space_39.3_MB_(10.78%)
 
 using System;
 using System.Collections.Generic;

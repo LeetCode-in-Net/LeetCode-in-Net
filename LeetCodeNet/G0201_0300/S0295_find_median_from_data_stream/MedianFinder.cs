@@ -1,7 +1,7 @@
 namespace LeetCodeNet.G0201_0300.S0295_find_median_from_data_stream {
 
-// #Hard #Top_100_Liked_Questions #Top_Interview_Questions #Sorting #Two_Pointers #Design
-// #Heap_Priority_Queue #Data_Stream #Big_O_Time_O(n*log_n)_Space_O(n)
+// #Hard #Top_100_Liked_Questions #Sorting #Two_Pointers #Design #Heap_Priority_Queue #Data_Stream
+// #Top_Interview_150_Heap #Big_O_Time_O(n*log_n)_Space_O(n)
 // #2024_01_11_Time_658_ms_(24.88%)_Space_144_MB_(5.64%)
 
 using System;

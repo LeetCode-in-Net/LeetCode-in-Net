@@ -1,8 +1,8 @@
 namespace LeetCodeNet.G0001_0100.S0072_edit_distance {
 
-// #Hard #Top_100_Liked_Questions #String #Dynamic_Programming
+// #Medium #Top_100_Liked_Questions #String #Dynamic_Programming
 // #Algorithm_II_Day_18_Dynamic_Programming #Dynamic_Programming_I_Day_19
-// #Udemy_Dynamic_Programming #Big_O_Time_O(n^2)_Space_O(n2)
+// #Udemy_Dynamic_Programming #Top_Interview_150_Multidimensional_DP #Big_O_Time_O(n^2)_Space_O(n2)
 // #2024_01_05_Time_51_ms_(95.38%)_Space_44.5_MB_(20.65%)
 
 public class Solution {

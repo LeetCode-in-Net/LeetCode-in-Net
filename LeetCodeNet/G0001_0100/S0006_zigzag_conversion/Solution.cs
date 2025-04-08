@@ -1,6 +1,7 @@
 namespace LeetCodeNet.G0001_0100.S0006_zigzag_conversion {
 
-// #Medium #String #2023_12_22_Time_59_ms_(99.87%)_Space_45.1_MB_(74.68%)
+// #Medium #String #Top_Interview_150_Array/String
+// #2023_12_22_Time_59_ms_(99.87%)_Space_45.1_MB_(74.68%)
 
 using System.Text;
 

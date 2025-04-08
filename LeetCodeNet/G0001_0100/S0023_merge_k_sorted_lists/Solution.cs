@@ -1,8 +1,8 @@
 namespace LeetCodeNet.G0001_0100.S0023_merge_k_sorted_lists {
 
 // #Hard #Top_100_Liked_Questions #Top_Interview_Questions #Heap_Priority_Queue #Linked_List
-// #Divide_and_Conquer #Merge_Sort #Big_O_Time_O(k*n*log(k))_Space_O(log(k))
-// #2023_12_26_Time_78_ms_(98.24%)_Space_45_MB_(13.27%)
+// #Divide_and_Conquer #Merge_Sort #Top_Interview_150_Divide_and_Conquer
+// #Big_O_Time_O(k*n*log(k))_Space_O(log(k)) #2023_12_26_Time_78_ms_(98.24%)_Space_45_MB_(13.27%)
 
 using LeetCodeNet.Com_github_leetcode;
 
