@@ -2,7 +2,8 @@ namespace LeetCodeNet.G0001_0100.S0042_trapping_rain_water {
 
 // #Hard #Top_100_Liked_Questions #Top_Interview_Questions #Array #Dynamic_Programming #Two_Pointers
 // #Stack #Monotonic_Stack #Dynamic_Programming_I_Day_9 #Udemy_Two_Pointers
-// #Big_O_Time_O(n)_Space_O(1) #2023_12_28_Time_81_ms_(89.96%)_Space_44.5_MB_(13.62%)
+// #Top_Interview_150_Array/String #Big_O_Time_O(n)_Space_O(1)
+// #2023_12_28_Time_81_ms_(89.96%)_Space_44.5_MB_(13.62%)
 
 public class Solution {
     public int Trap(int[] height) {

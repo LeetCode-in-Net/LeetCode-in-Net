@@ -1,8 +1,8 @@
 namespace LeetCodeNet.G0001_0100.S0079_word_search {
 
 // #Medium #Top_100_Liked_Questions #Top_Interview_Questions #Array #Matrix #Backtracking
-// #Algorithm_II_Day_11_Recursion_Backtracking #Big_O_Time_O(4^(m*n))_Space_O(m*n)
-// #2024_01_05_Time_152_ms_(99.69%)_Space_42.3_MB_(26.96%)
+// #Algorithm_II_Day_11_Recursion_Backtracking #Top_Interview_150_Backtracking
+// #Big_O_Time_O(4^(m*n))_Space_O(m*n) #2024_01_05_Time_152_ms_(99.69%)_Space_42.3_MB_(26.96%)
 
 public class Solution {
     public bool Exist(char[][] board, string word) {

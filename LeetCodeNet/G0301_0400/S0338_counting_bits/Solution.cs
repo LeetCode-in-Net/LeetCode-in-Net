@@ -1,6 +1,6 @@
 namespace LeetCodeNet.G0301_0400.S0338_counting_bits {
 
-// #Easy #Top_100_Liked_Questions #Dynamic_Programming #Bit_Manipulation #Udemy_Bit_Manipulation
+// #Easy #Dynamic_Programming #Bit_Manipulation #Udemy_Bit_Manipulation
 // #Big_O_Time_O(num)_Space_O(num) #2024_01_07_Time_67_ms_(98.82%)_Space_42.1_MB_(22.68%)
 
 public class Solution {

@@ -1,6 +1,6 @@
 namespace LeetCodeNet.G0601_0700.S0647_palindromic_substrings {
 
-// #Medium #Top_100_Liked_Questions #String #Dynamic_Programming #Big_O_Time_O(n^2)_Space_O(n)
+// #Medium #String #Dynamic_Programming #Big_O_Time_O(n^2)_Space_O(n)
 // #2024_01_07_Time_48_ms_(92.55%)_Space_37.2_MB_(34.47%)
 
 public class Solution {

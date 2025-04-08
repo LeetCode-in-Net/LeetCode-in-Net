@@ -1,8 +1,8 @@
 namespace LeetCodeNet.G0101_0200.S0146_lru_cache {
 
 // #Medium #Top_100_Liked_Questions #Top_Interview_Questions #Hash_Table #Design #Linked_List
-// #Doubly_Linked_List #Udemy_Linked_List #Big_O_Time_O(1)_Space_O(capacity)
-// #2024_01_09_Time_780_ms_(34.57%)_Space_239.2_MB_(12.44%)
+// #Doubly_Linked_List #Udemy_Linked_List #Top_Interview_150_Linked_List
+// #Big_O_Time_O(1)_Space_O(capacity) #2024_01_09_Time_780_ms_(34.57%)_Space_239.2_MB_(12.44%)
 
 public class LRUCache {
     private readonly int capacity;

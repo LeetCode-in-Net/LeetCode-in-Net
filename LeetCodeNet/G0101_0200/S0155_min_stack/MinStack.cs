@@ -1,8 +1,8 @@
 namespace LeetCodeNet.G0101_0200.S0155_min_stack {
 
-// #Easy #Top_100_Liked_Questions #Top_Interview_Questions #Stack #Design
+// #Medium #Top_100_Liked_Questions #Top_Interview_Questions #Stack #Design
 // #Data_Structure_II_Day_14_Stack_Queue #Programming_Skills_II_Day_18 #Level_2_Day_16_Design
-// #Udemy_Design #Big_O_Time_O(1)_Space_O(N)
+// #Udemy_Design #Top_Interview_150_Stack #Big_O_Time_O(1)_Space_O(N)
 // #2024_01_11_Time_105_ms_(95.77%)_Space_55.6_MB_(13.78%)
 
 public class MinStack {

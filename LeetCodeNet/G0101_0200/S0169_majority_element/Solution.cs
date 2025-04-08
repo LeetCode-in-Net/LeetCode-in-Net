@@ -2,7 +2,8 @@ namespace LeetCodeNet.G0101_0200.S0169_majority_element {
 
 // #Easy #Top_100_Liked_Questions #Top_Interview_Questions #Array #Hash_Table #Sorting #Counting
 // #Divide_and_Conquer #Data_Structure_II_Day_1_Array #Udemy_Famous_Algorithm
-// #Big_O_Time_O(n)_Space_O(1) #2024_01_11_Time_98_ms_(66.71%)_Space_46.4_MB_(15.32%)
+// #Top_Interview_150_Array/String #Big_O_Time_O(n)_Space_O(1)
+// #2024_01_11_Time_98_ms_(66.71%)_Space_46.4_MB_(15.32%)
 
 public class Solution {
     public int MajorityElement(int[] arr) {

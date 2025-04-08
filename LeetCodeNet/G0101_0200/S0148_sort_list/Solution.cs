@@ -1,8 +1,8 @@
 namespace LeetCodeNet.G0101_0200.S0148_sort_list {
 
 // #Medium #Top_100_Liked_Questions #Top_Interview_Questions #Sorting #Two_Pointers #Linked_List
-// #Divide_and_Conquer #Merge_Sort #Level_2_Day_4_Linked_List #Big_O_Time_O(log(N))_Space_O(log(N))
-// #2024_01_09_Time_141_ms_(45.08%)_Space_67.7_MB_(18.18%)
+// #Divide_and_Conquer #Merge_Sort #Level_2_Day_4_Linked_List #Top_Interview_150_Divide_and_Conquer
+// #Big_O_Time_O(log(N))_Space_O(log(N)) #2024_01_09_Time_141_ms_(45.08%)_Space_67.7_MB_(18.18%)
 
 using LeetCodeNet.Com_github_leetcode;
 

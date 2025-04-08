@@ -1,8 +1,8 @@
 namespace LeetCodeNet.G0101_0200.S0153_find_minimum_in_rotated_sorted_array {
 
 // #Medium #Top_100_Liked_Questions #Array #Binary_Search #Algorithm_II_Day_2_Binary_Search
-// #Binary_Search_I_Day_12 #Udemy_Binary_Search #Big_O_Time_O(log_N)_Space_O(log_N)
-// #2024_01_11_Time_64_ms_(88.59%)_Space_40.9_MB_(17.68%)
+// #Binary_Search_I_Day_12 #Udemy_Binary_Search #Top_Interview_150_Binary_Search
+// #Big_O_Time_O(log_N)_Space_O(log_N) #2024_01_11_Time_64_ms_(88.59%)_Space_40.9_MB_(17.68%)
 
 public class Solution {
     private int FindMinUtil(int[] nums, int l, int r) {

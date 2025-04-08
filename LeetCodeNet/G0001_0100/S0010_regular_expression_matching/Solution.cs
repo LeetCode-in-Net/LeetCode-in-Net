@@ -1,8 +1,7 @@
 namespace LeetCodeNet.G0001_0100.S0010_regular_expression_matching {
 
-// #Hard #Top_100_Liked_Questions #Top_Interview_Questions #String #Dynamic_Programming #Recursion
-// #Udemy_Dynamic_Programming #Big_O_Time_O(m*n)_Space_O(m*n)
-// #2023_12_22_Time_59_ms_(96.10%)_Space_40.5_MB_(47.63%)
+// #Hard #Top_Interview_Questions #String #Dynamic_Programming #Recursion #Udemy_Dynamic_Programming
+// #Big_O_Time_O(m*n)_Space_O(m*n) #2023_12_22_Time_59_ms_(96.10%)_Space_40.5_MB_(47.63%)
 
 public class Solution {
     private bool?[,] cache;
