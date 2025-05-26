@@ -1,7 +1,7 @@
 namespace LeetCodeNet.G0401_0500.S0437_path_sum_iii {
 
-// #Medium #Depth_First_Search #Tree #Binary_Tree #Level_2_Day_7_Tree #Big_O_Time_O(n)_Space_O(n)
-// #2024_01_05_Time_76_ms_(97.16%)_Space_42.8_MB_(29.79%)
+// #Medium #Depth_First_Search #Tree #Binary_Tree #LeetCode_75_Binary_Tree/DFS #Level_2_Day_7_Tree
+// #Big_O_Time_O(n)_Space_O(n) #2024_01_05_Time_76_ms_(97.16%)_Space_42.8_MB_(29.79%)
 
 using LeetCodeNet.Com_github_leetcode;
 
