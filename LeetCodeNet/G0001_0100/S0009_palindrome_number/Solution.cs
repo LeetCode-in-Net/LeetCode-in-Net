@@ -1,7 +1,7 @@
 namespace LeetCodeNet.G0001_0100.S0009_palindrome_number {
 
 // #Easy #Math #Udemy_Integers #Top_Interview_150_Math
-// #2023_12_22_Time_42_ms_(34.61%)_Space_31_MB_(36.04%)
+// #2025_06_12_Time_1_ms_(99.90%)_Space_34.74_MB_(67.61%)
 
 public class Solution {
     public bool IsPalindrome(int x) {

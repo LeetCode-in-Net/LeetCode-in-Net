@@ -1,7 +1,7 @@
 namespace LeetCodeNet.G0001_0100.S0007_reverse_integer {
 
 // #Medium #Top_Interview_Questions #Math #Udemy_Integers
-// #2023_12_22_Time_23_ms_(59.02%)_Space_26.3_MB_(99.19%)
+// #2025_06_12_Time_14_ms_(99.26%)_Space_29.02_MB_(67.56%)
 
 public class Solution {
     public int Reverse(int x) {
