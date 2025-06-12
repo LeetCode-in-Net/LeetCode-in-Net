@@ -2,7 +2,7 @@ namespace LeetCodeNet.G0001_0100.S0035_search_insert_position {
 
 // #Easy #Top_100_Liked_Questions #Array #Binary_Search #Algorithm_I_Day_1_Binary_Search
 // #Binary_Search_I_Day_2 #Top_Interview_150_Binary_Search #Big_O_Time_O(log_n)_Space_O(1)
-// #2024_01_11_Time_64_ms_(95.18%)_Space_41.4_MB_(28.65%)
+// #2025_06_12_Time_0_ms_(100.00%)_Space_43.13_MB_(61.70%)
 
 public class Solution {
     public int SearchInsert(int[] nums, int target) {

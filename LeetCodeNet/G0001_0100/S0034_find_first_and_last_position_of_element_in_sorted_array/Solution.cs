@@ -2,7 +2,7 @@ namespace LeetCodeNet.G0001_0100.S0034_find_first_and_last_position_of_element_i
 
 // #Medium #Top_100_Liked_Questions #Top_Interview_Questions #Array #Binary_Search
 // #Algorithm_II_Day_1_Binary_Search #Binary_Search_I_Day_5 #Top_Interview_150_Binary_Search
-// #Big_O_Time_O(log_n)_Space_O(1) #2024_01_11_Time_120_ms_(81.66%)_Space_48.8_MB_(8.72%)
+// #Big_O_Time_O(log_n)_Space_O(1) #2025_06_12_Time_0_ms_(100.00%)_Space_49.94_MB_(35.02%)
 
 public class Solution {
     public int[] SearchRange(int[] nums, int target) {
