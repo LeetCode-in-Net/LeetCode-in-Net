@@ -2,7 +2,7 @@ namespace LeetCodeNet.G0001_0100.S0079_word_search {
 
 // #Medium #Top_100_Liked_Questions #Top_Interview_Questions #Array #Matrix #Backtracking
 // #Algorithm_II_Day_11_Recursion_Backtracking #Top_Interview_150_Backtracking
-// #Big_O_Time_O(4^(m*n))_Space_O(m*n) #2024_01_05_Time_152_ms_(99.69%)_Space_42.3_MB_(26.96%)
+// #Big_O_Time_O(4^(m*n))_Space_O(m*n) #2025_06_13_Time_100_ms_(95.52%)_Space_42.99_MB_(98.44%)
 
 public class Solution {
     public bool Exist(char[][] board, string word) {
@@ -26,7 +26,6 @@ public class Solution {
         char currChar = board[r][c];
         board[r][c] = '!';
         char nextChar = word[count];
-
         if (r > 0 && board[r - 1][c] == nextChar) {
             if (helper(r - 1, c, board, word, count + 1)) return true;
         }

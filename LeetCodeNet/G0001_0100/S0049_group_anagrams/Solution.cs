@@ -3,7 +3,7 @@ namespace LeetCodeNet.G0001_0100.S0049_group_anagrams {
 // #Medium #Top_100_Liked_Questions #Top_Interview_Questions #Array #String #Hash_Table #Sorting
 // #Data_Structure_II_Day_8_String #Programming_Skills_II_Day_11 #Udemy_Strings
 // #Top_Interview_150_Hashmap #Big_O_Time_O(n*k_log_k)_Space_O(n)
-// #2024_01_04_Time_145_ms_(96.20%)_Space_80.2_MB_(38.80%)
+// #2025_06_13_Time_17_ms_(83.74%)_Space_66.82_MB_(51.04%)
 
 public class Solution {
     public IList<IList<string>> GroupAnagrams(string[] strs) {
