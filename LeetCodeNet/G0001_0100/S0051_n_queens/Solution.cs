@@ -1,7 +1,7 @@
 namespace LeetCodeNet.G0001_0100.S0051_n_queens {
 
 // #Hard #Top_100_Liked_Questions #Array #Backtracking #Big_O_Time_O(N!)_Space_O(N)
-// #2024_01_04_Time_106_ms_(96.34%)_Space_54.6_MB_(5.79%)
+// #2025_06_13_Time_14_ms_(47.20%)_Space_56.24_MB_(10.62%)
 
 public class Solution {
     public IList<IList<string>> SolveNQueens(int n) {
