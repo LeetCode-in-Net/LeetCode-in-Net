@@ -2,29 +2,33 @@ namespace LeetCodeNet.G0101_0200.S0128_longest_consecutive_sequence {
 
 // #Medium #Top_100_Liked_Questions #Top_Interview_Questions #Array #Hash_Table #Union_Find
 // #Top_Interview_150_Hashmap #Big_O_Time_O(N_log_N)_Space_O(1)
-// #2024_01_09_Time_201_ms_(61.50%)_Space_61.2_MB_(52.89%)
+// #2025_06_14_Time_16_ms_(100.00%)_Space_75.12_MB_(14.84%)
 
 public class Solution {
     public int LongestConsecutive(int[] nums) {
-        if (nums.Length == 0) {
-            return 0;
-        }
-        Array.Sort(nums);
-        int max = int.MinValue;
-        int thsMax = 1;
-        for (int i = 0; i < nums.Length - 1; i++) {
-            if (nums[i + 1] == nums[i] + 1) {
-                thsMax += 1;
+        Dictionary<int, int> mapToHighest = new(nums.Length);
+        int best = 0;
+        for (int i = 0; i < nums.Length; i++) {
+            int rangeLow = 0;
+            int rangeHigh = 0;
+            if (mapToHighest.ContainsKey(nums[i])) {
                 continue;
             }
-            if (nums[i + 1] == nums[i]) {
-                continue;
+            if (mapToHighest.TryGetValue(nums[i]-1, out var downCount)) {
+                rangeLow = downCount;
             }
-            // Start of a new Sequene
-            max = Math.Max(max, thsMax);
-            thsMax = 1;
+            if (mapToHighest.TryGetValue(nums[i]+1, out var upCount)) {
+                rangeHigh = upCount;
+            }
+            int thisSum = rangeLow + rangeHigh + 1;
+            mapToHighest[nums[i] - rangeLow] = thisSum;
+            mapToHighest[nums[i] + rangeHigh] = thisSum;
+            if (rangeLow != 0 && rangeHigh != 0) {
+                mapToHighest[nums[i]] = 1;
+            }
+            best = Math.Max(thisSum, best);
         }
-        return Math.Max(max, thsMax);
+        return best;
     }
 }
 }
