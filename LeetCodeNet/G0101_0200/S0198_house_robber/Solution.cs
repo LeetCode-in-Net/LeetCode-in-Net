@@ -3,7 +3,7 @@ namespace LeetCodeNet.G0101_0200.S0198_house_robber {
 // #Medium #Top_100_Liked_Questions #Top_Interview_Questions #Array #Dynamic_Programming
 // #LeetCode_75_DP/1D #Algorithm_I_Day_12_Dynamic_Programming #Dynamic_Programming_I_Day_3
 // #Level_2_Day_12_Dynamic_Programming #Udemy_Dynamic_Programming #Top_Interview_150_1D_DP
-// #Big_O_Time_O(n)_Space_O(n) #2024_01_11_Time_44_ms_(99.89%)_Space_39.8_MB_(13.60%)
+// #Big_O_Time_O(n)_Space_O(n) #2025_06_14_Time_0_ms_(100.00%)_Space_41.15_MB_(69.24%)
 
 public class Solution {
     public int Rob(int[] nums) {

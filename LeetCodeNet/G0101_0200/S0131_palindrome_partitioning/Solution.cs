@@ -2,7 +2,7 @@ namespace LeetCodeNet.G0101_0200.S0131_palindrome_partitioning {
 
 // #Medium #Top_100_Liked_Questions #Top_Interview_Questions #String #Dynamic_Programming
 // #Backtracking #Big_O_Time_O(N*2^N)_Space_O(2^N*N)
-// #2024_01_09_Time_677_ms_(38.30%)_Space_148_MB_(5.53%)
+// #2025_06_14_Time_19_ms_(39.67%)_Space_84.16_MB_(63.28%)
 
 public class Solution {
     public IList<IList<string>> Partition(string s) {
