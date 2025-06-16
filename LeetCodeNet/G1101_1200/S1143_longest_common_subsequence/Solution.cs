@@ -3,7 +3,7 @@ namespace LeetCodeNet.G1101_1200.S1143_longest_common_subsequence {
 // #Medium #Top_100_Liked_Questions #String #Dynamic_Programming #LeetCode_75_DP/Multidimensional
 // #Algorithm_II_Day_17_Dynamic_Programming #Dynamic_Programming_I_Day_19
 // #Udemy_Dynamic_Programming #Big_O_Time_O(n*m)_Space_O(n*m)
-// #2024_01_07_Time_59_ms_(90.45%)_Space_41.3_MB_(54.32%)
+// #2025_06_16_Time_14_ms_(69.42%)_Space_43.41_MB_(84.62%)
 
 public class Solution {
     public int LongestCommonSubsequence(string text1, string text2) {

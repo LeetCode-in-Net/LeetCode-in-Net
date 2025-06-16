@@ -1,7 +1,7 @@
 namespace LeetCodeNet.G0701_0800.S0763_partition_labels {
 
 // #Medium #String #Hash_Table #Greedy #Two_Pointers #Data_Structure_II_Day_7_String
-// #Big_O_Time_O(n)_Space_O(1) #2024_01_07_Time_82_ms_(98.72%)_Space_45.6_MB_(10.26%)
+// #Big_O_Time_O(n)_Space_O(1) #2025_06_16_Time_2_ms_(86.67%)_Space_46.51_MB_(87.11%)
 
 using System.Collections.Generic;
 
