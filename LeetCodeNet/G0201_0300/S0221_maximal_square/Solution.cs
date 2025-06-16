@@ -2,7 +2,7 @@ namespace LeetCodeNet.G0201_0300.S0221_maximal_square {
 
 // #Medium #Array #Dynamic_Programming #Matrix #Dynamic_Programming_I_Day_16
 // #Top_Interview_150_Multidimensional_DP #Big_O_Time_O(m*n)_Space_O(m*n)
-// #2024_01_10_Time_199_ms_(36.75%)_Space_59.5_MB_(84.44%)
+// #2025_06_15_Time_3_ms_(96.90%)_Space_67.76_MB_(80.23%)
 
 public class Solution {
     public int MaximalSquare(char[][] matrix) {

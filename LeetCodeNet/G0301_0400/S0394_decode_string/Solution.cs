@@ -2,7 +2,7 @@ namespace LeetCodeNet.G0301_0400.S0394_decode_string {
 
 // #Medium #Top_100_Liked_Questions #String #Stack #Recursion #LeetCode_75_Stack
 // #Level_1_Day_14_Stack #Udemy_Strings #Big_O_Time_O(n)_Space_O(n)
-// #2024_01_07_Time_44_ms_(99.55%)_Space_38.2_MB_(26.91%)
+// #2025_06_16_Time_0_ms_(100.00%)_Space_39.97_MB_(63.08%)
 
 using System.Text;
 

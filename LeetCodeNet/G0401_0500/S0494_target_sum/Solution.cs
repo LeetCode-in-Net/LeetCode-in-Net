@@ -1,7 +1,7 @@
 namespace LeetCodeNet.G0401_0500.S0494_target_sum {
 
 // #Medium #Array #Dynamic_Programming #Backtracking #Big_O_Time_O(n*(sum+s))_Space_O(n*(sum+s))
-// #2024_01_07_Time_62_ms_(99.32%)_Space_43.8_MB_(47.12%)
+// #2025_06_16_Time_6_ms_(85.88%)_Space_45.47_MB_(56.49%)
 
 using System;
 using System.Collections.Generic;

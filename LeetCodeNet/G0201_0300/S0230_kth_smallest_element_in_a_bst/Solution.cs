@@ -3,7 +3,7 @@ namespace LeetCodeNet.G0201_0300.S0230_kth_smallest_element_in_a_bst {
 // #Medium #Top_100_Liked_Questions #Depth_First_Search #Tree #Binary_Tree #Binary_Search_Tree
 // #Data_Structure_II_Day_17_Tree #Level_2_Day_9_Binary_Search_Tree
 // #Top_Interview_150_Binary_Search_Tree #Big_O_Time_O(n)_Space_O(n)
-// #2024_01_10_Time_69_ms_(98.79%)_Space_45.2_MB_(12.59%)
+// #2025_06_15_Time_0_ms_(100.00%)_Space_46.22_MB_(89.61%)
 
 using LeetCodeNet.Com_github_leetcode;
 
