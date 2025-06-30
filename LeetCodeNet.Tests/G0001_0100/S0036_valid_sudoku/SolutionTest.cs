@@ -1,7 +1,6 @@
-using LeetCodeNet.G0001_0100.S0036_valid_sudoku;
 using Xunit;
 
-namespace LeetCodeNet.Tests.G0001_0100.S0036_valid_sudoku {
+namespace LeetCodeNet.G0001_0100.S0036_valid_sudoku {
     public class SolutionTest {
         [Fact]
         public void IsValidSudoku_ValidBoard() {
