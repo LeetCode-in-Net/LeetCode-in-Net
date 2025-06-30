@@ -1,8 +1,7 @@
 using System.Collections.Generic;
-using LeetCodeNet.G0001_0100.S0030_substring_with_concatenation_of_all_words;
 using Xunit;
 
-namespace LeetCodeNet.Tests.G0001_0100.S0030_substring_with_concatenation_of_all_words {
+namespace LeetCodeNet.G0001_0100.S0030_substring_with_concatenation_of_all_words {
     public class SolutionTest {
         [Fact]
         public void FindSubstring() {
