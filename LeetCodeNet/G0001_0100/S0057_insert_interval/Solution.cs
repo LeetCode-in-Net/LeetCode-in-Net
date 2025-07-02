@@ -1,9 +1,9 @@
-using System.Collections.Generic;
-
 namespace LeetCodeNet.G0001_0100.S0057_insert_interval {
 
 // #Medium #Array #Level_2_Day_17_Interval #Top_Interview_150_Intervals
 // #2025_07_01_Time_1_ms_(99.33%)_Space_51.29_MB_(48.12%)
+
+using System.Collections.Generic;
 
 public class Solution {
     public int[][] Insert(int[][] intervals, int[] newInterval) {
