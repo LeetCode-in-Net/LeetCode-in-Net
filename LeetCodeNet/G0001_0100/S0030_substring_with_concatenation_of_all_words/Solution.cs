@@ -1,9 +1,9 @@
-using System.Collections.Generic;
-
 namespace LeetCodeNet.G0001_0100.S0030_substring_with_concatenation_of_all_words {
 
 // #Hard #String #Hash_Table #Sliding_Window #Top_Interview_150_Sliding_Window
 // #2025_06_30_Time_15_ms_(94.14%)_Space_57.94_MB_(46.58%)
+
+using System.Collections.Generic;
 
 public class Solution {
     public IList<int> FindSubstring(string s, string[] words) {
