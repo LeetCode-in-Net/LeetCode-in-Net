@@ -1,9 +1,9 @@
-using System.Collections.Generic;
-
 namespace LeetCodeNet.G0001_0100.S0036_valid_sudoku {
     
 // #Medium #Top_Interview_Questions #Array #Hash_Table #Matrix #Data_Structure_I_Day_5_Array
 // #Top_Interview_150_Matrix #2025_06_30_Time_1_ms_(98.25%)_Space_48.16_MB_(85.00%)
+
+using System.Collections.Generic;
 
 public class Solution {
     public bool IsValidSudoku(char[][] board) {
@@ -15,13 +15,11 @@ public class Solution {
                 if (!isValidCase(board, i, j, rows, cols, blocks)) {
                     return false;
                 }
-
                 if (i != j && !isValidCase(board, j, i, rows, cols, blocks)) {
                     return false;
                 }
             }
         }
-
         return true;
     }
 
