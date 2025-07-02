@@ -97,6 +97,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0028 |[Find the Index of the First Occurrence in a String](LeetCodeNet/G0001_0100/S0028_find_the_index_of_the_first_occurrence_in_a_string/Solution.cs)| Easy | Top_Interview_Questions, String, Two_Pointers, String_Matching | 0 | 100.00
 
 #### Day 2
 
@@ -699,6 +700,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0027 |[Remove Element](LeetCodeNet/G0001_0100/S0027_remove_element/Solution.cs)| Easy | Array, Two_Pointers | 0 | 100.00
 | 0026 |[Remove Duplicates from Sorted Array](LeetCodeNet/G0001_0100/S0026_remove_duplicates_from_sorted_array/Solution.cs)| Easy | Top_Interview_Questions, Array, Two_Pointers | 0 | 100.00
 | 0169 |[Majority Element](LeetCodeNet/G0101_0200/S0169_majority_element/Solution.cs)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Sorting, Counting, Divide_and_Conquer, Big_O_Time_O(n)_Space_O(1) | 1 | 66.60
 | 0189 |[Rotate Array](LeetCodeNet/G0101_0200/S0189_rotate_array/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Math, Two_Pointers, Big_O_Time_O(n)_Space_O(1) | 0 | 100.00
@@ -712,6 +714,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 | 0058 |[Length of Last Word](LeetCodeNet/G0001_0100/S0058_length_of_last_word/Solution.cs)| Easy | String | 0 | 100.00
 | 0014 |[Longest Common Prefix](LeetCodeNet/G0001_0100/S0014_longest_common_prefix/Solution.cs)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, String | 0 | 100.00
 | 0006 |[Zigzag Conversion](LeetCodeNet/G0001_0100/S0006_zigzag_conversion/Solution.cs)| Medium | String | 3 | 95.39
+| 0028 |[Find the Index of the First Occurrence in a String](LeetCodeNet/G0001_0100/S0028_find_the_index_of_the_first_occurrence_in_a_string/Solution.cs)| Easy | Top_Interview_Questions, String, Two_Pointers, String_Matching | 0 | 100.00
 
 #### Top Interview 150 Two Pointers
 
@@ -732,6 +735,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0036 |[Valid Sudoku](LeetCodeNet/G0001_0100/S0036_valid_sudoku/Solution.cs)| Medium | Top_Interview_Questions, Array, Hash_Table, Matrix | 1 | 98.25
 | 0054 |[Spiral Matrix](LeetCodeNet/G0001_0100/S0054_spiral_matrix/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Matrix, Simulation | 0 | 100.00
 | 0048 |[Rotate Image](LeetCodeNet/G0001_0100/S0048_rotate_image/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Math, Matrix, Big_O_Time_O(n^2)_Space_O(1) | 0 | 100.00
 | 0073 |[Set Matrix Zeroes](LeetCodeNet/G0001_0100/S0073_set_matrix_zeroes/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Matrix, Big_O_Time_O(m\*n)_Space_O(1) | 2 | 73.03
@@ -916,6 +920,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0036 |[Valid Sudoku](LeetCodeNet/G0001_0100/S0036_valid_sudoku/Solution.cs)| Medium | Top_Interview_Questions, Array, Hash_Table, Matrix | 1 | 98.25
 | 0074 |[Search a 2D Matrix](LeetCodeNet/G0001_0100/S0074_search_a_2d_matrix/Solution.cs)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Matrix, Big_O_Time_O(endRow+endCol)_Space_O(1) | 0 | 100.00
 
 #### Day 6 String
@@ -1700,12 +1705,15 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 | 0042 |[Trapping Rain Water](LeetCodeNet/G0001_0100/S0042_trapping_rain_water/Solution.cs)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Two_Pointers, Stack, Monotonic_Stack, Dynamic_Programming_I_Day_9, Udemy_Two_Pointers, Top_Interview_150_Array/String, Big_O_Time_O(n)_Space_O(1) | 1 | 63.59
 | 0041 |[First Missing Positive](LeetCodeNet/G0001_0100/S0041_first_missing_positive/Solution.cs)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Udemy_Arrays, Big_O_Time_O(n)_Space_O(n) | 2 | 75.71
 | 0039 |[Combination Sum](LeetCodeNet/G0001_0100/S0039_combination_sum/Solution.cs)| Medium | Top_100_Liked_Questions, Array, Backtracking, Algorithm_II_Day_10_Recursion_Backtracking, Level_2_Day_20_Brute_Force/Backtracking, Udemy_Backtracking/Recursion, Top_Interview_150_Backtracking, Big_O_Time_O(2^n)_Space_O(n+2^n) | 1 | 100.00
+| 0036 |[Valid Sudoku](LeetCodeNet/G0001_0100/S0036_valid_sudoku/Solution.cs)| Medium | Top_Interview_Questions, Array, Hash_Table, Matrix, Data_Structure_I_Day_5_Array, Top_Interview_150_Matrix | 1 | 98.25
 | 0035 |[Search Insert Position](LeetCodeNet/G0001_0100/S0035_search_insert_position/Solution.cs)| Easy | Top_100_Liked_Questions, Array, Binary_Search, Algorithm_I_Day_1_Binary_Search, Binary_Search_I_Day_2, Top_Interview_150_Binary_Search, Big_O_Time_O(log_n)_Space_O(1) | 0 | 100.00
 | 0034 |[Find First and Last Position of Element in Sorted Array](LeetCodeNet/G0001_0100/S0034_find_first_and_last_position_of_element_in_sorted_array/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Binary_Search, Algorithm_II_Day_1_Binary_Search, Binary_Search_I_Day_5, Top_Interview_150_Binary_Search, Big_O_Time_O(log_n)_Space_O(1) | 0 | 100.00
 | 0033 |[Search in Rotated Sorted Array](LeetCodeNet/G0001_0100/S0033_search_in_rotated_sorted_array/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Binary_Search, Algorithm_II_Day_1_Binary_Search, Binary_Search_I_Day_11, Level_2_Day_8_Binary_Search, Udemy_Binary_Search, Top_Interview_150_Binary_Search, Big_O_Time_O(log_n)_Space_O(1) | 0 | 100.00
 | 0032 |[Longest Valid Parentheses](LeetCodeNet/G0001_0100/S0032_longest_valid_parentheses/Solution.cs)| Hard | Top_100_Liked_Questions, String, Dynamic_Programming, Stack, Big_O_Time_O(n)_Space_O(1) | 2 | 94.56
 | 0031 |[Next Permutation](LeetCodeNet/G0001_0100/S0031_next_permutation/Solution.cs)| Medium | Top_100_Liked_Questions, Array, Two_Pointers, Big_O_Time_O(n)_Space_O(1) | 0 | 100.00
 | 0030 |[Substring with Concatenation of All Words](LeetCodeNet/G0001_0100/S0030_substring_with_concatenation_of_all_words/Solution.cs)| Hard | String, Hash_Table, Sliding_Window, Top_Interview_150_Sliding_Window | 15 | 94.14
+| 0028 |[Find the Index of the First Occurrence in a String](LeetCodeNet/G0001_0100/S0028_find_the_index_of_the_first_occurrence_in_a_string/Solution.cs)| Easy | Top_Interview_Questions, String, Two_Pointers, String_Matching, Programming_Skills_II_Day_1, Top_Interview_150_Array/String | 0 | 100.00
+| 0027 |[Remove Element](LeetCodeNet/G0001_0100/S0027_remove_element/Solution.cs)| Easy | Array, Two_Pointers, Top_Interview_150_Array/String | 0 | 100.00
 | 0026 |[Remove Duplicates from Sorted Array](LeetCodeNet/G0001_0100/S0026_remove_duplicates_from_sorted_array/Solution.cs)| Easy | Top_Interview_Questions, Array, Two_Pointers, Udemy_Two_Pointers, Top_Interview_150_Array/String | 0 | 100.00
 | 0025 |[Reverse Nodes in k-Group](LeetCodeNet/G0001_0100/S0025_reverse_nodes_in_k_group/Solution.cs)| Hard | Top_100_Liked_Questions, Linked_List, Recursion, Data_Structure_II_Day_13_Linked_List, Udemy_Linked_List, Top_Interview_150_Linked_List, Big_O_Time_O(n)_Space_O(k) | 0 | 100.00
 | 0024 |[Swap Nodes in Pairs](LeetCodeNet/G0001_0100/S0024_swap_nodes_in_pairs/Solution.cs)| Medium | Top_100_Liked_Questions, Linked_List, Recursion, Data_Structure_II_Day_12_Linked_List, Udemy_Linked_List, Big_O_Time_O(n)_Space_O(1) | 0 | 100.00
