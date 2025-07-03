@@ -4,7 +4,7 @@ using Xunit;
 
 public class SolutionTest {
     [Fact]
-    public void UniquePathsWithObstacles_Example1() {
+    public void UniquePathsWithObstacles() {
         var solution = new Solution();
         int[][] grid = new int[][] {
             new int[] {0,0,0},
@@ -15,7 +15,7 @@ public class SolutionTest {
     }
 
     [Fact]
-    public void UniquePathsWithObstacles_Example2() {
+    public void UniquePathsWithObstacles2() {
         var solution = new Solution();
         int[][] grid = new int[][] {
             new int[] {0,1},
@@ -25,7 +25,7 @@ public class SolutionTest {
     }
 
     [Fact]
-    public void UniquePathsWithObstacles_AllBlocked() {
+    public void UniquePathsWithObstacles3() {
         var solution = new Solution();
         int[][] grid = new int[][] {
             new int[] {1,0},
