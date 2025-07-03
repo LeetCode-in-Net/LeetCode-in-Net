@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 public class SolutionTest {
     [Fact]
-    public void FullJustify_Example1() {
+    public void FullJustify() {
         var solution = new Solution();
         var words = new string[] {"This", "is", "an", "example", "of", "text", "justification."};
         int maxWidth = 16;
@@ -18,7 +18,7 @@ public class SolutionTest {
     }
 
     [Fact]
-    public void FullJustify_Example2() {
+    public void FullJustify2() {
         var solution = new Solution();
         var words = new string[] {"What","must","be","acknowledgment","shall","be"};
         int maxWidth = 16;
@@ -31,7 +31,7 @@ public class SolutionTest {
     }
 
     [Fact]
-    public void FullJustify_Example3() {
+    public void FullJustify3() {
         var solution = new Solution();
         var words = new string[] {"Science","is","what","we","understand","well","enough","to","explain","to","a","computer.","Art","is","everything","else","we","do"};
         int maxWidth = 20;

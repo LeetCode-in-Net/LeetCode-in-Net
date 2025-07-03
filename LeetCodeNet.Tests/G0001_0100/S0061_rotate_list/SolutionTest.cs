@@ -24,7 +24,7 @@ public class SolutionTest {
     }
 
     [Fact]
-    public void RotateRight_Example1() {
+    public void RotateRight() {
         var solution = new Solution();
         var head = BuildList(new int[] {1,2,3,4,5});
         var result = solution.RotateRight(head, 2);
@@ -32,7 +32,7 @@ public class SolutionTest {
     }
 
     [Fact]
-    public void RotateRight_Example2() {
+    public void RotateRight2() {
         var solution = new Solution();
         var head = BuildList(new int[] {0,1,2});
         var result = solution.RotateRight(head, 4);
@@ -40,14 +40,14 @@ public class SolutionTest {
     }
 
     [Fact]
-    public void RotateRight_Empty() {
+    public void RotateRight3() {
         var solution = new Solution();
         var result = solution.RotateRight(null, 1);
         Assert.Null(result);
     }
 
     [Fact]
-    public void RotateRight_SingleNode() {
+    public void RotateRight4() {
         var solution = new Solution();
         var head = BuildList(new int[] {1});
         var result = solution.RotateRight(head, 99);

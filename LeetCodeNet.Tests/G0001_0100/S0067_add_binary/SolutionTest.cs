@@ -4,25 +4,25 @@ using Xunit;
 
 public class SolutionTest {
     [Fact]
-    public void AddBinary_Example1() {
+    public void AddBinary() {
         var solution = new Solution();
         Assert.Equal("100", solution.AddBinary("11", "1"));
     }
 
     [Fact]
-    public void AddBinary_Example2() {
+    public void AddBinary2() {
         var solution = new Solution();
         Assert.Equal("10101", solution.AddBinary("1010", "1011"));
     }
 
     [Fact]
-    public void AddBinary_Zero() {
+    public void AddBinary3() {
         var solution = new Solution();
         Assert.Equal("0", solution.AddBinary("0", "0"));
     }
 
     [Fact]
-    public void AddBinary_DifferentLengths() {
+    public void AddBinary4() {
         var solution = new Solution();
         Assert.Equal("1000", solution.AddBinary("1", "111"));
     }
