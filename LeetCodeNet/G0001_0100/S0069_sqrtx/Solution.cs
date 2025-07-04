@@ -5,11 +5,17 @@ namespace LeetCodeNet.G0001_0100.S0069_sqrtx {
 
 public class Solution {
     public int MySqrt(int x) {
-        if (x < 2) return x;
-        int left = 1, right = x / 2, ans = 0;
+        if (x < 2) {
+            return x;
+        }
+        int left = 1;
+        int right = x / 2;
+        int ans = 0;
         while (left <= right) {
             int mid = left + (right - left) / 2;
-            if ((long)mid * mid == x) return mid;
+            if ((long)mid * mid == x) {
+                return mid;
+            }
             if ((long)mid * mid < x) {
                 ans = mid;
                 left = mid + 1;
