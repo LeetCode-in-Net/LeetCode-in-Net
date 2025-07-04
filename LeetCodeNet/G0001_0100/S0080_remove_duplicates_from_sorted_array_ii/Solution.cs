@@ -5,7 +5,9 @@ namespace LeetCodeNet.G0001_0100.S0080_remove_duplicates_from_sorted_array_ii {
 
 public class Solution {
     public int RemoveDuplicates(int[] nums) {
-        if (nums.Length <= 2) return nums.Length;
+        if (nums.Length <= 2) {
+            return nums.Length;
+        }
         int i = 2;
         for (int j = 2; j < nums.Length; j++) {
             if (nums[j] != nums[i - 2]) {
