@@ -10,7 +10,7 @@ public class SolutionTest {
     }
 
     [Fact]
-    public void Combine_Example1() {
+    public void Combine() {
         var solution = new Solution();
         IList<IList<int>> expected = new List<IList<int>> {
             new List<int> {2,4}, new List<int> {3,4}, new List<int> {2,3}, new List<int> {1,2}, new List<int> {1,3}, new List<int> {1,4}
@@ -20,7 +20,7 @@ public class SolutionTest {
     }
 
     [Fact]
-    public void Combine_Example2() {
+    public void Combine2() {
         var solution = new Solution();
         var expected = new List<IList<int>> {
             new List<int> {1}
