@@ -3,31 +3,31 @@ namespace LeetCodeNet.G0001_0100.S0069_sqrtx {
 
     public class SolutionTest {
         [Fact]
-        public void MySqrt_Example1() {
+        public void MySqrt() {
             var solution = new Solution();
             Assert.Equal(2, solution.MySqrt(4));
         }
 
         [Fact]
-        public void MySqrt_Example2() {
+        public void MySqrt2() {
             var solution = new Solution();
             Assert.Equal(2, solution.MySqrt(8));
         }
 
         [Fact]
-        public void MySqrt_Zero() {
+        public void MySqrt3() {
             var solution = new Solution();
             Assert.Equal(0, solution.MySqrt(0));
         }
 
         [Fact]
-        public void MySqrt_One() {
+        public void MySqrt4() {
             var solution = new Solution();
             Assert.Equal(1, solution.MySqrt(1));
         }
 
         [Fact]
-        public void MySqrt_Large() {
+        public void MySqrt5() {
             var solution = new Solution();
             Assert.Equal(46340, solution.MySqrt(2147395600));
         }
