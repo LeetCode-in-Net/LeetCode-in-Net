@@ -1,6 +1,6 @@
 namespace LeetCodeNet.G0001_0100.S0012_integer_to_roman {
 
-// #Medium #String #Hash_Table #Math #Top_Interview_150_Array/String
+// #Medium #String #Hash_Table #Math #Top_Interview_150_Array/String #Big_O_Time_O(1)_Space_O(1)
 // #2025_06_20_Time_2_ms_(87.59%)_Space_45.13_MB_(98.99%)
 
 public class Solution
