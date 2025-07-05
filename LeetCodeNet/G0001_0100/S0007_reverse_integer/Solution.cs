@@ -1,6 +1,6 @@
 namespace LeetCodeNet.G0001_0100.S0007_reverse_integer {
 
-// #Medium #Top_Interview_Questions #Math #Udemy_Integers
+// #Medium #Top_Interview_Questions #Math #Udemy_Integers #Big_O_Time_O(log10(x))_Space_O(1)
 // #2025_06_12_Time_14_ms_(99.26%)_Space_29.02_MB_(67.56%)
 
 public class Solution {

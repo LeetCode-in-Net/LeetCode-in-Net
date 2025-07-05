@@ -1,7 +1,7 @@
 namespace LeetCodeNet.G0001_0100.S0014_longest_common_prefix {
 
-// #Easy #Top_100_Liked_Questions #Top_Interview_Questions #String #Level_2_Day_2_String
-// #Udemy_Strings #Top_Interview_150_Array/String
+// #Easy #Top_Interview_Questions #String #Level_2_Day_2_String #Udemy_Strings
+// #Top_Interview_150_Array/String #Big_O_Time_O(n*m)_Space_O(m)
 // #2025_06_20_Time_0_ms_(100.00%)_Space_42.70_MB_(97.50%)
 
 public class Solution
