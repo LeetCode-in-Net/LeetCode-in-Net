@@ -29,4 +29,4 @@ public class Solution {
         return HasPathSum(root.left, (int)(sum - root.val)) || HasPathSum(root.right, (int)(sum - root.val));
     }
 }
-} 
+}

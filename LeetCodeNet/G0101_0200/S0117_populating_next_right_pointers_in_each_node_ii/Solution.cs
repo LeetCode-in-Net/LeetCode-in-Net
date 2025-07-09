@@ -26,7 +26,6 @@ public class Node {
     }
 }
 */
-
 public class Solution {
     public Node Connect(Node root) {
         if (root == null) {
@@ -67,4 +66,4 @@ public class Solution {
         return null;
     }
 }
-} 
+}
