@@ -35,4 +35,4 @@ public class Solution {
         return midNode;
     }
 }
-} 
+}
