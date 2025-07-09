@@ -476,6 +476,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0108 |[Convert Sorted Array to Binary Search Tree](LeetCodeNet/G0101_0200/S0108_convert_sorted_array_to_binary_search_tree/Solution.cs)| Easy | Top_Interview_Questions, Array, Tree, Binary_Tree, Binary_Search_Tree, Divide_and_Conquer | 0 | 100.00
 | 0230 |[Kth Smallest Element in a BST](LeetCodeNet/G0201_0300/S0230_kth_smallest_element_in_a_bst/Solution.cs)| Medium | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
 
 #### Day 10 Graph/BFS/DFS
@@ -646,6 +647,8 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 |-|-|-|-|-|-
 | 0094 |[Binary Tree Inorder Traversal](LeetCodeNet/G0001_0100/S0094_binary_tree_inorder_traversal/Solution.cs)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Tree, Binary_Tree, Stack, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
 | 0102 |[Binary Tree Level Order Traversal](LeetCodeNet/G0101_0200/S0102_binary_tree_level_order_traversal/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(N) | 0 | 100.00
+| 0103 |[Binary Tree Zigzag Level Order Traversal](LeetCodeNet/G0101_0200/S0103_binary_tree_zigzag_level_order_traversal/Solution.cs)| Medium | Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree | 0 | 100.00
+| 0108 |[Convert Sorted Array to Binary Search Tree](LeetCodeNet/G0101_0200/S0108_convert_sorted_array_to_binary_search_tree/Solution.cs)| Easy | Top_Interview_Questions, Array, Tree, Binary_Tree, Binary_Search_Tree, Divide_and_Conquer | 0 | 100.00
 | 0543 |[Diameter of Binary Tree](LeetCodeNet/G0501_0600/S0543_diameter_of_binary_tree/Solution.cs)| Easy | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
 | 0100 |[Same Tree](LeetCodeNet/G0001_0100/S0100_same_tree/Solution.cs)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 0 | 100.00
 | 0226 |[Invert Binary Tree](LeetCodeNet/G0201_0300/S0226_invert_binary_tree/Solution.cs)| Easy | Top_100_Liked_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
@@ -799,7 +802,10 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 | 0226 |[Invert Binary Tree](LeetCodeNet/G0201_0300/S0226_invert_binary_tree/Solution.cs)| Easy | Top_100_Liked_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
 | 0101 |[Symmetric Tree](LeetCodeNet/G0101_0200/S0101_symmetric_tree/Solution.cs)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(log(N)) | 0 | 100.00
 | 0105 |[Construct Binary Tree from Preorder and Inorder Traversal](LeetCodeNet/G0101_0200/S0105_construct_binary_tree_from_preorder_and_inorder_traversal/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Tree, Binary_Tree, Divide_and_Conquer, Big_O_Time_O(N)_Space_O(N) | 1 | 96.98
+| 0106 |[Construct Binary Tree from Inorder and Postorder Traversal](LeetCodeNet/G0101_0200/S0106_construct_binary_tree_from_inorder_and_postorder_traversal/Solution.cs)| Medium | Array, Hash_Table, Tree, Binary_Tree, Divide_and_Conquer | 0 | 100.00
+| 0117 |[Populating Next Right Pointers in Each Node II](LeetCodeNet/G0101_0200/S0117_populating_next_right_pointers_in_each_node_ii/Solution.cs)| Medium | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Linked_List | 69 | 98.05
 | 0114 |[Flatten Binary Tree to Linked List](LeetCodeNet/G0101_0200/S0114_flatten_binary_tree_to_linked_list/Solution.cs)| Medium | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Stack, Linked_List, Big_O_Time_O(N)_Space_O(N) | 0 | 100.00
+| 0112 |[Path Sum](LeetCodeNet/G0101_0200/S0112_path_sum/Solution.cs)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 0 | 100.00
 | 0124 |[Binary Tree Maximum Path Sum](LeetCodeNet/G0101_0200/S0124_binary_tree_maximum_path_sum/Solution.cs)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Depth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(N) | 0 | 100.00
 | 0236 |[Lowest Common Ancestor of a Binary Tree](LeetCodeNet/G0201_0300/S0236_lowest_common_ancestor_of_a_binary_tree/Solution.cs)| Medium | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, LeetCode_75_Binary_Tree/DFS, Big_O_Time_O(n)_Space_O(n) | 93 | 68.06
 
@@ -808,6 +814,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0102 |[Binary Tree Level Order Traversal](LeetCodeNet/G0101_0200/S0102_binary_tree_level_order_traversal/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(N) | 0 | 100.00
+| 0103 |[Binary Tree Zigzag Level Order Traversal](LeetCodeNet/G0101_0200/S0103_binary_tree_zigzag_level_order_traversal/Solution.cs)| Medium | Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree | 0 | 100.00
 
 #### Top Interview 150 Binary Search Tree
 
@@ -850,6 +857,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0108 |[Convert Sorted Array to Binary Search Tree](LeetCodeNet/G0101_0200/S0108_convert_sorted_array_to_binary_search_tree/Solution.cs)| Easy | Top_Interview_Questions, Array, Tree, Binary_Tree, Binary_Search_Tree, Divide_and_Conquer | 0 | 100.00
 | 0148 |[Sort List](LeetCodeNet/G0101_0200/S0148_sort_list/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Sorting, Two_Pointers, Linked_List, Divide_and_Conquer, Merge_Sort, Big_O_Time_O(log(N))_Space_O(log(N)) | 37 | 40.62
 | 0023 |[Merge k Sorted Lists](LeetCodeNet/G0001_0100/S0023_merge_k_sorted_lists/Solution.cs)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Heap_Priority_Queue, Linked_List, Divide_and_Conquer, Merge_Sort, Big_O_Time_O(k\*n\*log(k))_Space_O(log(k)) | 3 | 97.54
 
@@ -990,6 +998,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0226 |[Invert Binary Tree](LeetCodeNet/G0201_0300/S0226_invert_binary_tree/Solution.cs)| Easy | Top_100_Liked_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
+| 0112 |[Path Sum](LeetCodeNet/G0101_0200/S0112_path_sum/Solution.cs)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 0 | 100.00
 
 #### Day 13 Tree
 
@@ -1097,7 +1106,9 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0108 |[Convert Sorted Array to Binary Search Tree](LeetCodeNet/G0101_0200/S0108_convert_sorted_array_to_binary_search_tree/Solution.cs)| Easy | Top_Interview_Questions, Array, Tree, Binary_Tree, Binary_Search_Tree, Divide_and_Conquer | 0 | 100.00
 | 0105 |[Construct Binary Tree from Preorder and Inorder Traversal](LeetCodeNet/G0101_0200/S0105_construct_binary_tree_from_preorder_and_inorder_traversal/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Tree, Binary_Tree, Divide_and_Conquer, Big_O_Time_O(N)_Space_O(N) | 1 | 96.98
+| 0103 |[Binary Tree Zigzag Level Order Traversal](LeetCodeNet/G0101_0200/S0103_binary_tree_zigzag_level_order_traversal/Solution.cs)| Medium | Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree | 0 | 100.00
 
 #### Day 16 Tree
 
@@ -1262,6 +1273,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0117 |[Populating Next Right Pointers in Each Node II](LeetCodeNet/G0101_0200/S0117_populating_next_right_pointers_in_each_node_ii/Solution.cs)| Medium | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Linked_List | 69 | 98.05
 
 #### Day 8 Breadth First Search Depth First Search
 
@@ -1699,9 +1711,14 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 | 0128 |[Longest Consecutive Sequence](LeetCodeNet/G0101_0200/S0128_longest_consecutive_sequence/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Union_Find, Top_Interview_150_Hashmap, Big_O_Time_O(N_log_N)_Space_O(1) | 16 | 100.00
 | 0124 |[Binary Tree Maximum Path Sum](LeetCodeNet/G0101_0200/S0124_binary_tree_maximum_path_sum/Solution.cs)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Depth_First_Search, Tree, Binary_Tree, Udemy_Tree_Stack_Queue, Top_Interview_150_Binary_Tree_General, Big_O_Time_O(N)_Space_O(N) | 0 | 100.00
 | 0121 |[Best Time to Buy and Sell Stock](LeetCodeNet/G0101_0200/S0121_best_time_to_buy_and_sell_stock/Solution.cs)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Data_Structure_I_Day_3_Array, Dynamic_Programming_I_Day_7, Level_1_Day_5_Greedy, Udemy_Arrays, Top_Interview_150_Array/String, Big_O_Time_O(N)_Space_O(1) | 1 | 100.00
+| 0117 |[Populating Next Right Pointers in Each Node II](LeetCodeNet/G0101_0200/S0117_populating_next_right_pointers_in_each_node_ii/Solution.cs)| Medium | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Linked_List, Algorithm_II_Day_7_Breadth_First_Search_Depth_First_Search, Top_Interview_150_Binary_Tree_General | 69 | 98.05
 | 0114 |[Flatten Binary Tree to Linked List](LeetCodeNet/G0101_0200/S0114_flatten_binary_tree_to_linked_list/Solution.cs)| Medium | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Stack, Linked_List, Udemy_Linked_List, Top_Interview_150_Binary_Tree_General, Big_O_Time_O(N)_Space_O(N) | 0 | 100.00
+| 0112 |[Path Sum](LeetCodeNet/G0101_0200/S0112_path_sum/Solution.cs)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Data_Structure_I_Day_12_Tree, Top_Interview_150_Binary_Tree_General | 0 | 100.00
+| 0108 |[Convert Sorted Array to Binary Search Tree](LeetCodeNet/G0101_0200/S0108_convert_sorted_array_to_binary_search_tree/Solution.cs)| Easy | Top_Interview_Questions, Array, Tree, Binary_Tree, Binary_Search_Tree, Divide_and_Conquer, Data_Structure_II_Day_15_Tree, Level_2_Day_9_Binary_Search_Tree, Udemy_Tree_Stack_Queue, Top_Interview_150_Divide_and_Conquer | 0 | 100.00
+| 0106 |[Construct Binary Tree from Inorder and Postorder Traversal](LeetCodeNet/G0101_0200/S0106_construct_binary_tree_from_inorder_and_postorder_traversal/Solution.cs)| Medium | Array, Hash_Table, Tree, Binary_Tree, Divide_and_Conquer, Top_Interview_150_Binary_Tree_General | 0 | 100.00
 | 0105 |[Construct Binary Tree from Preorder and Inorder Traversal](LeetCodeNet/G0101_0200/S0105_construct_binary_tree_from_preorder_and_inorder_traversal/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Tree, Binary_Tree, Divide_and_Conquer, Data_Structure_II_Day_15_Tree, Top_Interview_150_Binary_Tree_General, Big_O_Time_O(N)_Space_O(N) | 1 | 96.98
 | 0104 |[Maximum Depth of Binary Tree](LeetCodeNet/G0101_0200/S0104_maximum_depth_of_binary_tree/Solution.cs)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, LeetCode_75_Binary_Tree/DFS, Data_Structure_I_Day_11_Tree, Programming_Skills_I_Day_10_Linked_List_and_Tree, Udemy_Tree_Stack_Queue, Top_Interview_150_Binary_Tree_General, Big_O_Time_O(N)_Space_O(H) | 0 | 100.00
+| 0103 |[Binary Tree Zigzag Level Order Traversal](LeetCodeNet/G0101_0200/S0103_binary_tree_zigzag_level_order_traversal/Solution.cs)| Medium | Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree, Data_Structure_II_Day_15_Tree, Udemy_Tree_Stack_Queue, Top_Interview_150_Binary_Tree_BFS | 0 | 100.00
 | 0102 |[Binary Tree Level Order Traversal](LeetCodeNet/G0101_0200/S0102_binary_tree_level_order_traversal/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree, Data_Structure_I_Day_11_Tree, Level_1_Day_6_Tree, Udemy_Tree_Stack_Queue, Top_Interview_150_Binary_Tree_BFS, Big_O_Time_O(N)_Space_O(N) | 0 | 100.00
 | 0101 |[Symmetric Tree](LeetCodeNet/G0101_0200/S0101_symmetric_tree/Solution.cs)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Data_Structure_I_Day_11_Tree, Level_2_Day_15_Tree, Top_Interview_150_Binary_Tree_General, Big_O_Time_O(N)_Space_O(log(N)) | 0 | 100.00
 | 0100 |[Same Tree](LeetCodeNet/G0001_0100/S0100_same_tree/Solution.cs)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Level_2_Day_15_Tree, Udemy_Tree_Stack_Queue, Top_Interview_150_Binary_Tree_General | 0 | 100.00
