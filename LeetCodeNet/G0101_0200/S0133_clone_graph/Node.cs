@@ -1,4 +1,5 @@
-public class Node {
+namespace LeetCodeNet.G0101_0200.S0133_clone_graph {
+    public class Node {
     public int val;
     public IList<Node> neighbors;
 
@@ -42,4 +43,5 @@ public class Node {
         result.Append("]");
         return result.ToString();
     }
+}
 }
