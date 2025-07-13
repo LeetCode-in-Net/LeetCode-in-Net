@@ -185,6 +185,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0061 |[Rotate List](LeetCodeNet/G0001_0100/S0061_rotate_list/Solution.cs)| Medium | Two_Pointers, Linked_List | 0 | 100.00
+| 0173 |[Binary Search Tree Iterator](LeetCodeNet/G0101_0200/S0173_binary_search_tree_iterator/BSTIterator.cs)| Medium | Tree, Binary_Tree, Stack, Design, Binary_Search_Tree, Iterator | 1 | 100.00
 
 #### Day 17
 
@@ -480,6 +481,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 |-|-|-|-|-|-
 | 0108 |[Convert Sorted Array to Binary Search Tree](LeetCodeNet/G0101_0200/S0108_convert_sorted_array_to_binary_search_tree/Solution.cs)| Easy | Top_Interview_Questions, Array, Tree, Binary_Tree, Binary_Search_Tree, Divide_and_Conquer | 0 | 100.00
 | 0230 |[Kth Smallest Element in a BST](LeetCodeNet/G0201_0300/S0230_kth_smallest_element_in_a_bst/Solution.cs)| Medium | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
+| 0173 |[Binary Search Tree Iterator](LeetCodeNet/G0101_0200/S0173_binary_search_tree_iterator/BSTIterator.cs)| Medium | Tree, Binary_Tree, Stack, Design, Binary_Search_Tree, Iterator | 1 | 100.00
 
 #### Day 10 Graph/BFS/DFS
 
@@ -559,6 +561,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 | 0136 |[Single Number](LeetCodeNet/G0101_0200/S0136_single_number/Solution.cs)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, LeetCode_75_Bit_Manipulation, Big_O_Time_O(N)_Space_O(1) | 0 | 100.00
 | 0007 |[Reverse Integer](LeetCodeNet/G0001_0100/S0007_reverse_integer/Solution.cs)| Medium | Top_Interview_Questions, Math, Big_O_Time_O(log10(x))_Space_O(1) | 14 | 99.26
 | 0009 |[Palindrome Number](LeetCodeNet/G0001_0100/S0009_palindrome_number/Solution.cs)| Easy | Math, Big_O_Time_O(log10(x))_Space_O(1) | 1 | 99.90
+| 0172 |[Factorial Trailing Zeroes](LeetCodeNet/G0101_0200/S0172_factorial_trailing_zeroes/Solution.cs)| Medium | Top_Interview_Questions, Math | 0 | 100.00
 | 0050 |[Pow(x, n)](LeetCodeNet/G0001_0100/S0050_powx_n/Solution.cs)| Medium | Top_Interview_Questions, Math, Recursion | 0 | 100.00
 
 #### Udemy Strings
@@ -704,6 +707,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0190 |[Reverse Bits](LeetCodeNet/G0101_0200/S0190_reverse_bits/Solution.cs)| Easy | Top_Interview_Questions, Bit_Manipulation, Divide_and_Conquer | 18 | 93.43
 | 0338 |[Counting Bits](LeetCodeNet/G0301_0400/S0338_counting_bits/Solution.cs)| Easy | Dynamic_Programming, Bit_Manipulation, LeetCode_75_Bit_Manipulation, Big_O_Time_O(num)_Space_O(num) | 0 | 100.00
 
 #### Udemy Design
@@ -746,6 +750,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0125 |[Valid Palindrome](LeetCodeNet/G0101_0200/S0125_valid_palindrome/Solution.cs)| Easy | Top_Interview_Questions, String, Two_Pointers | 1 | 99.79
+| 0167 |[Two Sum II - Input Array Is Sorted](LeetCodeNet/G0101_0200/S0167_two_sum_ii_input_array_is_sorted/Solution.cs)| Medium | Array, Binary_Search, Two_Pointers | 0 | 100.00
 | 0011 |[Container With Most Water](LeetCodeNet/G0001_0100/S0011_container_with_most_water/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Greedy, Two_Pointers, LeetCode_75_Two_Pointers, Big_O_Time_O(n)_Space_O(1) | 1 | 99.97
 | 0015 |[3Sum](LeetCodeNet/G0001_0100/S0015_3sum/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers, Big_O_Time_O(n\*log(n))_Space_O(n^2) | 34 | 76.14
 
@@ -821,6 +826,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 | 0112 |[Path Sum](LeetCodeNet/G0101_0200/S0112_path_sum/Solution.cs)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 0 | 100.00
 | 0129 |[Sum Root to Leaf Numbers](LeetCodeNet/G0101_0200/S0129_sum_root_to_leaf_numbers/Solution.cs)| Medium | Depth_First_Search, Tree, Binary_Tree | 0 | 100.00
 | 0124 |[Binary Tree Maximum Path Sum](LeetCodeNet/G0101_0200/S0124_binary_tree_maximum_path_sum/Solution.cs)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Depth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(N) | 0 | 100.00
+| 0173 |[Binary Search Tree Iterator](LeetCodeNet/G0101_0200/S0173_binary_search_tree_iterator/BSTIterator.cs)| Medium | Tree, Binary_Tree, Stack, Design, Binary_Search_Tree, Iterator | 1 | 100.00
 | 0236 |[Lowest Common Ancestor of a Binary Tree](LeetCodeNet/G0201_0300/S0236_lowest_common_ancestor_of_a_binary_tree/Solution.cs)| Medium | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, LeetCode_75_Binary_Tree/DFS, Big_O_Time_O(n)_Space_O(n) | 93 | 68.06
 
 #### Top Interview 150 Binary Tree BFS
@@ -908,6 +914,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0067 |[Add Binary](LeetCodeNet/G0001_0100/S0067_add_binary/Solution.cs)| Easy | String, Math, Bit_Manipulation, Simulation | 1 | 91.47
+| 0190 |[Reverse Bits](LeetCodeNet/G0101_0200/S0190_reverse_bits/Solution.cs)| Easy | Top_Interview_Questions, Bit_Manipulation, Divide_and_Conquer | 18 | 93.43
 | 0136 |[Single Number](LeetCodeNet/G0101_0200/S0136_single_number/Solution.cs)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, LeetCode_75_Bit_Manipulation, Big_O_Time_O(N)_Space_O(1) | 0 | 100.00
 | 0137 |[Single Number II](LeetCodeNet/G0101_0200/S0137_single_number_ii/Solution.cs)| Medium | Array, Bit_Manipulation | 0 | 100.00
 
@@ -917,6 +924,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 |-|-|-|-|-|-
 | 0009 |[Palindrome Number](LeetCodeNet/G0001_0100/S0009_palindrome_number/Solution.cs)| Easy | Math, Big_O_Time_O(log10(x))_Space_O(1) | 1 | 99.90
 | 0066 |[Plus One](LeetCodeNet/G0001_0100/S0066_plus_one/Solution.cs)| Easy | Top_Interview_Questions, Array, Math | 0 | 100.00
+| 0172 |[Factorial Trailing Zeroes](LeetCodeNet/G0101_0200/S0172_factorial_trailing_zeroes/Solution.cs)| Medium | Top_Interview_Questions, Math | 0 | 100.00
 | 0069 |[Sqrt(x)](LeetCodeNet/G0001_0100/S0069_sqrtx/Solution.cs)| Easy | Top_Interview_Questions, Math, Binary_Search | 0 | 100.00
 | 0050 |[Pow(x, n)](LeetCodeNet/G0001_0100/S0050_powx_n/Solution.cs)| Medium | Top_Interview_Questions, Math, Recursion | 0 | 100.00
 | 0149 |[Max Points on a Line](LeetCodeNet/G0101_0200/S0149_max_points_on_a_line/Solution.cs)| Hard | Top_Interview_Questions, Array, Hash_Table, Math, Geometry | 5 | 100.00
@@ -942,6 +950,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 | 0097 |[Interleaving String](LeetCodeNet/G0001_0100/S0097_interleaving_string/Solution.cs)| Medium | String, Dynamic_Programming | 56 | 87.55
 | 0072 |[Edit Distance](LeetCodeNet/G0001_0100/S0072_edit_distance/Solution.cs)| Medium | Top_100_Liked_Questions, String, Dynamic_Programming, LeetCode_75_DP/Multidimensional, Big_O_Time_O(n^2)_Space_O(n2) | 4 | 89.69
 | 0123 |[Best Time to Buy and Sell Stock III](LeetCodeNet/G0101_0200/S0123_best_time_to_buy_and_sell_stock_iii/Solution.cs)| Hard | Array, Dynamic_Programming | 3 | 86.18
+| 0188 |[Best Time to Buy and Sell Stock IV](LeetCodeNet/G0101_0200/S0188_best_time_to_buy_and_sell_stock_iv/Solution.cs)| Hard | Array, Dynamic_Programming | 1 | 100.00
 | 0221 |[Maximal Square](LeetCodeNet/G0201_0300/S0221_maximal_square/Solution.cs)| Medium | Array, Dynamic_Programming, Matrix, Big_O_Time_O(m\*n)_Space_O(m\*n) | 3 | 96.90
 
 ### Data Structure I
@@ -1142,6 +1151,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0230 |[Kth Smallest Element in a BST](LeetCodeNet/G0201_0300/S0230_kth_smallest_element_in_a_bst/Solution.cs)| Medium | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
+| 0173 |[Binary Search Tree Iterator](LeetCodeNet/G0101_0200/S0173_binary_search_tree_iterator/BSTIterator.cs)| Medium | Tree, Binary_Tree, Stack, Design, Binary_Search_Tree, Iterator | 1 | 100.00
 
 #### Day 18 Tree
 
@@ -1185,6 +1195,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0283 |[Move Zeroes](LeetCodeNet/G0201_0300/S0283_move_zeroes/Solution.cs)| Easy | Top_100_Liked_Questions, Array, Two_Pointers, LeetCode_75_Two_Pointers, Big_O_Time_O(n)_Space_O(1) | 1 | 96.12
+| 0167 |[Two Sum II - Input Array Is Sorted](LeetCodeNet/G0101_0200/S0167_two_sum_ii_input_array_is_sorted/Solution.cs)| Medium | Array, Binary_Search, Two_Pointers | 0 | 100.00
 
 #### Day 4 Two Pointers
 
@@ -1249,6 +1260,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0190 |[Reverse Bits](LeetCodeNet/G0101_0200/S0190_reverse_bits/Solution.cs)| Easy | Top_Interview_Questions, Bit_Manipulation, Divide_and_Conquer | 18 | 93.43
 | 0136 |[Single Number](LeetCodeNet/G0101_0200/S0136_single_number/Solution.cs)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, LeetCode_75_Bit_Manipulation, Big_O_Time_O(N)_Space_O(1) | 0 | 100.00
 
 ### Algorithm II
@@ -1424,6 +1436,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0167 |[Two Sum II - Input Array Is Sorted](LeetCodeNet/G0101_0200/S0167_two_sum_ii_input_array_is_sorted/Solution.cs)| Medium | Array, Binary_Search, Two_Pointers | 0 | 100.00
 
 #### Day 8
 
@@ -1723,8 +1736,13 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 | 0206 |[Reverse Linked List](LeetCodeNet/G0201_0300/S0206_reverse_linked_list/Solution.cs)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion, LeetCode_75_LinkedList, Data_Structure_I_Day_8_Linked_List, Algorithm_I_Day_10_Recursion_Backtracking, Level_1_Day_3_Linked_List, Udemy_Linked_List, Big_O_Time_O(N)_Space_O(1) | 0 | 100.00
 | 0200 |[Number of Islands](LeetCodeNet/G0101_0200/S0200_number_of_islands/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find, Algorithm_II_Day_6_Breadth_First_Search_Depth_First_Search, Graph_Theory_I_Day_1_Matrix_Related_Problems, Level_1_Day_9_Graph/BFS/DFS, Udemy_Graph, Top_Interview_150_Graph_General, Big_O_Time_O(M\*N)_Space_O(M\*N) | 131 | 65.99
 | 0198 |[House Robber](LeetCodeNet/G0101_0200/S0198_house_robber/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, LeetCode_75_DP/1D, Algorithm_I_Day_12_Dynamic_Programming, Dynamic_Programming_I_Day_3, Level_2_Day_12_Dynamic_Programming, Udemy_Dynamic_Programming, Top_Interview_150_1D_DP, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
+| 0190 |[Reverse Bits](LeetCodeNet/G0101_0200/S0190_reverse_bits/Solution.cs)| Easy | Top_Interview_Questions, Bit_Manipulation, Divide_and_Conquer, Algorithm_I_Day_14_Bit_Manipulation, Udemy_Bit_Manipulation, Top_Interview_150_Bit_Manipulation | 18 | 93.43
 | 0189 |[Rotate Array](LeetCodeNet/G0101_0200/S0189_rotate_array/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Math, Two_Pointers, Algorithm_I_Day_2_Two_Pointers, Udemy_Arrays, Top_Interview_150_Array/String, Big_O_Time_O(n)_Space_O(1) | 0 | 100.00
+| 0188 |[Best Time to Buy and Sell Stock IV](LeetCodeNet/G0101_0200/S0188_best_time_to_buy_and_sell_stock_iv/Solution.cs)| Hard | Array, Dynamic_Programming, Top_Interview_150_Multidimensional_DP | 1 | 100.00
+| 0173 |[Binary Search Tree Iterator](LeetCodeNet/G0101_0200/S0173_binary_search_tree_iterator/BSTIterator.cs)| Medium | Tree, Binary_Tree, Stack, Design, Binary_Search_Tree, Iterator, Data_Structure_II_Day_17_Tree, Programming_Skills_II_Day_16, Level_2_Day_9_Binary_Search_Tree, Top_Interview_150_Binary_Tree_General | 1 | 100.00
+| 0172 |[Factorial Trailing Zeroes](LeetCodeNet/G0101_0200/S0172_factorial_trailing_zeroes/Solution.cs)| Medium | Top_Interview_Questions, Math, Udemy_Integers, Top_Interview_150_Math | 0 | 100.00
 | 0169 |[Majority Element](LeetCodeNet/G0101_0200/S0169_majority_element/Solution.cs)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Sorting, Counting, Divide_and_Conquer, Data_Structure_II_Day_1_Array, Udemy_Famous_Algorithm, Top_Interview_150_Array/String, Big_O_Time_O(n)_Space_O(1) | 1 | 66.60
+| 0167 |[Two Sum II - Input Array Is Sorted](LeetCodeNet/G0101_0200/S0167_two_sum_ii_input_array_is_sorted/Solution.cs)| Medium | Array, Binary_Search, Two_Pointers, Algorithm_I_Day_3_Two_Pointers, Binary_Search_I_Day_7, Top_Interview_150_Two_Pointers | 0 | 100.00
 | 0162 |[Find Peak Element](LeetCodeNet/G0101_0200/S0162_find_peak_element/Solution.cs)| Medium | Top_Interview_Questions, Array, Binary_Search, LeetCode_75_Binary_Search, Algorithm_II_Day_2_Binary_Search, Binary_Search_II_Day_12, Top_Interview_150_Binary_Search | 0 | 100.00
 | 0160 |[Intersection of Two Linked Lists](LeetCodeNet/G0101_0200/S0160_intersection_of_two_linked_lists/Solution.cs)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List, Data_Structure_II_Day_11_Linked_List, Udemy_Linked_List, Big_O_Time_O(M+N)_Space_O(1) | 145 | 64.32
 | 0155 |[Min Stack](LeetCodeNet/G0101_0200/S0155_min_stack/MinStack.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Stack, Design, Data_Structure_II_Day_14_Stack_Queue, Programming_Skills_II_Day_18, Level_2_Day_16_Design, Udemy_Design, Top_Interview_150_Stack, Big_O_Time_O(1)_Space_O(N) | 1 | 100.00
