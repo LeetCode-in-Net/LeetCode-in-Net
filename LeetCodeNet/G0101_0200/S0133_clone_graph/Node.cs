@@ -1,8 +1,8 @@
 namespace LeetCodeNet.G0101_0200.S0133_clone_graph {
 
 public class Node {
-    private int val;
-    private IList<Node> neighbors;
+    public int val;
+    public IList<Node> neighbors;
 
     public Node() {
         val = 0;
