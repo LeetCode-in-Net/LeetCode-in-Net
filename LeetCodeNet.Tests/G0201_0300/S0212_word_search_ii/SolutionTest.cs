@@ -3,8 +3,7 @@ namespace LeetCodeNet.G0201_0300.S0212_word_search_ii {
 using System.Collections.Generic;
 using Xunit;
 
-public class SolutionTest {
-    
+public class SolutionTest {    
     [Fact]
     public void FindWords() {
         char[][] board = {
