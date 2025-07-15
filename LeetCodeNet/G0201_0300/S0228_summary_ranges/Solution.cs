@@ -10,10 +10,7 @@ public class Solution {
         }
         int startIndex = 0;
         for (int i = 1; i < nums.Length; ++i) {
-            if (nums[i] == nums[i - 1] + 1) {
-                continue;
-            }
-            else {
+            if (nums[i] != nums[i - 1] + 1) {
                 if (startIndex != i - 1) {
                     result.Add(nums[startIndex] + "->" + (nums[i - 1]).ToString());
                 } else {
