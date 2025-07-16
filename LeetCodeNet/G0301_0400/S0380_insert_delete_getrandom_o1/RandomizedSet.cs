@@ -5,15 +5,16 @@ namespace LeetCodeNet.G0301_0400.S0380_insert_delete_getrandom_o1 {
 
 using System;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 
 public class RandomizedSet {
     private List<int> nums;
     private Dictionary<int, int> dict;
-    private Random rand;
+    private RandomNumberGenerator rng;
     public RandomizedSet() {
         nums = new List<int>();
         dict = new Dictionary<int, int>();
-        rand = new Random();
+        rng = RandomNumberGenerator.Create();
     }
     public bool Insert(int val) {
         if (dict.ContainsKey(val)) return false;
@@ -32,7 +33,15 @@ public class RandomizedSet {
         return true;
     }
     public int GetRandom() {
-        return nums[rand.Next(nums.Count)];
+        if (nums.Count == 0) throw new InvalidOperationException();
+        byte[] bytes = new byte[4];
+        int idx;
+        do {
+            rng.GetBytes(bytes);
+            idx = BitConverter.ToInt32(bytes, 0) & int.MaxValue;
+            idx %= nums.Count;
+        } while (idx < 0 || idx >= nums.Count);
+        return nums[idx];
     }
 }
 }
