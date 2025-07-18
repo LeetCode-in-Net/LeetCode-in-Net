@@ -4,6 +4,7 @@ namespace LeetCodeNet.G0501_0600.S0530_minimum_absolute_difference_in_bst {
 // #Top_Interview_150_Binary_Search_Tree #2025_07_18_Time_0_ms_(100.00%)_Space_46.02_MB_(84.51%)
 
 using System;
+using LeetCodeNet.Com_github_leetcode;
 
 /**
  * Definition for a binary tree node.

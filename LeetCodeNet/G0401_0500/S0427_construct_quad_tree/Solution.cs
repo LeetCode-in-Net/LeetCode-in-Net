@@ -3,6 +3,8 @@ namespace LeetCodeNet.G0401_0500.S0427_construct_quad_tree {
 // #Medium #Array #Tree #Matrix #Divide_and_Conquer #Top_Interview_150_Divide_and_Conquer
 // #2025_07_18_Time_91_ms_(66.88%)_Space_47.25_MB_(80.00%)
 
+using LeetCodeNet.Com_github_leetcode;
+
 /*
 // Definition for a QuadTree node.
 public class Node {
