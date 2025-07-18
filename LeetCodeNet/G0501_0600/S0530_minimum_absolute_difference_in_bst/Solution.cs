@@ -34,7 +34,7 @@ public class Solution {
         }
         InOrder(node.left);
         if (prev != null) {
-            ans = Math.Min(ans, Math.Abs(node.val - prev.Value));
+            ans = Math.Min(ans, Math.Abs((int) node.val - prev.Value));
         }
         prev = node.val;
         InOrder(node.right);

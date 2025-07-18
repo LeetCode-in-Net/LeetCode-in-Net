@@ -37,7 +37,7 @@ public class Solution {
         }
         if (level < count.Count) {
             count[level]++;
-            avg[level] += node.val;
+            avg[level] += (double) node.val;
         } else {
             count.Add(1);
             avg.Add(node.val);
