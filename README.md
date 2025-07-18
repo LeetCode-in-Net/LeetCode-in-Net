@@ -862,7 +862,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0199 |[Binary Tree Right Side View](LeetCodeNet/G0101_0200/S0199_binary_tree_right_side_view/Solution.cs)| Medium | Top_100_Liked_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, LeetCode_75_Binary_Tree/BFS | 0 | 100.00
-| 0637 |[Average of Levels in Binary Tree](LeetCodeNet/G0601_0700/S0637_average_of_levels_in_binary_tree/Solution.cs)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 2 | 94.69
+| 0637 |[Average of Levels in Binary Tree](LeetCodeNet/G0601_0700/S0637_average_of_levels_in_binary_tree/Solution.cs)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 1 | 100.00
 | 0102 |[Binary Tree Level Order Traversal](LeetCodeNet/G0101_0200/S0102_binary_tree_level_order_traversal/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(N) | 0 | 100.00
 | 0103 |[Binary Tree Zigzag Level Order Traversal](LeetCodeNet/G0101_0200/S0103_binary_tree_zigzag_level_order_traversal/Solution.cs)| Medium | Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree | 0 | 100.00
 
@@ -1765,7 +1765,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 | 0763 |[Partition Labels](LeetCodeNet/G0701_0800/S0763_partition_labels/Solution.cs)| Medium | Top_100_Liked_Questions, String, Hash_Table, Greedy, Two_Pointers, Data_Structure_II_Day_7_String, Big_O_Time_O(n)_Space_O(1) | 2 | 86.67
 | 0739 |[Daily Temperatures](LeetCodeNet/G0701_0800/S0739_daily_temperatures/Solution.cs)| Medium | Top_100_Liked_Questions, Array, Stack, Monotonic_Stack, LeetCode_75_Monotonic_Stack, Programming_Skills_II_Day_6, Big_O_Time_O(n)_Space_O(n) | 6 | 98.90
 | 0647 |[Palindromic Substrings](LeetCodeNet/G0601_0700/S0647_palindromic_substrings/Solution.cs)| Medium | String, Dynamic_Programming, Big_O_Time_O(n^2)_Space_O(n) | 10 | 72.48
-| 0637 |[Average of Levels in Binary Tree](LeetCodeNet/G0601_0700/S0637_average_of_levels_in_binary_tree/Solution.cs)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Top_Interview_150_Binary_Tree_BFS | 2 | 94.69
+| 0637 |[Average of Levels in Binary Tree](LeetCodeNet/G0601_0700/S0637_average_of_levels_in_binary_tree/Solution.cs)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Top_Interview_150_Binary_Tree_BFS | 1 | 100.00
 | 0560 |[Subarray Sum Equals K](LeetCodeNet/G0501_0600/S0560_subarray_sum_equals_k/Solution.cs)| Medium | Top_100_Liked_Questions, Array, Hash_Table, Prefix_Sum, Data_Structure_II_Day_5_Array, Big_O_Time_O(n)_Space_O(n) | 12 | 90.27
 | 0543 |[Diameter of Binary Tree](LeetCodeNet/G0501_0600/S0543_diameter_of_binary_tree/Solution.cs)| Easy | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Level_2_Day_7_Tree, Udemy_Tree_Stack_Queue, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
 | 0530 |[Minimum Absolute Difference in BST](LeetCodeNet/G0501_0600/S0530_minimum_absolute_difference_in_bst/Solution.cs)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Binary_Search_Tree, Top_Interview_150_Binary_Search_Tree | 0 | 100.00
