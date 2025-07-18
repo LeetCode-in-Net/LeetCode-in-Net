@@ -40,10 +40,10 @@ public class Solution {
             avg[level] += (double) node.val;
         } else {
             count.Add(1);
-            avg.Add(node.val);
+            avg.Add((double) node.val);
         }
-        Average(node.left, level+1, count, avg);
-        Average(node.right, level+1, count, avg);
+        Average(node.left, level + 1, count, avg);
+        Average(node.right, level + 1, count, avg);
     }
 }
 }
