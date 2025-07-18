@@ -24,3 +24,4 @@ public class SolutionTest {
         Assert.Equal(1, new Solution().SnakesAndLadders(new int[][] {new int[] {-1, -1}, new int[] {-1, 3}}));
     }
 }
+}
