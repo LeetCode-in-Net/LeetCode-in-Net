@@ -6,12 +6,12 @@ using Xunit;
 public class SolutionTest {
     [Fact]
     public void IsSubsequence() {
-        Assert.Equal(true, new Solution().IsSubsequence("abc", "ahbgdc"));
+        Assert.True(new Solution().IsSubsequence("abc", "ahbgdc"));
     }
 
     [Fact]
     public void IsSubsequence2Test() {
-        Assert.Equal(false, new Solution().IsSubsequence("axc", "ahbgdc"));
+        Assert.False(new Solution().IsSubsequence("axc", "ahbgdc"));
     }
 }
 }
