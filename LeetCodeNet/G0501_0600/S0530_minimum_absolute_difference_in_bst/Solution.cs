@@ -21,17 +21,23 @@ using LeetCodeNet.Com_github_leetcode;
  */
 public class Solution {
     private int ans = int.MaxValue;
-    private int prev = int.MaxValue;
+    private int? prev = null;
 
     public int GetMinimumDifference(TreeNode root) {
-        if (root == null) {
-            return ans;
-        }
-        GetMinimumDifference(root.left);
-        ans = Math.Min(ans, Math.Abs(root.val - prev));
-        prev = root.val;
-        GetMinimumDifference(root.right);
+        InOrder(root);
         return ans;
+    }
+    
+    private void InOrder(TreeNode node) {
+        if (node == null) {
+            return;
+        }
+        InOrder(node.left);
+        if (prev != null) {
+            ans = Math.Min(ans, Math.Abs(node.val - prev.Value));
+        }
+        prev = node.val;
+        InOrder(node.right);
     }
 }
 }
