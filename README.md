@@ -274,6 +274,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0433 |[Minimum Genetic Mutation](LeetCodeNet/G0401_0500/S0433_minimum_genetic_mutation/Solution.cs)| Medium | String, Hash_Table, Breadth_First_Search | 1 | 78.46
 | 0127 |[Word Ladder](LeetCodeNet/G0101_0200/S0127_word_ladder/Solution.cs)| Hard | Top_Interview_Questions, String, Hash_Table, Breadth_First_Search | 22 | 96.00
 
 #### Day 13 Graph Theory
@@ -350,6 +351,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0205 |[Isomorphic Strings](LeetCodeNet/G0201_0300/S0205_isomorphic_strings/Solution.cs)| Easy | String, Hash_Table | 2 | 90.78
+| 0392 |[Is Subsequence](LeetCodeNet/G0301_0400/S0392_is_subsequence/Solution.cs)| Easy | String, Dynamic_Programming, Two_Pointers, LeetCode_75_Two_Pointers | 0 | 100.00
 
 #### Day 3 Linked List
 
@@ -614,6 +616,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0392 |[Is Subsequence](LeetCodeNet/G0301_0400/S0392_is_subsequence/Solution.cs)| Easy | String, Dynamic_Programming, Two_Pointers, LeetCode_75_Two_Pointers | 0 | 100.00
 | 0125 |[Valid Palindrome](LeetCodeNet/G0101_0200/S0125_valid_palindrome/Solution.cs)| Easy | Top_Interview_Questions, String, Two_Pointers | 1 | 99.79
 | 0026 |[Remove Duplicates from Sorted Array](LeetCodeNet/G0001_0100/S0026_remove_duplicates_from_sorted_array/Solution.cs)| Easy | Top_Interview_Questions, Array, Two_Pointers | 0 | 100.00
 | 0042 |[Trapping Rain Water](LeetCodeNet/G0001_0100/S0042_trapping_rain_water/Solution.cs)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Two_Pointers, Stack, Monotonic_Stack, Big_O_Time_O(n)_Space_O(1) | 1 | 63.59
@@ -762,6 +765,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0125 |[Valid Palindrome](LeetCodeNet/G0101_0200/S0125_valid_palindrome/Solution.cs)| Easy | Top_Interview_Questions, String, Two_Pointers | 1 | 99.79
+| 0392 |[Is Subsequence](LeetCodeNet/G0301_0400/S0392_is_subsequence/Solution.cs)| Easy | String, Dynamic_Programming, Two_Pointers, LeetCode_75_Two_Pointers | 0 | 100.00
 | 0167 |[Two Sum II - Input Array Is Sorted](LeetCodeNet/G0101_0200/S0167_two_sum_ii_input_array_is_sorted/Solution.cs)| Medium | Array, Binary_Search, Two_Pointers | 0 | 100.00
 | 0011 |[Container With Most Water](LeetCodeNet/G0001_0100/S0011_container_with_most_water/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Greedy, Two_Pointers, LeetCode_75_Two_Pointers, Big_O_Time_O(n)_Space_O(1) | 1 | 99.97
 | 0015 |[3Sum](LeetCodeNet/G0001_0100/S0015_3sum/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers, Big_O_Time_O(n\*log(n))_Space_O(n^2) | 34 | 76.14
@@ -806,6 +810,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 | 0228 |[Summary Ranges](LeetCodeNet/G0201_0300/S0228_summary_ranges/Solution.cs)| Easy | Array | 0 | 100.00
 | 0056 |[Merge Intervals](LeetCodeNet/G0001_0100/S0056_merge_intervals/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Big_O_Time_O(n_log_n)_Space_O(n) | 6 | 39.00
 | 0057 |[Insert Interval](LeetCodeNet/G0001_0100/S0057_insert_interval/Solution.cs)| Medium | Array | 1 | 99.33
+| 0452 |[Minimum Number of Arrows to Burst Balloons](LeetCodeNet/G0401_0500/S0452_minimum_number_of_arrows_to_burst_balloons/Solution.cs)| Medium | Array, Sorting, Greedy, LeetCode_75_Intervals | 51 | 49.35
 
 #### Top Interview 150 Stack
 
@@ -857,6 +862,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0199 |[Binary Tree Right Side View](LeetCodeNet/G0101_0200/S0199_binary_tree_right_side_view/Solution.cs)| Medium | Top_100_Liked_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, LeetCode_75_Binary_Tree/BFS | 0 | 100.00
+| 0637 |[Average of Levels in Binary Tree](LeetCodeNet/G0601_0700/S0637_average_of_levels_in_binary_tree/Solution.cs)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 2 | 94.69
 | 0102 |[Binary Tree Level Order Traversal](LeetCodeNet/G0101_0200/S0102_binary_tree_level_order_traversal/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(N) | 0 | 100.00
 | 0103 |[Binary Tree Zigzag Level Order Traversal](LeetCodeNet/G0101_0200/S0103_binary_tree_zigzag_level_order_traversal/Solution.cs)| Medium | Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree | 0 | 100.00
 
@@ -864,6 +870,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0530 |[Minimum Absolute Difference in BST](LeetCodeNet/G0501_0600/S0530_minimum_absolute_difference_in_bst/Solution.cs)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Binary_Search_Tree | 0 | 100.00
 | 0230 |[Kth Smallest Element in a BST](LeetCodeNet/G0201_0300/S0230_kth_smallest_element_in_a_bst/Solution.cs)| Medium | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
 | 0098 |[Validate Binary Search Tree](LeetCodeNet/G0001_0100/S0098_validate_binary_search_tree/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree, Big_O_Time_O(N)_Space_O(log(N)) | 0 | 100.00
 
@@ -874,6 +881,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 | 0200 |[Number of Islands](LeetCodeNet/G0101_0200/S0200_number_of_islands/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find, Big_O_Time_O(M\*N)_Space_O(M\*N) | 131 | 65.99
 | 0130 |[Surrounded Regions](LeetCodeNet/G0101_0200/S0130_surrounded_regions/Solution.cs)| Medium | Top_Interview_Questions, Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find | 1 | 100.00
 | 0133 |[Clone Graph](LeetCodeNet/G0101_0200/S0133_clone_graph/Solution.cs)| Medium | Hash_Table, Depth_First_Search, Breadth_First_Search, Graph | 117 | 96.34
+| 0399 |[Evaluate Division](LeetCodeNet/G0301_0400/S0399_evaluate_division/Solution.cs)| Medium | Array, Depth_First_Search, Breadth_First_Search, Graph, Union_Find, Shortest_Path, LeetCode_75_Graphs/DFS | 3 | 66.56
 | 0207 |[Course Schedule](LeetCodeNet/G0201_0300/S0207_course_schedule/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Graph, Topological_Sort, Big_O_Time_O(N)_Space_O(N) | 4 | 91.60
 | 0210 |[Course Schedule II](LeetCodeNet/G0201_0300/S0210_course_schedule_ii/Solution.cs)| Medium | Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Graph, Topological_Sort | 4 | 91.35
 
@@ -881,6 +889,8 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0909 |[Snakes and Ladders](LeetCodeNet/G0901_1000/S0909_snakes_and_ladders/Solution.cs)| Medium | Array, Breadth_First_Search, Matrix | 6 | 72.69
+| 0433 |[Minimum Genetic Mutation](LeetCodeNet/G0401_0500/S0433_minimum_genetic_mutation/Solution.cs)| Medium | String, Hash_Table, Breadth_First_Search | 1 | 78.46
 | 0127 |[Word Ladder](LeetCodeNet/G0101_0200/S0127_word_ladder/Solution.cs)| Hard | Top_Interview_Questions, String, Hash_Table, Breadth_First_Search | 22 | 96.00
 
 #### Top Interview 150 Trie
@@ -909,6 +919,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 |-|-|-|-|-|-
 | 0108 |[Convert Sorted Array to Binary Search Tree](LeetCodeNet/G0101_0200/S0108_convert_sorted_array_to_binary_search_tree/Solution.cs)| Easy | Top_Interview_Questions, Array, Tree, Binary_Tree, Binary_Search_Tree, Divide_and_Conquer | 0 | 100.00
 | 0148 |[Sort List](LeetCodeNet/G0101_0200/S0148_sort_list/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Sorting, Two_Pointers, Linked_List, Divide_and_Conquer, Merge_Sort, Big_O_Time_O(log(N))_Space_O(log(N)) | 37 | 40.62
+| 0427 |[Construct Quad Tree](LeetCodeNet/G0401_0500/S0427_construct_quad_tree/Solution.cs)| Medium | Array, Tree, Matrix, Divide_and_Conquer | 91 | 66.88
 | 0023 |[Merge k Sorted Lists](LeetCodeNet/G0001_0100/S0023_merge_k_sorted_lists/Solution.cs)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Heap_Priority_Queue, Linked_List, Divide_and_Conquer, Merge_Sort, Big_O_Time_O(k\*n\*log(k))_Space_O(log(k)) | 3 | 97.54
 
 #### Top Interview 150 Kadane's Algorithm
@@ -916,6 +927,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0053 |[Maximum Subarray](LeetCodeNet/G0001_0100/S0053_maximum_subarray/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Divide_and_Conquer, Big_O_Time_O(n)_Space_O(1) | 1 | 100.00
+| 0918 |[Maximum Sum Circular Subarray](LeetCodeNet/G0901_1000/S0918_maximum_sum_circular_subarray/Solution.cs)| Medium | Array, Dynamic_Programming, Divide_and_Conquer, Queue, Monotonic_Queue | 2 | 38.75
 
 #### Top Interview 150 Binary Search
 
@@ -934,6 +946,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0215 |[Kth Largest Element in an Array](LeetCodeNet/G0201_0300/S0215_kth_largest_element_in_an_array/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Heap_Priority_Queue, Divide_and_Conquer, Quickselect, LeetCode_75_Heap/Priority_Queue, Big_O_Time_O(n\*log(n))_Space_O(log(n)) | 85 | 88.50
+| 0502 |[IPO](LeetCodeNet/G0501_0600/S0502_ipo/Solution.cs)| Hard | Array, Sorting, Greedy, Heap_Priority_Queue | 199 | 62.82
 | 0373 |[Find K Pairs with Smallest Sums](LeetCodeNet/G0301_0400/S0373_find_k_pairs_with_smallest_sums/Solution.cs)| Medium | Array, Heap_Priority_Queue | 52 | 73.33
 | 0295 |[Find Median from Data Stream](LeetCodeNet/G0201_0300/S0295_find_median_from_data_stream/MedianFinder.cs)| Hard | Top_100_Liked_Questions, Sorting, Two_Pointers, Design, Heap_Priority_Queue, Data_Stream, Big_O_Time_O(n\*log_n)_Space_O(n) | 191 | 41.28
 
@@ -1643,6 +1656,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0053 |[Maximum Subarray](LeetCodeNet/G0001_0100/S0053_maximum_subarray/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Divide_and_Conquer, Big_O_Time_O(n)_Space_O(1) | 1 | 100.00
+| 0918 |[Maximum Sum Circular Subarray](LeetCodeNet/G0901_1000/S0918_maximum_sum_circular_subarray/Solution.cs)| Medium | Array, Dynamic_Programming, Divide_and_Conquer, Queue, Monotonic_Queue | 2 | 38.75
 
 #### Day 6
 
@@ -1726,6 +1740,7 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0392 |[Is Subsequence](LeetCodeNet/G0301_0400/S0392_is_subsequence/Solution.cs)| Easy | String, Dynamic_Programming, Two_Pointers, LeetCode_75_Two_Pointers | 0 | 100.00
 | 1143 |[Longest Common Subsequence](LeetCodeNet/G1101_1200/S1143_longest_common_subsequence/Solution.cs)| Medium | Top_100_Liked_Questions, String, Dynamic_Programming, LeetCode_75_DP/Multidimensional, Big_O_Time_O(n\*m)_Space_O(n\*m) | 14 | 69.42
 | 0072 |[Edit Distance](LeetCodeNet/G0001_0100/S0072_edit_distance/Solution.cs)| Medium | Top_100_Liked_Questions, String, Dynamic_Programming, LeetCode_75_DP/Multidimensional, Big_O_Time_O(n^2)_Space_O(n2) | 4 | 89.69
 
@@ -1745,16 +1760,26 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|---------
 | 1143 |[Longest Common Subsequence](LeetCodeNet/G1101_1200/S1143_longest_common_subsequence/Solution.cs)| Medium | Top_100_Liked_Questions, String, Dynamic_Programming, LeetCode_75_DP/Multidimensional, Algorithm_II_Day_17_Dynamic_Programming, Dynamic_Programming_I_Day_19, Udemy_Dynamic_Programming, Big_O_Time_O(n\*m)_Space_O(n\*m) | 14 | 69.42
+| 0918 |[Maximum Sum Circular Subarray](LeetCodeNet/G0901_1000/S0918_maximum_sum_circular_subarray/Solution.cs)| Medium | Array, Dynamic_Programming, Divide_and_Conquer, Queue, Monotonic_Queue, Dynamic_Programming_I_Day_5, Top_Interview_150_Kadane's_Algorithm | 2 | 38.75
+| 0909 |[Snakes and Ladders](LeetCodeNet/G0901_1000/S0909_snakes_and_ladders/Solution.cs)| Medium | Array, Breadth_First_Search, Matrix, Top_Interview_150_Graph_BFS | 6 | 72.69
 | 0763 |[Partition Labels](LeetCodeNet/G0701_0800/S0763_partition_labels/Solution.cs)| Medium | Top_100_Liked_Questions, String, Hash_Table, Greedy, Two_Pointers, Data_Structure_II_Day_7_String, Big_O_Time_O(n)_Space_O(1) | 2 | 86.67
 | 0739 |[Daily Temperatures](LeetCodeNet/G0701_0800/S0739_daily_temperatures/Solution.cs)| Medium | Top_100_Liked_Questions, Array, Stack, Monotonic_Stack, LeetCode_75_Monotonic_Stack, Programming_Skills_II_Day_6, Big_O_Time_O(n)_Space_O(n) | 6 | 98.90
 | 0647 |[Palindromic Substrings](LeetCodeNet/G0601_0700/S0647_palindromic_substrings/Solution.cs)| Medium | String, Dynamic_Programming, Big_O_Time_O(n^2)_Space_O(n) | 10 | 72.48
+| 0637 |[Average of Levels in Binary Tree](LeetCodeNet/G0601_0700/S0637_average_of_levels_in_binary_tree/Solution.cs)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Top_Interview_150_Binary_Tree_BFS | 2 | 94.69
 | 0560 |[Subarray Sum Equals K](LeetCodeNet/G0501_0600/S0560_subarray_sum_equals_k/Solution.cs)| Medium | Top_100_Liked_Questions, Array, Hash_Table, Prefix_Sum, Data_Structure_II_Day_5_Array, Big_O_Time_O(n)_Space_O(n) | 12 | 90.27
 | 0543 |[Diameter of Binary Tree](LeetCodeNet/G0501_0600/S0543_diameter_of_binary_tree/Solution.cs)| Easy | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Level_2_Day_7_Tree, Udemy_Tree_Stack_Queue, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
+| 0530 |[Minimum Absolute Difference in BST](LeetCodeNet/G0501_0600/S0530_minimum_absolute_difference_in_bst/Solution.cs)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Binary_Search_Tree, Top_Interview_150_Binary_Search_Tree | 0 | 100.00
+| 0502 |[IPO](LeetCodeNet/G0501_0600/S0502_ipo/Solution.cs)| Hard | Array, Sorting, Greedy, Heap_Priority_Queue, Top_Interview_150_Heap | 199 | 62.82
 | 0494 |[Target Sum](LeetCodeNet/G0401_0500/S0494_target_sum/Solution.cs)| Medium | Array, Dynamic_Programming, Backtracking, Big_O_Time_O(n\*(sum+s))_Space_O(n\*(sum+s)) | 6 | 85.88
+| 0452 |[Minimum Number of Arrows to Burst Balloons](LeetCodeNet/G0401_0500/S0452_minimum_number_of_arrows_to_burst_balloons/Solution.cs)| Medium | Array, Sorting, Greedy, LeetCode_75_Intervals, Top_Interview_150_Intervals | 51 | 49.35
 | 0438 |[Find All Anagrams in a String](LeetCodeNet/G0401_0500/S0438_find_all_anagrams_in_a_string/Solution.cs)| Medium | Top_100_Liked_Questions, String, Hash_Table, Sliding_Window, Algorithm_II_Day_5_Sliding_Window, Programming_Skills_II_Day_12, Level_1_Day_12_Sliding_Window/Two_Pointer, Big_O_Time_O(n+m)_Space_O(1) | 3 | 97.66
 | 0437 |[Path Sum III](LeetCodeNet/G0401_0500/S0437_path_sum_iii/Solution.cs)| Medium | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, LeetCode_75_Binary_Tree/DFS, Level_2_Day_7_Tree, Big_O_Time_O(n)_Space_O(n) | 10 | 66.33
+| 0433 |[Minimum Genetic Mutation](LeetCodeNet/G0401_0500/S0433_minimum_genetic_mutation/Solution.cs)| Medium | String, Hash_Table, Breadth_First_Search, Graph_Theory_I_Day_12_Breadth_First_Search, Top_Interview_150_Graph_BFS | 1 | 78.46
+| 0427 |[Construct Quad Tree](LeetCodeNet/G0401_0500/S0427_construct_quad_tree/Solution.cs)| Medium | Array, Tree, Matrix, Divide_and_Conquer, Top_Interview_150_Divide_and_Conquer | 91 | 66.88
 | 0416 |[Partition Equal Subset Sum](LeetCodeNet/G0401_0500/S0416_partition_equal_subset_sum/Solution.cs)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Level_2_Day_13_Dynamic_Programming, Big_O_Time_O(n\*sums)_Space_O(n\*sums) | 22 | 82.19
+| 0399 |[Evaluate Division](LeetCodeNet/G0301_0400/S0399_evaluate_division/Solution.cs)| Medium | Array, Depth_First_Search, Breadth_First_Search, Graph, Union_Find, Shortest_Path, LeetCode_75_Graphs/DFS, Top_Interview_150_Graph_General | 3 | 66.56
 | 0394 |[Decode String](LeetCodeNet/G0301_0400/S0394_decode_string/Solution.cs)| Medium | Top_100_Liked_Questions, String, Stack, Recursion, LeetCode_75_Stack, Level_1_Day_14_Stack, Udemy_Strings, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
+| 0392 |[Is Subsequence](LeetCodeNet/G0301_0400/S0392_is_subsequence/Solution.cs)| Easy | String, Dynamic_Programming, Two_Pointers, LeetCode_75_Two_Pointers, Dynamic_Programming_I_Day_19, Level_1_Day_2_String, Udemy_Two_Pointers, Top_Interview_150_Two_Pointers | 0 | 100.00
 | 0383 |[Ransom Note](LeetCodeNet/G0301_0400/S0383_ransom_note/Solution.cs)| Easy | String, Hash_Table, Counting, Data_Structure_I_Day_6_String, Top_Interview_150_Hashmap | 1 | 98.72
 | 0380 |[Insert Delete GetRandom O(1)](LeetCodeNet/G0301_0400/S0380_insert_delete_getrandom_o1/RandomizedSet.cs)| Medium | Array, Hash_Table, Math, Design, Randomized, Programming_Skills_II_Day_20, Top_Interview_150_Array/String | 10 | 100.00
 | 0373 |[Find K Pairs with Smallest Sums](LeetCodeNet/G0301_0400/S0373_find_k_pairs_with_smallest_sums/Solution.cs)| Medium | Array, Heap_Priority_Queue, Top_Interview_150_Heap | 52 | 73.33
