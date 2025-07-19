@@ -3,10 +3,8 @@ namespace LeetCodeNet.G0001_0100.S0012_integer_to_roman {
 // #Medium #String #Hash_Table #Math #Top_Interview_150_Array/String #Big_O_Time_O(1)_Space_O(1)
 // #2025_06_20_Time_2_ms_(87.59%)_Space_45.13_MB_(98.99%)
 
-public class Solution
-{
-    public string IntToRoman(int num)
-    {
+public class Solution {
+    public string IntToRoman(int num) {
         var sb = new System.Text.StringBuilder();
         int m = 1000;
         int c = 100;
@@ -19,11 +17,9 @@ public class Solution
         return sb.ToString();
     }
 
-    private int Numerals(System.Text.StringBuilder sb, int num, int one, char cTen, char cFive, char cOne)
-    {
+    private int Numerals(System.Text.StringBuilder sb, int num, int one, char cTen, char cFive, char cOne) {
         int div = num / one;
-        switch (div)
-        {
+        switch (div) {
             case 9:
                 sb.Append(cOne);
                 sb.Append(cTen);
