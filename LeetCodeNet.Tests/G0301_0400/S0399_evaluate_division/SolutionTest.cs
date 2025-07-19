@@ -28,8 +28,7 @@ public class SolutionTest {
                     new string[] {"a", "c"}, new string[] {"b", "a"}, new string[] {"a", "e"}, new string[] {"a", "a"}, new string[] {"x", "x"}
                 });
         double[] expected = {6.00000, 0.50000, -1.00000, 1.00000, -1.00000};
-        // For comparing double arrays with precision, use a loop or a custom assertion method
-        Assert.Equal(expected, new Solution().CalcEquation(equations, values, queries), Tolerance);
+        AssertEqualWithTolerance(expected, new Solution().CalcEquation(equations, values, queries), Tolerance);
     }
 
     [Fact]
@@ -41,12 +40,11 @@ public class SolutionTest {
             ArrayUtils.GetLists(
                 new string[][] {new string[] {"a", "c"}, new string[] {"c", "b"}, new string[] {"bc", "cd"}, new string[] {"cd", "bc"}});
         double[] expected = {3.75000, 0.40000, 5.00000, 0.20000};
-        Assert.Equal(expected, new Solution().CalcEquation(equations, values, queries), Tolerance);
+        AssertEqualWithTolerance(expected, new Solution().CalcEquation(equations, values, queries), Tolerance);
     }
 
     [Fact]
     public void CalcEquation3() {
-        // Direct initialization of List<List<string>>
         IList<IList<string>> equations = new List<IList<string>> {
             new List<string> {"a", "b"}
         };
@@ -55,7 +53,14 @@ public class SolutionTest {
             ArrayUtils.GetLists(
                 new string[][] {new string[] {"a", "b"}, new string[] {"b", "a"}, new string[] {"a", "c"}, new string[] {"x", "y"}});
         double[] expected = {0.50000, 2.00000, -1.00000, -1.00000};
-        Assert.Equal(expected, new Solution().CalcEquation(equations, values, queries), Tolerance);
+        AssertEqualWithTolerance(expected, new Solution().CalcEquation(equations, values, queries), Tolerance);
+    }
+
+    private static void AssertEqualWithTolerance(double[] expected, double[] actual, double tolerance) {
+        Assert.Equal(expected.Length, actual.Length);
+        for (int i = 0; i < expected.Length; i++) {
+            Assert.InRange(actual[i], expected[i] - tolerance, expected[i] + tolerance);
+        }
     }
 }
 }
