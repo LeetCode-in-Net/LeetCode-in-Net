@@ -11,9 +11,6 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 > ["For coding interview preparation, LeetCode is one of the best online resource providing a rich library of more than 300 real coding interview questions for you to practice from using one of the 7 supported languages - C, C++, Java, Python, C#, JavaScript, Ruby."](https://www.quora.com/How-effective-is-Leetcode-for-preparing-for-technical-interviews)
 
 ##
-* [Programming Skills I](#programming-skills-i)
-* [Programming Skills II](#programming-skills-ii)
-* [Graph Theory I](#graph-theory-i)
 * [SQL I](#sql-i)
 * [Level 1](#level-1)
 * [Level 2](#level-2)
@@ -26,266 +23,9 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 * [Binary Search I](#binary-search-i)
 * [Binary Search II](#binary-search-ii)
 * [Dynamic Programming I](#dynamic-programming-i)
-
-### Programming Skills I
-
-#### Day 1 Basic Data Type
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 2 Operator
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0191 |[Number of 1 Bits](LeetCodeNet/G0101_0200/S0191_number_of_1_bits/Solution.cs)| Easy | Top_Interview_Questions, Bit_Manipulation | 0 | 100.00
-
-#### Day 3 Conditional Statements
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 4 Loop
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0202 |[Happy Number](LeetCodeNet/G0201_0300/S0202_happy_number/Solution.cs)| Easy | Top_Interview_Questions, Hash_Table, Math, Two_Pointers | 0 | 100.00
-
-#### Day 5 Function
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 6 Array
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0283 |[Move Zeroes](LeetCodeNet/G0201_0300/S0283_move_zeroes/Solution.cs)| Easy | Top_100_Liked_Questions, Array, Two_Pointers, LeetCode_75_Two_Pointers, Big_O_Time_O(n)_Space_O(1) | 1 | 96.12
-
-#### Day 7 Array
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 8 String
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 9 String
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 10 Linked List and Tree
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0104 |[Maximum Depth of Binary Tree](LeetCodeNet/G0101_0200/S0104_maximum_depth_of_binary_tree/Solution.cs)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, LeetCode_75_Binary_Tree/DFS, Big_O_Time_O(N)_Space_O(H) | 0 | 100.00
-
-#### Day 11 Containers and Libraries
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0242 |[Valid Anagram](LeetCodeNet/G0201_0300/S0242_valid_anagram/Solution.cs)| Easy | String, Hash_Table, Sorting | 0 | 100.00
-
-#### Day 12 Class and Object
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-### Programming Skills II
-
-#### Day 1
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0028 |[Find the Index of the First Occurrence in a String](LeetCodeNet/G0001_0100/S0028_find_the_index_of_the_first_occurrence_in_a_string/Solution.cs)| Easy | Top_Interview_Questions, String, Two_Pointers, String_Matching | 0 | 100.00
-
-#### Day 2
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 3
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0150 |[Evaluate Reverse Polish Notation](LeetCodeNet/G0101_0200/S0150_evaluate_reverse_polish_notation/Solution.cs)| Medium | Top_Interview_Questions, Array, Math, Stack | 11 | 77.03
-| 0066 |[Plus One](LeetCodeNet/G0001_0100/S0066_plus_one/Solution.cs)| Easy | Top_Interview_Questions, Array, Math | 0 | 100.00
-
-#### Day 4
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 5
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0067 |[Add Binary](LeetCodeNet/G0001_0100/S0067_add_binary/Solution.cs)| Easy | String, Math, Bit_Manipulation, Simulation | 1 | 91.47
-
-#### Day 6
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0739 |[Daily Temperatures](LeetCodeNet/G0701_0800/S0739_daily_temperatures/Solution.cs)| Medium | Top_100_Liked_Questions, Array, Stack, Monotonic_Stack, LeetCode_75_Monotonic_Stack, Big_O_Time_O(n)_Space_O(n) | 6 | 98.90
-| 0058 |[Length of Last Word](LeetCodeNet/G0001_0100/S0058_length_of_last_word/Solution.cs)| Easy | String | 0 | 100.00
-
-#### Day 7
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0048 |[Rotate Image](LeetCodeNet/G0001_0100/S0048_rotate_image/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Math, Matrix, Big_O_Time_O(n^2)_Space_O(1) | 0 | 100.00
-
-#### Day 8
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0054 |[Spiral Matrix](LeetCodeNet/G0001_0100/S0054_spiral_matrix/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Matrix, Simulation | 0 | 100.00
-
-#### Day 9
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 10
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 11
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0049 |[Group Anagrams](LeetCodeNet/G0001_0100/S0049_group_anagrams/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, String, Hash_Table, Sorting, Big_O_Time_O(n\*k_log_k)_Space_O(n) | 17 | 83.74
-
-#### Day 12
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0438 |[Find All Anagrams in a String](LeetCodeNet/G0401_0500/S0438_find_all_anagrams_in_a_string/Solution.cs)| Medium | Top_100_Liked_Questions, String, Hash_Table, Sliding_Window, Big_O_Time_O(n+m)_Space_O(1) | 3 | 97.66
-
-#### Day 13
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 14
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0138 |[Copy List with Random Pointer](LeetCodeNet/G0101_0200/S0138_copy_list_with_random_pointer/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Linked_List, Big_O_Time_O(N)_Space_O(N) | 77 | 48.03
-
-#### Day 15
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0002 |[Add Two Numbers](LeetCodeNet/G0001_0100/S0002_add_two_numbers/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Math, Linked_List, Recursion, Big_O_Time_O(max(N,M))_Space_O(max(N,M)), AI_can_be_used_to_solve_the_task | 1 | 91.39
-
-#### Day 16
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0061 |[Rotate List](LeetCodeNet/G0001_0100/S0061_rotate_list/Solution.cs)| Medium | Two_Pointers, Linked_List | 0 | 100.00
-| 0173 |[Binary Search Tree Iterator](LeetCodeNet/G0101_0200/S0173_binary_search_tree_iterator/BSTIterator.cs)| Medium | Tree, Binary_Tree, Stack, Design, Binary_Search_Tree, Iterator | 1 | 100.00
-
-#### Day 17
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 18
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0155 |[Min Stack](LeetCodeNet/G0101_0200/S0155_min_stack/MinStack.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Stack, Design, Big_O_Time_O(1)_Space_O(N) | 1 | 100.00
-
-#### Day 19
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 20
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0380 |[Insert Delete GetRandom O(1)](LeetCodeNet/G0301_0400/S0380_insert_delete_getrandom_o1/RandomizedSet.cs)| Medium | Array, Hash_Table, Math, Design, Randomized | 10 | 100.00
-
-### Graph Theory I
-
-#### Day 1 Matrix Related Problems
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0200 |[Number of Islands](LeetCodeNet/G0101_0200/S0200_number_of_islands/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find, Big_O_Time_O(M\*N)_Space_O(M\*N) | 131 | 65.99
-
-#### Day 2 Matrix Related Problems
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 3 Matrix Related Problems
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 4 Matrix Related Problems
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 5 Matrix Related Problems
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 6 Matrix Related Problems
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 7 Standard Traversal
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 8 Standard Traversal
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 9 Standard Traversal
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 10 Standard Traversal
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 11 Breadth First Search
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 12 Breadth First Search
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0433 |[Minimum Genetic Mutation](LeetCodeNet/G0401_0500/S0433_minimum_genetic_mutation/Solution.cs)| Medium | String, Hash_Table, Breadth_First_Search | 1 | 78.46
-| 0127 |[Word Ladder](LeetCodeNet/G0101_0200/S0127_word_ladder/Solution.cs)| Hard | Top_Interview_Questions, String, Hash_Table, Breadth_First_Search | 22 | 96.00
-
-#### Day 13 Graph Theory
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 14 Graph Theory
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
+* [Programming Skills I](#programming-skills-i)
+* [Programming Skills II](#programming-skills-ii)
+* [Graph Theory I](#graph-theory-i)
 
 ### SQL I
 
@@ -1751,6 +1491,266 @@ C#-based LeetCode algorithm problem solutions, regularly updated.
 | 0322 |[Coin Change](LeetCodeNet/G0301_0400/S0322_coin_change/Solution.cs)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Breadth_First_Search, Big_O_Time_O(m\*n)_Space_O(amount) | 12 | 97.87
 
 #### Day 21
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+### Programming Skills I
+
+#### Day 1 Basic Data Type
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 2 Operator
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0191 |[Number of 1 Bits](LeetCodeNet/G0101_0200/S0191_number_of_1_bits/Solution.cs)| Easy | Top_Interview_Questions, Bit_Manipulation | 0 | 100.00
+
+#### Day 3 Conditional Statements
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 4 Loop
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0202 |[Happy Number](LeetCodeNet/G0201_0300/S0202_happy_number/Solution.cs)| Easy | Top_Interview_Questions, Hash_Table, Math, Two_Pointers | 0 | 100.00
+
+#### Day 5 Function
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 6 Array
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0283 |[Move Zeroes](LeetCodeNet/G0201_0300/S0283_move_zeroes/Solution.cs)| Easy | Top_100_Liked_Questions, Array, Two_Pointers, LeetCode_75_Two_Pointers, Big_O_Time_O(n)_Space_O(1) | 1 | 96.12
+
+#### Day 7 Array
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 8 String
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 9 String
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 10 Linked List and Tree
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0104 |[Maximum Depth of Binary Tree](LeetCodeNet/G0101_0200/S0104_maximum_depth_of_binary_tree/Solution.cs)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, LeetCode_75_Binary_Tree/DFS, Big_O_Time_O(N)_Space_O(H) | 0 | 100.00
+
+#### Day 11 Containers and Libraries
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0242 |[Valid Anagram](LeetCodeNet/G0201_0300/S0242_valid_anagram/Solution.cs)| Easy | String, Hash_Table, Sorting | 0 | 100.00
+
+#### Day 12 Class and Object
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+### Programming Skills II
+
+#### Day 1
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0028 |[Find the Index of the First Occurrence in a String](LeetCodeNet/G0001_0100/S0028_find_the_index_of_the_first_occurrence_in_a_string/Solution.cs)| Easy | Top_Interview_Questions, String, Two_Pointers, String_Matching | 0 | 100.00
+
+#### Day 2
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 3
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0150 |[Evaluate Reverse Polish Notation](LeetCodeNet/G0101_0200/S0150_evaluate_reverse_polish_notation/Solution.cs)| Medium | Top_Interview_Questions, Array, Math, Stack | 11 | 77.03
+| 0066 |[Plus One](LeetCodeNet/G0001_0100/S0066_plus_one/Solution.cs)| Easy | Top_Interview_Questions, Array, Math | 0 | 100.00
+
+#### Day 4
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 5
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0067 |[Add Binary](LeetCodeNet/G0001_0100/S0067_add_binary/Solution.cs)| Easy | String, Math, Bit_Manipulation, Simulation | 1 | 91.47
+
+#### Day 6
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0739 |[Daily Temperatures](LeetCodeNet/G0701_0800/S0739_daily_temperatures/Solution.cs)| Medium | Top_100_Liked_Questions, Array, Stack, Monotonic_Stack, LeetCode_75_Monotonic_Stack, Big_O_Time_O(n)_Space_O(n) | 6 | 98.90
+| 0058 |[Length of Last Word](LeetCodeNet/G0001_0100/S0058_length_of_last_word/Solution.cs)| Easy | String | 0 | 100.00
+
+#### Day 7
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0048 |[Rotate Image](LeetCodeNet/G0001_0100/S0048_rotate_image/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Math, Matrix, Big_O_Time_O(n^2)_Space_O(1) | 0 | 100.00
+
+#### Day 8
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0054 |[Spiral Matrix](LeetCodeNet/G0001_0100/S0054_spiral_matrix/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Matrix, Simulation | 0 | 100.00
+
+#### Day 9
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 10
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 11
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0049 |[Group Anagrams](LeetCodeNet/G0001_0100/S0049_group_anagrams/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, String, Hash_Table, Sorting, Big_O_Time_O(n\*k_log_k)_Space_O(n) | 17 | 83.74
+
+#### Day 12
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0438 |[Find All Anagrams in a String](LeetCodeNet/G0401_0500/S0438_find_all_anagrams_in_a_string/Solution.cs)| Medium | Top_100_Liked_Questions, String, Hash_Table, Sliding_Window, Big_O_Time_O(n+m)_Space_O(1) | 3 | 97.66
+
+#### Day 13
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 14
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0138 |[Copy List with Random Pointer](LeetCodeNet/G0101_0200/S0138_copy_list_with_random_pointer/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Linked_List, Big_O_Time_O(N)_Space_O(N) | 77 | 48.03
+
+#### Day 15
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0002 |[Add Two Numbers](LeetCodeNet/G0001_0100/S0002_add_two_numbers/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Math, Linked_List, Recursion, Big_O_Time_O(max(N,M))_Space_O(max(N,M)), AI_can_be_used_to_solve_the_task | 1 | 91.39
+
+#### Day 16
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0061 |[Rotate List](LeetCodeNet/G0001_0100/S0061_rotate_list/Solution.cs)| Medium | Two_Pointers, Linked_List | 0 | 100.00
+| 0173 |[Binary Search Tree Iterator](LeetCodeNet/G0101_0200/S0173_binary_search_tree_iterator/BSTIterator.cs)| Medium | Tree, Binary_Tree, Stack, Design, Binary_Search_Tree, Iterator | 1 | 100.00
+
+#### Day 17
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 18
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0155 |[Min Stack](LeetCodeNet/G0101_0200/S0155_min_stack/MinStack.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Stack, Design, Big_O_Time_O(1)_Space_O(N) | 1 | 100.00
+
+#### Day 19
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 20
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0380 |[Insert Delete GetRandom O(1)](LeetCodeNet/G0301_0400/S0380_insert_delete_getrandom_o1/RandomizedSet.cs)| Medium | Array, Hash_Table, Math, Design, Randomized | 10 | 100.00
+
+### Graph Theory I
+
+#### Day 1 Matrix Related Problems
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0200 |[Number of Islands](LeetCodeNet/G0101_0200/S0200_number_of_islands/Solution.cs)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find, Big_O_Time_O(M\*N)_Space_O(M\*N) | 131 | 65.99
+
+#### Day 2 Matrix Related Problems
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 3 Matrix Related Problems
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 4 Matrix Related Problems
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 5 Matrix Related Problems
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 6 Matrix Related Problems
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 7 Standard Traversal
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 8 Standard Traversal
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 9 Standard Traversal
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 10 Standard Traversal
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 11 Breadth First Search
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 12 Breadth First Search
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0433 |[Minimum Genetic Mutation](LeetCodeNet/G0401_0500/S0433_minimum_genetic_mutation/Solution.cs)| Medium | String, Hash_Table, Breadth_First_Search | 1 | 78.46
+| 0127 |[Word Ladder](LeetCodeNet/G0101_0200/S0127_word_ladder/Solution.cs)| Hard | Top_Interview_Questions, String, Hash_Table, Breadth_First_Search | 22 | 96.00
+
+#### Day 13 Graph Theory
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 14 Graph Theory
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
