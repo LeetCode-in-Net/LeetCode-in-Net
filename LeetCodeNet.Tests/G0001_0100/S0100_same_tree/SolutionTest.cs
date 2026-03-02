@@ -4,9 +4,9 @@ using Xunit;
 using LeetCodeNet.Com_github_leetcode;
 
 public class SolutionTest {
-    private TreeNode BuildTree(int?[] vals, int index = 0) {
-        if (index >= vals.Length || vals[index] == null) return null;
-        TreeNode root = new TreeNode(vals[index].Value);
+    private static TreeNode BuildTree(int?[] vals, int index = 0) {
+        if (index >= vals.Length || vals[index] == null) return null!;
+        TreeNode root = new TreeNode(vals[index]!.Value);
         root.left = BuildTree(vals, 2 * index + 1);
         root.right = BuildTree(vals, 2 * index + 2);
         return root;
@@ -39,7 +39,7 @@ public class SolutionTest {
     [Fact]
     public void IsSameTree4() {
         var solution = new Solution();
-        Assert.True(solution.IsSameTree(null, null));
+        Assert.True(solution.IsSameTree(null!, null!));
     }
 }
 }

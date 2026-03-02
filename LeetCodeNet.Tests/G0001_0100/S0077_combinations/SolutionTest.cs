@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 public class SolutionTest {
-    private List<List<int>> SortCombinations(IList<IList<int>> combos) {
+    private static List<List<int>> SortCombinations(IList<IList<int>> combos) {
         return combos.Select(x => x.OrderBy(i => i).ToList()).OrderBy(x => string.Join(",", x)).ToList();
     }
 

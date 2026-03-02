@@ -20,7 +20,7 @@ public class SolutionTest {
     [Fact]
     public void SearchRange3() {
         int[] expected = new int[] {-1, -1};
-        int[] actual = new Solution().SearchRange(new int[] {}, 0);
+        int[] actual = new Solution().SearchRange(Array.Empty<int>(), 0);
         Assert.Equal(expected, actual);
     }
 }

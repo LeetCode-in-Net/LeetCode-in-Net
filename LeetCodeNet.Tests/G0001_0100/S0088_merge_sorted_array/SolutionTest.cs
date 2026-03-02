@@ -16,7 +16,7 @@ public class SolutionTest {
     public void Merge2() {
         var solution = new Solution();
         int[] nums1 = {1};
-        int[] nums2 = {};
+        int[] nums2 = Array.Empty<int>();
         solution.Merge(nums1, 1, nums2, 0);
         Assert.Equal(new int[] {1}, nums1);
     }
