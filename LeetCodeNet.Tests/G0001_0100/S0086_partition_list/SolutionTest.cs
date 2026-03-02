@@ -4,21 +4,21 @@ using Xunit;
 using LeetCodeNet.Com_github_leetcode;
 
 public class SolutionTest {
-    private ListNode BuildList(int[] vals) {
+    private static ListNode BuildList(int[] vals) {
         ListNode dummy = new ListNode(0);
         ListNode curr = dummy;
         foreach (var v in vals) {
             curr.next = new ListNode(v);
             curr = curr.next;
         }
-        return dummy.next;
+        return dummy.next!;
     }
 
-    private int[] ToArray(ListNode head) {
+    private static int[] ToArray(ListNode head) {
         var list = new List<int>();
         while (head != null) {
             list.Add(head.val);
-            head = head.next;
+            head = head.next!;
         }
         return list.ToArray();
     }

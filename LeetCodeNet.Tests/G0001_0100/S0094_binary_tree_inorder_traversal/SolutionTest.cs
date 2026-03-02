@@ -15,7 +15,7 @@ public class SolutionTest {
 
     [Fact]
     public void InorderTraversal2() {
-        Assert.Equal(new List<int> { }, new Solution().InorderTraversal(null));
+        Assert.Equal(new List<int> { }, new Solution().InorderTraversal(null!));
     }
 
     [Fact]

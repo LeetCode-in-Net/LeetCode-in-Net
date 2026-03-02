@@ -15,15 +15,15 @@ public class SolutionTest {
     [Fact]
     public void ThreeSum2() {
         Assert.Equal(
-            ArrayUtils.GetLists(new int[][] { }),
-            new Solution().ThreeSum(new int[] { })
+            ArrayUtils.GetLists(Array.Empty<int[]>()),
+            new Solution().ThreeSum(Array.Empty<int>())
         );
     }
 
     [Fact]
     public void ThreeSum3() {
         Assert.Equal(
-            ArrayUtils.GetLists(new int[][] { }),
+            ArrayUtils.GetLists(Array.Empty<int[]>()),
             new Solution().ThreeSum(new int[] { 0 })
         );
     }
