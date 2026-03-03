@@ -3,8 +3,8 @@ namespace LeetCodeNet.Com_github_leetcode {
 using System.Text;
 
 public class ListNode {
-    public int val;
-    public ListNode? next;
+    private int val;
+    private ListNode? next;
 
     public ListNode() {}
 

@@ -28,7 +28,7 @@ public class SolutionTest {
     public void LowestCommonAncestor3() {
         Assert.Equal(2,
             new Solution().LowestCommonAncestor(
-                new TreeNode(2, new TreeNode(1), null),
+                new TreeNode(2, new TreeNode(1), null!),
                 new TreeNode(2),
                 new TreeNode(1)).val);
     }

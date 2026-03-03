@@ -28,7 +28,7 @@ public class SolutionTest {
     [Fact]
     public void ZigzagLevelOrder3() {
         var expected = new List<IList<int>>();
-        Assert.Equal(expected, new Solution().ZigzagLevelOrder(null));
+        Assert.Equal(expected, new Solution().ZigzagLevelOrder(null!));
     }
 }
 }

@@ -23,7 +23,7 @@ public class SolutionTest {
 
     [Fact]
     public void ReverseList3() {
-        Assert.Null(new Solution().ReverseList(null));
+        Assert.Null(new Solution().ReverseList(null!));
     }
 }
 }

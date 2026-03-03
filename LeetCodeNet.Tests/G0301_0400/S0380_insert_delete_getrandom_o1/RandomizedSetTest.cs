@@ -8,7 +8,7 @@ public class RandomizedSetTest {
     [Fact]
     public void RandomizedSetBasic() {
         var result = new List<string>();
-        RandomizedSet randomizedSet = null;
+        RandomizedSet randomizedSet = null!;
         result.Add("null");
         randomizedSet = new RandomizedSet();
         result.Add(randomizedSet.Insert(1).ToString().ToLower());

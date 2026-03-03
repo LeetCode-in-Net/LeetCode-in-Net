@@ -16,7 +16,7 @@ public class SolutionTest {
     public void GetIntersectionNode2() {
         ListNode nodeA = new ListNode(4, new ListNode(1, new ListNode(2)));
         ListNode nodeB = new ListNode(5, new ListNode(6, new ListNode(1, new ListNode(2))));
-        Assert.Equal(null, new Solution().GetIntersectionNode(nodeA, nodeB));
+        Assert.Null(new Solution().GetIntersectionNode(nodeA, nodeB));
     }
 }
 }

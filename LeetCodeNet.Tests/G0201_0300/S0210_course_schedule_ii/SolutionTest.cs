@@ -19,7 +19,7 @@ public class SolutionTest {
 
     [Fact]
     public void CourseScheduleII3() {
-        int[][] prerequisites = new int[][] { };
+        int[][] prerequisites = Array.Empty<int[]>();
         int numCourses = 1;
         Assert.Equal(new int[] {0}, new Solution().FindOrder(numCourses, prerequisites));
     }

@@ -26,7 +26,7 @@ public class SolutionTest {
 
     [Fact]
     public void CloneGraph3() {
-        Assert.Null(new Solution().CloneGraph(null));
+        Assert.Null(new Solution().CloneGraph(null!));
     }
 }
 }
