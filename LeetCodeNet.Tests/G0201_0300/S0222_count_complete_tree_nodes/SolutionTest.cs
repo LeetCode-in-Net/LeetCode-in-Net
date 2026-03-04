@@ -10,14 +10,14 @@ public class SolutionTest {
         var leftNodeRightNode = new TreeNode(5);
         var leftNode = new TreeNode(2, leftNodeLeftNode, leftNodeRightNode);
         var rightNodeLeftNode = new TreeNode(6);
-        var rightNode = new TreeNode(3, rightNodeLeftNode, null);
+        var rightNode = new TreeNode(3, rightNodeLeftNode, null!);
         var root = new TreeNode(1, leftNode, rightNode);
         Assert.Equal(6, new Solution().CountNodes(root));
     }
 
     [Fact]
     public void CountNodes2() {
-        Assert.Equal(0, new Solution().CountNodes(null));
+        Assert.Equal(0, new Solution().CountNodes(null!));
     }
 
     [Fact]

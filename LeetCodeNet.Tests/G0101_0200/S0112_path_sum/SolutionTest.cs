@@ -19,7 +19,7 @@ public class SolutionTest {
 
     [Fact]
     public void HasPathSum3() {
-        Assert.False(new Solution().HasPathSum(null, 0));
+        Assert.False(new Solution().HasPathSum(null!, 0));
     }
 }
 }

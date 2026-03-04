@@ -19,7 +19,7 @@ public class SolutionTest {
 
     [Fact]
     public void LevelOrder3() {
-        Assert.Equal(new List<IList<int>> { }, new Solution().LevelOrder(null));
+        Assert.Equal(new List<IList<int>> { }, new Solution().LevelOrder(null!));
     }
 }
 }

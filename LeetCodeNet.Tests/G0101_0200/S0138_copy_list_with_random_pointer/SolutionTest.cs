@@ -15,8 +15,8 @@ public class SolutionTest {
         node13.next = node11;
         node11.next = node10;
         node10.next = node1;
-        node1.next = null;
-        node7.random = null;
+        node1.next = null!;
+        node7.random = null!;
         node13.random = node7;
         node11.random = node1;
         node10.random = node11;
@@ -32,7 +32,7 @@ public class SolutionTest {
         Node node2 = new Node(2);
         node1.next = node2;
         node1.random = node1;
-        node2.next = null;
+        node2.next = null!;
         node2.random = node2;
         Assert.Equal("[[1,1],[2,1]]", new Solution().CopyRandomList(node1).ToString());
     }
@@ -43,11 +43,11 @@ public class SolutionTest {
         Node node32 = new Node(3);
         Node node33 = new Node(3);
         node31.next = node32;
-        node31.random = null;
+        node31.random = null!;
         node32.next = node33;
         node32.random = node31;
-        node33.next = null;
-        node33.random = null;
+        node33.next = null!;
+        node33.random = null!;
         Assert.Equal("[[3,null],[3,0],[3,null]]", new Solution().CopyRandomList(node31).ToString());
     }
 }
