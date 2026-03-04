@@ -5,7 +5,7 @@ using Xunit;
 public class SolutionTest {
     [Fact]
     public void Connect() {
-        Assert.null!(new Solution().Connect(null!));
+        Assert.Null(new Solution().Connect(null!));
     }
 
     [Fact]
