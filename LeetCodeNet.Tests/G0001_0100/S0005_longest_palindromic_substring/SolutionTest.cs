@@ -5,12 +5,12 @@ using Xunit;
 public class SolutionTest {
     [Fact]
     public void LongestPalindrome() {
-        Assert.Equal("bab", Solution.LongestPalindrome("babad"));
+        Assert.Equal("bab", new Solution().LongestPalindrome("babad"));
     }
 
     [Fact]
     public void LongestPalindrome2() {
-        Assert.Equal("bb", Solution.LongestPalindrome("cbbd"));
+        Assert.Equal("bb", new Solution().LongestPalindrome("cbbd"));
     }
 }
 }
