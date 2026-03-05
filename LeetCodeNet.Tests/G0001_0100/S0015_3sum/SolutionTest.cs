@@ -8,7 +8,7 @@ public class SolutionTest {
     public void ThreeSum() {
         Assert.Equal(
             ArrayUtils.GetLists(new int[][] { new int[] { -1, -1, 2 }, new int[] { -1, 0, 1 } }),
-            new Solution().ThreeSum(new int[] { -1, 0, 1, 2, -1, -4 })
+            Solution.ThreeSum(new int[] { -1, 0, 1, 2, -1, -4 })
         );
     }
 
@@ -16,7 +16,7 @@ public class SolutionTest {
     public void ThreeSum2() {
         Assert.Equal(
             ArrayUtils.GetLists(Array.Empty<int[]>()),
-            new Solution().ThreeSum(Array.Empty<int>())
+            Solution.ThreeSum(Array.Empty<int>())
         );
     }
 
@@ -24,7 +24,7 @@ public class SolutionTest {
     public void ThreeSum3() {
         Assert.Equal(
             ArrayUtils.GetLists(Array.Empty<int[]>()),
-            new Solution().ThreeSum(new int[] { 0 })
+            Solution.ThreeSum(new int[] { 0 })
         );
     }
 }

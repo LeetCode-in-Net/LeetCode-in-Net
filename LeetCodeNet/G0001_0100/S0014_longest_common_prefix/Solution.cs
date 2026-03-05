@@ -5,7 +5,7 @@ namespace LeetCodeNet.G0001_0100.S0014_longest_common_prefix {
 // #2025_06_20_Time_0_ms_(100.00%)_Space_42.70_MB_(97.50%)
 
 public class Solution {
-    public string LongestCommonPrefix(string[] strs) {
+    public static string LongestCommonPrefix(string[] strs) {
         if (strs.Length < 1) {
             return "";
         }

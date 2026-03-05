@@ -13,11 +13,11 @@ public class Solution {
         num = Numerals(sb, num, m, ' ', ' ', 'M');
         num = Numerals(sb, num, c, 'M', 'D', 'C');
         num = Numerals(sb, num, x, 'C', 'L', 'X');
-        Numerals(sb, num, i, 'X', 'V', 'I');
+            Numerals(sb, num, i, 'X', 'V', 'I');
         return sb.ToString();
     }
 
-    private int Numerals(System.Text.StringBuilder sb, int num, int one, char cTen, char cFive, char cOne) {
+    private static int Numerals(System.Text.StringBuilder sb, int num, int one, char cTen, char cFive, char cOne) {
         int div = num / one;
         switch (div) {
             case 9:

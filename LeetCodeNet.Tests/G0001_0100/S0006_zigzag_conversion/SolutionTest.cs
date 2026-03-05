@@ -5,12 +5,12 @@ using Xunit;
 public class SolutionTest {
     [Fact]
     public void Convert() {
-        Assert.Equal("PAHNAPLSIIGYIR", new Solution().Convert("PAYPALISHIRING", 3));
+        Assert.Equal("PAHNAPLSIIGYIR", Solution.Convert("PAYPALISHIRING", 3));
     }
 
     [Fact]
     public void Convert2() {
-        Assert.Equal("PINALSIGYAHRPI", new Solution().Convert("PAYPALISHIRING", 4));
+        Assert.Equal("PINALSIGYAHRPI", Solution.Convert("PAYPALISHIRING", 4));
     }
 }
 }

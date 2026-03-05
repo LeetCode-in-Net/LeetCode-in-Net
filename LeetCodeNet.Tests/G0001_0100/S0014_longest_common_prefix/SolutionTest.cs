@@ -6,12 +6,12 @@ using Xunit;
 public class SolutionTest {
     [Fact]
     public void LongestCommonPrefix() {
-        Assert.Equal("fl", new Solution().LongestCommonPrefix(new string[] { "flower", "flow", "flight" }));
+        Assert.Equal("fl", Solution.LongestCommonPrefix(new string[] { "flower", "flow", "flight" }));
     }
 
     [Fact]
     public void LongestCommonPrefix2() {
-        Assert.Equal("", new Solution().LongestCommonPrefix(new string[] { "dog", "racecar", "car" }));
+        Assert.Equal("", Solution.LongestCommonPrefix(new string[] { "dog", "racecar", "car" }));
     }
 }
 }

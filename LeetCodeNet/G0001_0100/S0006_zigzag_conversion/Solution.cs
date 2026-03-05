@@ -6,7 +6,7 @@ namespace LeetCodeNet.G0001_0100.S0006_zigzag_conversion {
 using System.Text;
 
 public class Solution {
-    public string Convert(string s, int numRows) {
+    public static string Convert(string s, int numRows) {
         int sLen = s.Length;
         if (numRows == 1) {
             return s;

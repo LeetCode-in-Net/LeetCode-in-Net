@@ -6,7 +6,7 @@ namespace LeetCodeNet.G0001_0100.S0005_longest_palindromic_substring {
 // #Big_O_Time_O(n)_Space_O(n) #2025_06_12_Time_7_ms_(95.82%)_Space_41.34_MB_(65.26%)
 
 public class Solution {
-    public string LongestPalindrome(string s) {
+    public static string LongestPalindrome(string s) {
         if (s.Length == 1) return s;
         int res = 0;
         int l = 0;

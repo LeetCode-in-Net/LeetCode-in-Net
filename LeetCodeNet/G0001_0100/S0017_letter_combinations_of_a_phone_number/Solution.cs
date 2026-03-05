@@ -15,11 +15,11 @@ public class Solution {
         string[] letters = {"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
         List<string> ans = new List<string>();
         StringBuilder sb = new StringBuilder();
-        FindCombinations(0, digits, letters, sb, ans);
+            FindCombinations(0, digits, letters, sb, ans);
         return ans;
     }
 
-    private void FindCombinations(
+    private static void FindCombinations(
             int start, string nums, string[] letters, StringBuilder curr, List<string> ans) {
         if (curr.Length == nums.Length) {
             ans.Add(curr.ToString());
@@ -30,7 +30,7 @@ public class Solution {
             for (int j = 0; j < letters[n].Length; j++) {
                 char ch = letters[n][j];
                 curr.Append(ch);
-                FindCombinations(i + 1, nums, letters, curr, ans);
+                    FindCombinations(i + 1, nums, letters, curr, ans);
                 curr.Remove(curr.Length - 1, 1); // Remove last character
             }
         }

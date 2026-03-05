@@ -8,12 +8,12 @@ public class SolutionTest {
     public void MergeTwoLists() {
         ListNode l1 = LinkedListUtils.CreateSinglyLinkedList(new List<int> { 1, 2, 4 });
         ListNode l2 = LinkedListUtils.CreateSinglyLinkedList(new List<int> { 1, 3, 4 });
-        Assert.Equal("1, 1, 2, 3, 4, 4", new Solution().MergeTwoLists(l1, l2).ToString());
+        Assert.Equal("1, 1, 2, 3, 4, 4", Solution.MergeTwoLists(l1, l2).ToString());
     }
 
     [Fact]
     public void MergeTwoLists2() {
-        Assert.Equal("0, 0", new Solution().MergeTwoLists(new ListNode(), new ListNode()).ToString());
+        Assert.Equal("0, 0", Solution.MergeTwoLists(new ListNode(), new ListNode()).ToString());
     }
 }
 }
