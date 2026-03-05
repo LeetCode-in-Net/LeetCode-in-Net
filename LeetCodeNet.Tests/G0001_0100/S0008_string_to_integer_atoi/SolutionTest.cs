@@ -5,27 +5,27 @@ using Xunit;
 public class SolutionTest {
     [Fact]
     public void MyAtoi() {
-        Assert.Equal(42, Solution.MyAtoi("42"));
+        Assert.Equal(42, new Solution().MyAtoi("42"));
     }
 
     [Fact]
     public void MyAtoi2() {
-        Assert.Equal(-42, Solution.MyAtoi("   -42"));
+        Assert.Equal(-42, new Solution().MyAtoi("   -42"));
     }
 
     [Fact]
     public void MyAtoi3() {
-        Assert.Equal(4193, Solution.MyAtoi("4193 with words"));
+        Assert.Equal(4193, new Solution().MyAtoi("4193 with words"));
     }
 
     [Fact]
     public void MyAtoi4() {
-        Assert.Equal(0, Solution.MyAtoi("words and 987"));
+        Assert.Equal(0, new Solution().MyAtoi("words and 987"));
     }
 
     [Fact]
     public void MyAtoi5() {
-        Assert.Equal(-2147483648, Solution.MyAtoi("-91283472332"));
+        Assert.Equal(-2147483648, new Solution().MyAtoi("-91283472332"));
     }
 }
 }
