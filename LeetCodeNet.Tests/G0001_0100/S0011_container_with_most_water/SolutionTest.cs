@@ -5,12 +5,12 @@ using Xunit;
 public class SolutionTest {
     [Fact]
     public void MaxArea() {
-        Assert.Equal(49, Solution.MaxArea(new int[] { 1, 8, 6, 2, 5, 4, 8, 3, 7 }));
+        Assert.Equal(49, new Solution().MaxArea(new int[] { 1, 8, 6, 2, 5, 4, 8, 3, 7 }));
     }
 
     [Fact]
     public void MaxArea2() {
-        Assert.Equal(1, Solution.MaxArea(new int[] { 1, 1 }));
+        Assert.Equal(1, new Solution().MaxArea(new int[] { 1, 1 }));
     }
 }
 }
