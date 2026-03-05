@@ -5,27 +5,27 @@ using Xunit;
 public class SolutionTest {
     [Fact]
     public void IsValid() {
-        Assert.True(Solution.IsValid("()"));
+        Assert.True(new Solution().IsValid("()"));
     }
 
     [Fact]
     public void IsValid2() {
-        Assert.True(Solution.IsValid("()[]{}"));
+        Assert.True(new Solution().IsValid("()[]{}"));
     }
 
     [Fact]
     public void IsValid3() {
-        Assert.False(Solution.IsValid("(]"));
+        Assert.False(new Solution().IsValid("(]"));
     }
 
     [Fact]
     public void IsValid4() {
-        Assert.False(Solution.IsValid("([)]"));
+        Assert.False(new Solution().IsValid("([)]"));
     }
 
     [Fact]
     public void IsValid5() {
-        Assert.True(Solution.IsValid("{[]}"));
+        Assert.True(new Solution().IsValid("{[]}"));
     }
 }
 }
