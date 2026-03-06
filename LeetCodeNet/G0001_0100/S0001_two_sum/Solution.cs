@@ -6,7 +6,7 @@ namespace LeetCodeNet.G0001_0100.S0001_two_sum {
 // #2025_06_12_Time_1_ms_(98.51%)_Space_49.32_MB_(14.31%)
 
 public class Solution {
-    public int[] TwoSum(int[] numbers, int target) { 
+    public int[] TwoSum(int[] numbers, int target) {
         Dictionary<int, int> indexMap = new Dictionary<int, int>();
         for (int i = 0; i < numbers.Length; i++) {
             int requiredNum = target - numbers[i];
