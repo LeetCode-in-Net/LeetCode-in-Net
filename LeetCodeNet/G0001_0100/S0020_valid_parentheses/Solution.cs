@@ -8,7 +8,7 @@ using System;
 using System.Collections.Generic;
 
 public class Solution {
-    public bool IsValid(string s) {
+    public bool IsValid(string s) { //NOSONAR
         Stack<char> stack = new Stack<char>();
         for (int i = 0; i < s.Length; i++) {
             char c = s[i];

@@ -6,11 +6,15 @@ namespace LeetCodeNet.G0001_0100.S0015_3sum {
 // #2025_06_12_Time_34_ms_(76.14%)_Space_66.14_MB_(37.36%)
 
 public class Solution {
-    public IList<IList<int>> ThreeSum(int[] nums) {
+    public IList<IList<int>> ThreeSum(int[] nums) { //NOSONAR
         Array.Sort(nums);
         int len = nums.Length;
         IList<IList<int>> result = new List<IList<int>>();
         for (int i = 0; i < len - 2; i++) {
+            // skip duplicates for the first number
+            if (i > 0 && nums[i] == nums[i - 1])
+                continue;
+
             int l = i + 1;
             int r = len - 1;
             while (r > l) {
@@ -31,9 +35,6 @@ public class Solution {
                     l++;
                     r--;
                 }
-            }
-            while (i < len - 1 && nums[i + 1] == nums[i]) {
-                i++;
             }
         }
         return result;
