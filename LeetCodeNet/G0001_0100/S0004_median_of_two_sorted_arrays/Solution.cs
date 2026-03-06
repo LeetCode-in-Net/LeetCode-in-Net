@@ -5,9 +5,9 @@ namespace LeetCodeNet.G0001_0100.S0004_median_of_two_sorted_arrays {
 // #AI_can_be_used_to_solve_the_task #2025_06_12_Time_0_ms_(100.00%)_Space_55.92_MB_(53.97%)
 
 public class Solution {
-    public double FindMedianSortedArrays(int[] nums1, int[] nums2) {
+    public double FindMedianSortedArrays(int[] nums1, int[] nums2) { //NOSONAR
         if (nums2.Length < nums1.Length) {
-            return FindMedianSortedArrays(nums2, nums1);
+            return FindMedianSortedArrays(nums1, nums2);
         }
         int cut1;
         int cut2;

@@ -19,28 +19,28 @@ using LeetCodeNet.Com_github_leetcode;
  * }
  */
 public class Solution {
-    public ListNode MergeTwoLists(ListNode l1, ListNode l2) {
+    public ListNode MergeTwoLists(ListNode l1, ListNode l2) { //NOSONAR
         ListNode list = new ListNode(-1);
         ListNode head = list;
         while (l1 != null || l2 != null) {
             if (l1 != null && l2 != null) {
                 if (l1.val <= l2.val) {
                     list.next = new ListNode(l1.val);
-                    l1 = l1.next;
+                    l1 = l1.next!;
                 } else {
                     list.next = new ListNode(l2.val);
-                    l2 = l2.next;
+                    l2 = l2.next!;
                 }
             } else if (l1 != null) {
                 list.next = new ListNode(l1.val);
-                l1 = l1.next;
+                l1 = l1.next!;
             } else {
-                list.next = new ListNode(l2.val);
-                l2 = l2.next;
+                list.next = new ListNode(l2!.val);
+                l2 = l2.next!;
             }
             list = list.next;
         }
-        return head.next;
+        return head.next!;
     }
 }
 }
