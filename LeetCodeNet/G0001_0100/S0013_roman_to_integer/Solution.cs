@@ -4,6 +4,7 @@ namespace LeetCodeNet.G0001_0100.S0013_roman_to_integer {
 // #Big_O_Time_O(n)_Space_O(1) #2025_06_20_Time_1_ms_(99.81%)_Space_49.42_MB_(80.66%)
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822:Mark members as static", Justification = "Method is part of LeetCode solution interface")]
     public int RomanToInt(string s) { //NOSONAR
         int x = 0;
         char y;
