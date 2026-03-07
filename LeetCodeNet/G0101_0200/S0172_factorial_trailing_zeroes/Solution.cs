@@ -4,6 +4,7 @@ namespace LeetCodeNet.G0101_0200.S0172_factorial_trailing_zeroes {
 // #2025_07_13_Time_0_ms_(100.00%)_Space_29.27_MB_(31.68%)
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int TrailingZeroes(int n) {
         int baseN = 5;
         int count = 0;

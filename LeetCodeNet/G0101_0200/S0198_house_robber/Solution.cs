@@ -6,6 +6,7 @@ namespace LeetCodeNet.G0101_0200.S0198_house_robber {
 // #Big_O_Time_O(n)_Space_O(n) #2025_06_14_Time_0_ms_(100.00%)_Space_41.15_MB_(69.24%)
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int Rob(int[] nums) {
         if (nums.Length == 0) {
             return 0;

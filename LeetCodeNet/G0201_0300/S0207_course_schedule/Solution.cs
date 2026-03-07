@@ -28,6 +28,7 @@ public class Solution {
         return true;
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private bool HasCycle(List<int>[] adj, int node, int[] colors) {
         colors[node] = GRAY;
         foreach (int nei in adj[node]) {

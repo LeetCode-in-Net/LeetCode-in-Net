@@ -19,16 +19,18 @@ using LeetCodeNet.Com_github_leetcode;
  * }
  */
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public ListNode ReverseList(ListNode head) {
         ListNode prev = null;
         ListNode curr = head;
         while (curr != null) {
-            ListNode next = curr.next;
+            ListNode next = curr.next!;
             curr.next = prev;
             prev = curr;
-            curr = next;
+            curr = next!;
         }
-        return prev;
+        return prev!;
     }
 }
 }

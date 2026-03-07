@@ -5,6 +5,8 @@ namespace LeetCodeNet.G0101_0200.S0162_find_peak_element {
 // #2025_07_12_Time_0_ms_(100.00%)_Space_42.58_MB_(54.62%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int FindPeakElement(int[] nums) {
         int start = 0;
         int end = nums.Length - 1;

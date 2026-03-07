@@ -5,6 +5,8 @@ namespace LeetCodeNet.G0101_0200.S0153_find_minimum_in_rotated_sorted_array {
 // #Big_O_Time_O(log_N)_Space_O(log_N) #2025_06_14_Time_0_ms_(100.00%)_Space_42.21_MB_(58.48%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private int FindMinUtil(int[] nums, int l, int r) {
         if (l == r) {
             return nums[l];

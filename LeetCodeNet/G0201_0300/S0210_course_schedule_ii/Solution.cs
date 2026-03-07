@@ -12,14 +12,12 @@ public class Solution {
         for (int i = 0; i < numCourses; i++) {
             graph[i] = new List<int>();
         }
-        foreach (var classes in prerequisites) {
-            graph[classes[0]].Add(classes[1]);
-        }
+        prerequisites.ToList().ForEach(classes => graph[classes[0]].Add(classes[1]));
         var output = new List<int>();
         var visited = new Dictionary<int, bool>();
         foreach (var c in graph.Keys) {
             if (Dfs(c, graph, visited, output)) {
-                return new int[0];
+                return Array.Empty<int>();
             }
         }
         return output.ToArray();
@@ -30,10 +28,8 @@ public class Solution {
             return visited[course];
         }
         visited[course] = true;
-        foreach (var c in graph[course]) {
-            if (Dfs(c, graph, visited, output)) {
-                return true;
-            }
+        if (graph[course].Any(c => Dfs(c, graph, visited, output))) {
+            return true;
         }
         visited[course] = false;
         output.Add(course);

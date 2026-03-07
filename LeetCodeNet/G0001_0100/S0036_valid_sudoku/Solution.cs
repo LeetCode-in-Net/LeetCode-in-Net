@@ -23,8 +23,8 @@ public class Solution {
         return true;
     }
 
-    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode"), System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "ParameterOrder", Justification = "LeetCode")]
-    private bool isValidCase(char[][] board, int i, int j, bool[,] rows, bool[,] cols, bool[,] blocks) {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
+    private bool isValidCase(char[][] board, int i, int j, bool[,] rows, bool[,] cols, bool[,] blocks) { // NOSONAR
         if (board[i][j] == '.')
             return true;
         int num = board[i][j] - '1';

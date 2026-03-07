@@ -18,21 +18,23 @@ using LeetCodeNet.Com_github_leetcode;
  * }
  */
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public ListNode SortList(ListNode head) {
         List<int> nums = new List<int>();
         ListNode temp = head;
         while (temp != null) {
             nums.Add(temp.val);
-            temp = temp.next;
+            temp = temp.next!;
         }
-        _ = new int[nums.Count()];
+        _ = new int[nums.Count];
         int[] arr = nums.ToArray();
         Array.Sort(arr);
         temp = head;
         int i = 0;
         while (temp != null) {
             temp.val = arr[i];
-            temp = temp.next;
+            temp = temp.next!;
             i++;
         }
         return head;

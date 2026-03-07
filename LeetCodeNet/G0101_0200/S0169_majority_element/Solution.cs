@@ -6,6 +6,7 @@ namespace LeetCodeNet.G0101_0200.S0169_majority_element {
 // #2025_06_14_Time_1_ms_(66.60%)_Space_50.05_MB_(28.42%)
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int MajorityElement(int[] arr) {
         int count = 1;
         int majority = arr[0];
@@ -22,12 +23,7 @@ public class Solution {
             }
         }
         // For Confirmation
-        count = 0;
-        foreach (int j in arr) {
-            if (j == majority) {
-                count++;
-            }
-        }
+        count = arr.Count(j => j == majority);
         if (count >= (arr.Length / 2) + 1) {
             return majority;
         } else {

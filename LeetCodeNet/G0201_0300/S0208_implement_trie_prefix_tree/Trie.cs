@@ -6,10 +6,10 @@ namespace LeetCodeNet.G0201_0300.S0208_implement_trie_prefix_tree {
 // #2025_06_14_Time_7_ms_(100.00%)_Space_84.76_MB_(14.87%)
 
 public class Trie {
-    private TrieNode root;
+    private readonly TrieNode root;
     private bool startWith;
 
-    private class TrieNode {
+    private sealed class TrieNode {
         // Initialize your data structure here.
         public TrieNode[] children;
         public bool isWord;
@@ -28,6 +28,7 @@ public class Trie {
         Insert(word, root, 0);
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private void Insert(string word, TrieNode root, int idx) {
         if (idx == word.Length) {
             root.isWord = true;

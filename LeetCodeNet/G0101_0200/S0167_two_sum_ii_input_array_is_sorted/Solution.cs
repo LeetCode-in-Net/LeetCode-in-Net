@@ -5,6 +5,7 @@ namespace LeetCodeNet.G0101_0200.S0167_two_sum_ii_input_array_is_sorted {
 // #2025_07_13_Time_0_ms_(100.00%)_Space_50.79_MB_(76.45%)
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int[] TwoSum(int[] numbers, int target) {
         int[] res = new int[2];
         int i = 0;

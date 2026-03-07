@@ -58,7 +58,7 @@ public class Solution {
         while (left != null || right != null) {
             if (left == null) {
                 node!.next = right;
-                right = right!.next;
+                right = right!.next!;
             } else if (right == null) {
                 node!.next = left;
                 left = left.next!;

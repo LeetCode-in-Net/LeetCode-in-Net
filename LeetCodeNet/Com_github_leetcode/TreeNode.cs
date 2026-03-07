@@ -3,10 +3,11 @@ namespace LeetCodeNet.Com_github_leetcode {
 using System;
 using System.Collections.Generic;
 
-[System.Diagnostics.CodeAnalysis.SuppressMessage("Compiler", "CS8618", Justification = "LeetCode")]
 public class TreeNode {
     public int? val; //NOSONAR
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Compiler", "CS8618", Justification = "LeetCode")]
     public TreeNode left; //NOSONAR
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Compiler", "CS8618", Justification = "LeetCode")]
     public TreeNode right; //NOSONAR
 
     public TreeNode(int? val) { //NOSONAR

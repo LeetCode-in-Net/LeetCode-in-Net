@@ -24,6 +24,7 @@ public class Solution {
         return true;
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private int Search(int[] map, int tar, int skip) {
         for (int i = 0; i < 128; i++) {
             if (i == skip) {

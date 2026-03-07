@@ -4,7 +4,7 @@ namespace LeetCodeNet.G0201_0300.S0211_design_add_and_search_words_data_structur
 // #2025_07_14_Time_380_ms_(93.39%)_Space_147.60_MB_(63.66%)
 
 public class WordDictionary {
-    private class Node {
+    private sealed class Node {
         public Node[] kids = new Node[26];
         public bool isTerminal;
     }
@@ -38,6 +38,7 @@ public class WordDictionary {
         return node != null && Dfs(0, node, word);
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private bool Dfs(int i, Node node, string word) {
         int len = word.Length;
         if (i == len) {

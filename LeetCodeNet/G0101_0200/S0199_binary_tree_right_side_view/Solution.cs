@@ -27,10 +27,11 @@ public class Solution {
         return list;
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private void Recurse(TreeNode node, int level, List<int> list) {
         if (node != null) {
             if (list.Count < level + 1) {
-                list.Add(node.val.Value);
+                list.Add(node.val!.Value);
             }
             Recurse(node.right, level + 1, list);
             Recurse(node.left, level + 1, list);

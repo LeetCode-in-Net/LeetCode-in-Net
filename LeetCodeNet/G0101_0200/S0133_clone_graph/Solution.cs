@@ -4,10 +4,10 @@ namespace LeetCodeNet.G0101_0200.S0133_clone_graph {
 // #Top_Interview_150_Graph_General #2025_07_12_Time_117_ms_(96.34%)_Space_47.31_MB_(97.95%)
 
 using System.Collections.Generic;
-// NOSONAR
+
 /*
 // Definition for a Node.
-public class Node {
+public class Node { // NOSONAR
     public int val;
     public IList<Node> neighbors;
 

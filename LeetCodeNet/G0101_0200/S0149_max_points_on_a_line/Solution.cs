@@ -4,6 +4,8 @@ namespace LeetCodeNet.G0101_0200.S0149_max_points_on_a_line {
 // #Top_Interview_150_Math #2025_07_12_Time_5_ms_(100.00%)_Space_41.59_MB_(98.57%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int MaxPoints(int[][] points) {
         if (points.Length < 2) {
             return points.Length;

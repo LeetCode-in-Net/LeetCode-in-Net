@@ -23,6 +23,7 @@ public class Solution {
         return islands;
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private void Dfs(char[][] grid, int x, int y) {
         if (x < 0 || grid.Length <= x || y < 0 || grid[0].Length <= y || grid[x][y] != '1') {
             return;
