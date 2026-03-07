@@ -20,21 +20,23 @@ using LeetCodeNet.Com_github_leetcode;
 public class Solution {
     public ListNode SwapPairs(ListNode head) {
         if (head == null) {
-            return null;
+            return null!;
         }
         int len = GetLength(head);
         return Reverse(head, len);
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private int GetLength(ListNode curr) {
         int cnt = 0;
         while (curr != null) {
             cnt++;
-            curr = curr.next;
+            curr = curr.next!;
         }
         return cnt;
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     // Recursive function to reverse in groups
     private ListNode Reverse(ListNode head, int len) {
         // base case
@@ -42,17 +44,17 @@ public class Solution {
             return head;
         }
         ListNode curr = head;
-        ListNode prev = null;
+        ListNode prev = null!;
         ListNode next;
         for (int i = 0; i < 2; i++) {
             // reverse linked list code
-            next = curr.next;
+            next = curr.next!;
             curr.next = prev;
             prev = curr;
-            curr = next;
+            curr = next!;
         }
-        head.next = Reverse(curr, len - 2);
-        return prev;
+        head.next = Reverse(curr!, len - 2);
+        return prev!;
     }
 }
 }

@@ -4,6 +4,7 @@ namespace LeetCodeNet.G0001_0100.S0050_powx_n {
 // #2025_07_02_Time_0_ms_(100.00%)_Space_29.32_MB_(55.95%)
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public double MyPow(double x, int n) {
         long nn = n;
         double res = 1;

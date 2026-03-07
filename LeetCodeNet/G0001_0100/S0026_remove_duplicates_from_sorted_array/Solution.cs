@@ -4,6 +4,7 @@ namespace LeetCodeNet.G0001_0100.S0026_remove_duplicates_from_sorted_array {
 // #Top_Interview_150_Array/String #2025_06_30_Time_0_ms_(100.00%)_Space_50.94_MB_(81.18%)
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int RemoveDuplicates(int[] nums) {
         if (nums.Length == 0) {
             return 0;

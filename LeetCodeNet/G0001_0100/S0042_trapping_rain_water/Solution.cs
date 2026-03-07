@@ -6,6 +6,8 @@ namespace LeetCodeNet.G0001_0100.S0042_trapping_rain_water {
 // #2025_06_13_Time_1_ms_(63.59%)_Space_47.29_MB_(68.13%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int Trap(int[] height) {
         int l = 0;
         int r = height.Length - 1;

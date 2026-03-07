@@ -6,6 +6,8 @@ namespace LeetCodeNet.G0001_0100.S0055_jump_game {
 // #2025_06_13_Time_1_ms_(99.82%)_Space_61.18_MB_(41.64%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public bool CanJump(int[] nums) {
         var accumulatedJumps = 0;
         for (var i = 0; i < nums.Length; i++) {

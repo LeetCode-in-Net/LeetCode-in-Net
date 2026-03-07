@@ -6,6 +6,7 @@ namespace LeetCodeNet.G0001_0100.S0045_jump_game_ii {
 // #2025_06_13_Time_0_ms_(100.00%)_Space_45.96_MB_(59.61%)
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int Jump(int[] nums) {
         int length = 0;
         int maxLength = 0;

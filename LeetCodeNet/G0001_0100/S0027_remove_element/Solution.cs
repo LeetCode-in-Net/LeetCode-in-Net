@@ -4,6 +4,7 @@ namespace LeetCodeNet.G0001_0100.S0027_remove_element {
 // #2025_06_30_Time_0_ms_(100.00%)_Space_46.85_MB_(71.67%)
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int RemoveElement(int[] nums, int val) {
         int i = 0;
         for (int j = 0; j < nums.Length; j++) {

@@ -6,7 +6,9 @@ namespace LeetCodeNet.G0001_0100.S0015_3sum {
 // #2025_06_12_Time_34_ms_(76.14%)_Space_66.14_MB_(37.36%)
 
 public class Solution {
-    public IList<IList<int>> ThreeSum(int[] nums) { //NOSONAR
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
+    public IList<IList<int>> ThreeSum(int[] nums) {
         Array.Sort(nums);
         int len = nums.Length;
         IList<IList<int>> result = new List<IList<int>>();

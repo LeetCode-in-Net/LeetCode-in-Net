@@ -6,6 +6,8 @@ namespace LeetCodeNet.G0001_0100.S0048_rotate_image {
 // #2025_06_13_Time_0_ms_(100.00%)_Space_46.67_MB_(84.34%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public void Rotate(int[][] matrix) {
         (int height, int width) = (matrix.Length, matrix[0].Length);
         for (int row = 0; row < height - 1; row++) {

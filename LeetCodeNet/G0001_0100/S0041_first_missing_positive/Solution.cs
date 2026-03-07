@@ -19,6 +19,7 @@ public class Solution {
         return nums.Length + 1;
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private void Dfs(int[] nums, int val) {
         if (val <= 0 || val > nums.Length || val == nums[val - 1]) {
             return;

@@ -12,6 +12,7 @@ public class Solution {
         return ans;
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private int Helper(int[] nums, int target, bool equals) {
         int l = 0;
         int r = nums.Length - 1;

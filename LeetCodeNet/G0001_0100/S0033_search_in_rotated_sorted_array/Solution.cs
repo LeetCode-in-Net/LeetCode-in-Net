@@ -6,6 +6,7 @@ namespace LeetCodeNet.G0001_0100.S0033_search_in_rotated_sorted_array {
 // #2025_06_12_Time_0_ms_(100.00%)_Space_42.66_MB_(42.72%)
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int Search(int[] nums, int target) {
         int mid;
         int lo = 0;

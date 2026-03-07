@@ -6,6 +6,8 @@ namespace LeetCodeNet.G0001_0100.S0056_merge_intervals {
 // #2025_06_13_Time_6_ms_(39.00%)_Space_56.11_MB_(92.27%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int[][] Merge(int[][] intervals) {
         Array.Sort(intervals, (a, b) => a[0] - b[0]);
         for (int i = 1; i < intervals.Length; i++) {

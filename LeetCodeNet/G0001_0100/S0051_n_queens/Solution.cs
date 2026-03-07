@@ -8,6 +8,7 @@ public class Solution {
         return this.Backtrack(n, 0, (x, y) => false).ToList();
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private IEnumerable<IList<string>> Backtrack(int boardSize, int y, Func<int, int, bool> check) {
         for (int x = 0; x < boardSize; x++) {
             if (check(x, y)) {

@@ -7,6 +7,8 @@ namespace LeetCodeNet.G0001_0100.S0054_spiral_matrix {
 using System.Collections.Generic;
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public IList<int> SpiralOrder(int[][] matrix) {
         var res = new List<int>();
         if (matrix == null || matrix.Length == 0) {

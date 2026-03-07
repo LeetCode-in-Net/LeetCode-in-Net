@@ -6,6 +6,8 @@ namespace LeetCodeNet.G0001_0100.S0053_maximum_subarray {
 // #2025_06_13_Time_1_ms_(100.00%)_Space_63.72_MB_(62.67%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int MaxSubArray(int[] nums) {
         int maxSum = nums[0];
         int curSum = 0;

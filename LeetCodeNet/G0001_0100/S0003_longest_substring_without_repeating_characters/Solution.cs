@@ -6,7 +6,9 @@ namespace LeetCodeNet.G0001_0100.S0003_longest_substring_without_repeating_chara
 // #2025_06_12_Time_3_ms_(96.84%)_Space_44.64_MB_(30.11%)
 
 public class Solution {
-    public int LengthOfLongestSubstring(string s) { //NOSONAR
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
+    public int LengthOfLongestSubstring(string s) {
         int[] lastIndices = new int[256];
         for (int i = 0; i < 256; i++) {
             lastIndices[i] = -1;

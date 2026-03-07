@@ -5,7 +5,9 @@ namespace LeetCodeNet.G0001_0100.S0011_container_with_most_water {
 // #Big_O_Time_O(n)_Space_O(1) #2025_06_12_Time_1_ms_(99.97%)_Space_63.66_MB_(17.36%)
 
 public class Solution {
-    public int MaxArea(int[] height) { //NOSONAR
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
+    public int MaxArea(int[] height) {
         int maxArea = -1;
         int left = 0;
         int right = height.Length - 1;

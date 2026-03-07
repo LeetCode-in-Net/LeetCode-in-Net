@@ -4,7 +4,9 @@ namespace LeetCodeNet.G0001_0100.S0007_reverse_integer {
 // #2025_06_12_Time_14_ms_(99.26%)_Space_29.02_MB_(67.56%)
 
 public class Solution {
-    public int Reverse(int x) { //NOSONAR
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
+    public int Reverse(int x) {
         long rev = 0;
         while (x != 0) {
             rev = (rev * 10) + (x % 10);

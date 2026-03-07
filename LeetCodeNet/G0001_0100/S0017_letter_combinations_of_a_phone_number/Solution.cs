@@ -8,6 +8,8 @@ namespace LeetCodeNet.G0001_0100.S0017_letter_combinations_of_a_phone_number {
 using System.Text;
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public IList<string> LetterCombinations(string digits) {
         if (string.IsNullOrEmpty(digits)) {
             return new List<string>();
