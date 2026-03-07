@@ -47,6 +47,7 @@ public class Node {
         return sb.ToString();
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private string GetNodeString(Node? node) {
         if (node == null) {
             return "[]";
@@ -98,6 +99,7 @@ public class Solution {
         return OptimizedDfs(grid, 0, 0, grid.Length);
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private Node OptimizedDfs(int[][] grid, int rowStart, int colStart, int len) {
         int zeroCount = 0;
         int oneCount = 0;

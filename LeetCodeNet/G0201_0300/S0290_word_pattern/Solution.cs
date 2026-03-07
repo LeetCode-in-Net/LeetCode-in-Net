@@ -4,6 +4,7 @@ namespace LeetCodeNet.G0201_0300.S0290_word_pattern {
 // #2025_07_16_Time_0_ms_(100.00%)_Space_40.84_MB_(71.08%)
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public bool WordPattern(string pattern, string s) {
         Dictionary<char, string> dict = new();
         string[] str = s.Split(" ");

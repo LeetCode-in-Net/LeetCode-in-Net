@@ -6,6 +6,7 @@ namespace LeetCodeNet.G1101_1200.S1143_longest_common_subsequence {
 // #2025_06_16_Time_14_ms_(69.42%)_Space_43.41_MB_(84.62%)
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("", "CA1822")]
     public int LongestCommonSubsequence(string text1, string text2) {
         int n = text1.Length;
         int m = text2.Length;

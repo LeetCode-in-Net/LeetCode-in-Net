@@ -7,6 +7,7 @@ namespace LeetCodeNet.G0701_0800.S0763_partition_labels {
 using System.Collections.Generic;
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public IList<int> PartitionLabels(string s) {
         char[] letters = s.ToCharArray();
         IList<int> result = new List<int>();

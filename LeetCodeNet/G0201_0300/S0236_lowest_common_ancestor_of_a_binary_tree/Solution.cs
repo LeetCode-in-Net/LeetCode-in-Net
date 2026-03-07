@@ -17,9 +17,11 @@ using LeetCodeNet.Com_github_leetcode;
  * }
  */
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public TreeNode LowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null) {
-            return null;
+            return null!;
         }
         if (root.val == p.val || root.val == q.val) {
             return root;
@@ -32,7 +34,7 @@ public class Solution {
         if (left != null) {
             return left;
         }
-        return right;
+        return right!;
     }
 }
 }

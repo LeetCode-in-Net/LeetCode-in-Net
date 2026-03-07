@@ -5,6 +5,7 @@ namespace LeetCodeNet.G0201_0300.S0287_find_the_duplicate_number {
 // #2025_06_16_Time_1_ms_(100.00%)_Space_72.10_MB_(32.30%)
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int FindDuplicate(int[] nums) {
         int[] arr = new int[nums.Length + 1];
         foreach (int num in nums) {

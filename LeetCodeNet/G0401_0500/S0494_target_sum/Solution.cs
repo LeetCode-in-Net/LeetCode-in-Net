@@ -7,6 +7,7 @@ using System;
 using System.Collections.Generic;
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int FindTargetSumWays(int[] nums, int s) {
         int sum = 0;
         s = Math.Abs(s);

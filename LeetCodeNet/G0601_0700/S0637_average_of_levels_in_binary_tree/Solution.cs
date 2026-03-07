@@ -31,16 +31,17 @@ public class Solution {
         return avg;
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private void Average(TreeNode node, int level, IList<int> count, IList<double> avg) {
         if (node == null) {
             return;
         }
         if (level < count.Count) {
             count[level]++;
-            avg[level] += (double) node.val;
+            avg[level] += (double) node.val!;
         } else {
             count.Add(1);
-            avg.Add((double) node.val);
+            avg.Add((double) node.val!);
         }
         Average(node.left, level + 1, count, avg);
         Average(node.right, level + 1, count, avg);

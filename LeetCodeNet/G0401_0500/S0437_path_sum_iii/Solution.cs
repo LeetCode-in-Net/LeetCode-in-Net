@@ -33,7 +33,7 @@ public class Solution {
     }
 
     public void Helper(TreeNode node, int targetSum, long currSum) {
-        currSum += (long) node.val;
+        currSum += (long) node.val!;
         if (targetSum == currSum) {
             count++;
         }

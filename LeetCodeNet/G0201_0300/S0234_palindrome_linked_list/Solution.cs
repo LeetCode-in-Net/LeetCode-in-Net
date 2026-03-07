@@ -18,32 +18,33 @@ using LeetCodeNet.Com_github_leetcode;
  * }
  */
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public bool IsPalindrome(ListNode head) {
         int len = 0;
         ListNode right = head;
         // Calculate the length
         while (right != null) {
-            right = right.next;
+            right = right.next!;
             len++;
         }
         // Reverse the right half of the list
         len = len / 2;
         right = head;
         for (int i = 0; i < len; i++) {
-            right = right.next;
+            right = right.next!;
         }
-        ListNode prev = null;
+        ListNode prev = null!;
         while (right != null) {
-            ListNode next = right.next;
+            ListNode next = right.next!;
             right.next = prev;
             prev = right;
-            right = next;
+            right = next!;
         }
         // Compare left half and right half
         for (int i = 0; i < len; i++) {
-            if (prev != null && head.val == prev.val) {
-                head = head.next;
-                prev = prev.next;
+            if (prev != null && head!.val == prev.val) {
+                head = head.next!;
+                prev = prev.next!;
             } else {
                 return false;
             }

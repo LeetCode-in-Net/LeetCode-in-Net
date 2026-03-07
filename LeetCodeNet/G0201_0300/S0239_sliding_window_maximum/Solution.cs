@@ -8,6 +8,8 @@ using System;
 using System.Collections.Generic;
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int[] MaxSlidingWindow(int[] nums, int k) {
         int n = nums.Length;
         int[] res = new int[n - k + 1];
@@ -16,12 +18,12 @@ public class Solution {
         int i = 0;
         int j = 0;
         while (j < nums.Length) {
-            while (dq.Count != 0 && dq.Last.Value < nums[j]) {
+            while (dq.Count != 0 && dq.Last!.Value < nums[j]) {
                 dq.RemoveLast();
             }
             dq.AddLast(nums[j]);
             if (j - i + 1 == k) {
-                res[x] = dq.First.Value;
+                res[x] = dq.First!.Value;
                 ++x;
                 if (dq.First.Value == nums[i]) {
                     dq.RemoveFirst();

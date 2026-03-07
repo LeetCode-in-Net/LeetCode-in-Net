@@ -7,9 +7,9 @@ using System;
 using System.Collections.Generic;
 
 public class RandomizedSet {
-    private List<int> nums;
-    private Dictionary<int, int> dict;
-    private Random rand;
+    private readonly List<int> nums;
+    private readonly Dictionary<int, int> dict;
+    private readonly Random rand;
     public RandomizedSet() {
         nums = new List<int>();
         dict = new Dictionary<int, int>();

@@ -5,6 +5,7 @@ namespace LeetCodeNet.G0301_0400.S0338_counting_bits {
 // #2025_06_16_Time_0_ms_(100.00%)_Space_43.52_MB_(53.08%)
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int[] CountBits(int num) {
         int[] result = new int[num + 1];
         int borderPos = 1;

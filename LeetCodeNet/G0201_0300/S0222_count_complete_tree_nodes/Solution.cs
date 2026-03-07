@@ -19,6 +19,8 @@ using LeetCodeNet.Com_github_leetcode;
  * }
  */
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int CountNodes(TreeNode root) {
         if (root == null) {
             return 0;
@@ -32,14 +34,14 @@ public class Solution {
         }
     }
 
-    private int LeftHeight(TreeNode root) {
+    private static int LeftHeight(TreeNode root) {
         if (root == null) {
             return 0;
         }
         return 1 + LeftHeight(root.left);
     }
 
-    private int RightHeight(TreeNode root) {
+    private static int RightHeight(TreeNode root) {
         if (root == null) {
             return 0;
         }

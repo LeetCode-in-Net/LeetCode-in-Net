@@ -7,6 +7,7 @@ using System;
 using System.Collections.Generic;
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private IList<string> IsInBank(ISet<string> set, string cur) {
         List<string> res = new List<string>();
         foreach (string each in set) {

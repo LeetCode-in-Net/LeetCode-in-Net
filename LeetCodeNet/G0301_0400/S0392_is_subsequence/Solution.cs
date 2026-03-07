@@ -5,6 +5,7 @@ namespace LeetCodeNet.G0301_0400.S0392_is_subsequence {
 // #Top_Interview_150_Two_Pointers #2025_07_18_Time_0_ms_(100.00%)_Space_41.56_MB_(66.80%)
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public bool IsSubsequence(string s, string t) {
         int i = 0;
         int j = 0;

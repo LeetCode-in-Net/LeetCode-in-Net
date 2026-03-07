@@ -5,6 +5,7 @@ namespace LeetCodeNet.G0701_0800.S0739_daily_temperatures {
 // #2025_06_16_Time_6_ms_(98.90%)_Space_66.59_MB_(99.02%)
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int[] DailyTemperatures(int[] temperatures) {
         int[] sol = new int[temperatures.Length];
         sol[temperatures.Length - 1] = 0;
