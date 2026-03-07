@@ -1,6 +1,7 @@
 namespace LeetCodeNet.Com_github_leetcode {
 
-public class Node {
+[System.Diagnostics.CodeAnalysis.SuppressMessage("Compiler", "CS8618", Justification = "LeetCode")]
+public class Node { 
     public int val; //NOSONAR
     public Node next; //NOSONAR
     public Node random; //NOSONAR

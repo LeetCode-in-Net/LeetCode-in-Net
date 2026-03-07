@@ -21,7 +21,7 @@ public class Solution {
     [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public ListNode RotateRight(ListNode head, int k) {
         if (head == null || head.next == null || k == 0) {
-            return head;
+            return head!;
         }
         // Compute the length
         int len = 1;

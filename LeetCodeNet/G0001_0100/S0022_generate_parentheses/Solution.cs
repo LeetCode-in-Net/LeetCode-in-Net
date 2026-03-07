@@ -15,7 +15,8 @@ public class Solution {
         return Generate(sb, ans, n, n);
     }
 
-    private IList<string> Generate(StringBuilder sb, List<string> str, int open, int close) { //NOSONAR
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
+    private IList<string> Generate(StringBuilder sb, List<string> str, int open, int close) {
         if (open == 0 && close == 0) {
             str.Add(sb.ToString());
             return str;

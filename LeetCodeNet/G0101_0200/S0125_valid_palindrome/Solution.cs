@@ -4,6 +4,8 @@ namespace LeetCodeNet.G0101_0200.S0125_valid_palindrome {
 // #Top_Interview_150_Two_Pointers #2025_07_10_Time_1_ms_(99.79%)_Space_44.52_MB_(97.65%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public bool IsPalindrome(string s) {
         int i = 0;
         int j = s.Length - 1;
@@ -29,15 +31,16 @@ public class Solution {
         return res;
     }
 
-    private bool IsNotAlphaNumeric(char c) {
+    
+    private static bool IsNotAlphaNumeric(char c) {
         return (c < 'a' || c > 'z') && (c < 'A' || c > 'Z') && (c < '0' || c > '9');
     }
 
-    private bool IsUpper(char c) {
+    private static bool IsUpper(char c) {
         return c >= 'A' && c <= 'Z';
     }
 
-    private char UpperToLower(char c) {
+    private static char UpperToLower(char c) {
         if (IsUpper(c)) {
             c = (char)(c + 32);
         }

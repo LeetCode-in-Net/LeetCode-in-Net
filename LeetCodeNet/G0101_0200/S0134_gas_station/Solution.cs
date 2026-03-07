@@ -4,6 +4,8 @@ namespace LeetCodeNet.G0101_0200.S0134_gas_station {
 // #2025_07_12_Time_0_ms_(100.00%)_Space_70.56_MB_(58.80%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int CanCompleteCircuit(int[] gas, int[] cost) {
         int index = 0;
         int total = 0;

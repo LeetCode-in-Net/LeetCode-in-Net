@@ -7,6 +7,8 @@ namespace LeetCodeNet.G0101_0200.S0127_word_ladder {
 using System.Collections.Generic;
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int LadderLength(string beginWord, string endWord, IList<string> wordDict) {
         var beginSet = new HashSet<string>();
         var endSet = new HashSet<string>();
@@ -19,7 +21,7 @@ public class Solution {
         int strLen = beginWord.Length;
         beginSet.Add(beginWord);
         endSet.Add(endWord);
-        while (beginSet.Count > 0 && endSet.Count > 0) {
+        while (beginSet.Count > 0) {
             if (beginSet.Count > endSet.Count) {
                 var temp = beginSet;
                 beginSet = endSet;

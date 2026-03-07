@@ -28,13 +28,13 @@ public class Solution {
 
     private void RecurseSum(TreeNode node, int curNum) {
         if (node.left == null && node.right == null) {
-            sum += 10 * curNum + node.val.Value;
+            sum += 10 * curNum + node.val!.Value;
         } else {
             if (node.left != null) {
-                RecurseSum(node.left, 10 * curNum + node.val.Value);
+                RecurseSum(node.left, 10 * curNum + node.val!.Value);
             }
             if (node.right != null) {
-                RecurseSum(node.right, 10 * curNum + node.val.Value);
+                RecurseSum(node.right, 10 * curNum + node.val!.Value);
             }
         }
     }

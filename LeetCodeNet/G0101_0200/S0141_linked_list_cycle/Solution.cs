@@ -18,18 +18,20 @@ using LeetCodeNet.Com_github_leetcode;
  * }
  */
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public bool HasCycle(ListNode head) {
         if (head == null) {
             return false;
         }
-        ListNode fast = head.next;
+        ListNode fast = head.next!;
         ListNode slow = head;
         while (fast != null && fast.next != null) {
             if (fast == slow) {
                 return true;
             }
-            fast = fast.next.next;
-            slow = slow.next;
+            fast = fast.next.next!;
+            slow = slow.next!;
         }
         return false;
     }

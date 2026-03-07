@@ -16,6 +16,7 @@ public class Solution {
         return ans;
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private void CombinationSumRec(
             int n, int[] coins, int amount, List<int> subList, IList<IList<int>> ans) {
         if (amount == 0 || n == 0) {

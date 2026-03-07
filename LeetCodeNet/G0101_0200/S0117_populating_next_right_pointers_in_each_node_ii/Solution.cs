@@ -4,6 +4,7 @@ namespace LeetCodeNet.G0101_0200.S0117_populating_next_right_pointers_in_each_no
 // #Algorithm_II_Day_7_Breadth_First_Search_Depth_First_Search
 // #Top_Interview_150_Binary_Tree_General #2025_07_09_Time_69_ms_(98.05%)_Space_45.58_MB_(89.45%)
 
+// NOSONAR
 /*
 // Definition for a Node.
 public class Node {
@@ -29,7 +30,7 @@ public class Node {
 public class Solution {
     public Node Connect(Node root) {
         if (root == null) {
-            return null;
+            return null!;
         }
         if (root.left == null && root.right == null) {
             return root;
@@ -38,17 +39,18 @@ public class Solution {
             if (root.right != null) {
                 root.left.next = root.right;
             } else if (root.next != null) {
-                root.left.next = AdjacentRightNode(root.next);
+                root.left.next = AdjacentRightNode(root.next!);
             }
         }
         if (root.right != null) {
-            root.right.next = AdjacentRightNode(root.next);
+            root.right.next = AdjacentRightNode(root.next!);
         }
-        Connect(root.right);
-        Connect(root.left);
+        Connect(root.right!);
+        Connect(root.left!);
         return root;
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private Node AdjacentRightNode(Node root) {
         Node temp = root;
         while (temp != null) {
@@ -63,7 +65,7 @@ public class Solution {
                 }
             }
         }
-        return null;
+        return null!;
     }
 }
 }

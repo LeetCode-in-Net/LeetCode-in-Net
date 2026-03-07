@@ -1,8 +1,8 @@
 namespace LeetCodeNet.G0101_0200.S0133_clone_graph {
 
 public class Node {
-    public int val;
-    public IList<Node> neighbors;
+    public int val; //NOSONAR
+    public IList<Node> neighbors; //NOSONAR
 
     public Node() {
         val = 0;
@@ -41,7 +41,7 @@ public class Node {
                     innerFirst = false;
                 }
                 inner.Append(']');
-                result.Append(inner.ToString());
+                result.Append(inner);
             }
             first = false;
         }

@@ -37,6 +37,7 @@ public class Solution {
         }
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private void Dfs(char[][] board, int row, int column) {
         if (row < 0 || row >= board.Length || column < 0 || column >= board[0].Length || board[row][column] != 'O') {
             return;

@@ -15,6 +15,7 @@ public class Solution {
         none
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private RatingState GetNewState(int prevRating, int currentRating) {
         if (currentRating > prevRating) {
             return RatingState.increase;
