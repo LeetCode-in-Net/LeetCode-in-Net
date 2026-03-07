@@ -18,9 +18,11 @@ using LeetCodeNet.Com_github_leetcode;
  * }
  */
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public ListNode ReverseKGroup(ListNode head, int k) {
         if (head == null || head.next == null || k == 1) {
-            return head;
+            return head!;
         }
         int j = 0;
         ListNode len = head;
@@ -30,27 +32,27 @@ public class Solution {
             if (len == null) {
                 return head;
             }
-            len = len.next;
+            len = len.next!;
             j++;
         }
         // Reverse linked list logic applied here.
         ListNode c = head;
-        ListNode n = null;
-        ListNode prev = null;
+        ListNode n = null!;
+        ListNode prev = null!;
         int i = 0;
         // Traverse the while loop for K times to reverse the nodes in K groups.
         while (i != k) {
-            n = c.next;
+            n = c.next!;
             c.next = prev;
             prev = c;
-            c = n;
+            c = n!;
             i++;
         }
         // `head` is pointing to the 1st node of the K group, which is now going to point to the next K group
         // linked list.
         // Recursion for further remaining linked list.
-        head.next = ReverseKGroup(n, k);
-        return prev;
+        head.next = ReverseKGroup(n!, k);
+        return prev!;
     }
 }
 }

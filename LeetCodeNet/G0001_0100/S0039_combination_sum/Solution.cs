@@ -8,6 +8,7 @@ namespace LeetCodeNet.G0001_0100.S0039_combination_sum {
 using System.Collections.Generic;
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public IList<IList<int>> CombinationSum(int[] coins, int amount) {
         IList<IList<int>> ans = new List<IList<int>>();
         List<int> subList = new List<int>();

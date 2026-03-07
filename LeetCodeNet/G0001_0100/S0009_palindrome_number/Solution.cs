@@ -4,7 +4,9 @@ namespace LeetCodeNet.G0001_0100.S0009_palindrome_number {
 // #2025_06_12_Time_1_ms_(99.90%)_Space_34.74_MB_(67.61%)
 
 public class Solution {
-    public bool IsPalindrome(int x) { //NOSONAR
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
+    public bool IsPalindrome(int x) {
         if (x < 0) {
             return false;
         }

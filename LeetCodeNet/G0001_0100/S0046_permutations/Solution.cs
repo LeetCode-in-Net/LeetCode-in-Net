@@ -17,6 +17,7 @@ public class Solution {
         return finalResult;
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private void PermuteRecur(
             int[] nums, IList<IList<int>> finalResult, List<int> currResult, bool[] used) {
         if (currResult.Count == nums.Length) {

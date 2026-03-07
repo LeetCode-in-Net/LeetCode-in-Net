@@ -4,11 +4,11 @@ using System;
 using System.Collections.Generic;
 
 public class TreeNode {
-    public int? val;
-    public TreeNode left;
-    public TreeNode right;
+    public int? val; //NOSONAR
+    public TreeNode left; //NOSONAR
+    public TreeNode right; //NOSONAR
 
-    public TreeNode(int? val) {
+    public TreeNode(int? val) { //NOSONAR
         this.val = val;
     }
 

@@ -8,7 +8,9 @@ using System;
 using System.Collections.Generic;
 
 public class Solution {
-    public bool IsValid(string s) { //NOSONAR
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
+    public bool IsValid(string s) {
         Stack<char> stack = new Stack<char>();
         for (int i = 0; i < s.Length; i++) {
             char c = s[i];

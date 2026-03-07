@@ -6,6 +6,7 @@ namespace LeetCodeNet.G0001_0100.S0049_group_anagrams {
 // #2025_06_13_Time_17_ms_(83.74%)_Space_66.82_MB_(51.04%)
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public IList<IList<string>> GroupAnagrams(string[] strs) {
         var map = new Dictionary<string, IList<string>>();
         // allocate memory only once and reuse it to sort the chars of each s in strs.

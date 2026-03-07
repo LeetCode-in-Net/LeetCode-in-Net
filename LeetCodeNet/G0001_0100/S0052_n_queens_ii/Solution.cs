@@ -10,6 +10,7 @@ public class Solution {
         return count;
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private void Solve(int row, int n, bool[] cols, bool[] d1, bool[] d2, ref int count) {
         if (row == n) {
             count++;

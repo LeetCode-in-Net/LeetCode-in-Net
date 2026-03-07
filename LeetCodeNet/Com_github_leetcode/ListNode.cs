@@ -3,9 +3,9 @@ namespace LeetCodeNet.Com_github_leetcode {
 using System.Text;
 
 public class ListNode {
-    public int val;
-    public ListNode? next;
-
+    public int val; //NOSONAR
+    public ListNode? next; //NOSONAR
+ 
     public ListNode() {}
 
     public ListNode(int val) {

@@ -18,9 +18,11 @@ using LeetCodeNet.Com_github_leetcode;
  * }
  */
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public ListNode MergeKLists(ListNode[] lists) {
         if (lists.Length == 0) {
-            return null;
+            return null!;
         }
         return MergeKLists(lists, 0, lists.Length);
     }
@@ -36,6 +38,7 @@ public class Solution {
         }
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private ListNode MergeTwoLists(ListNode left, ListNode right) {
         if (left == null) {
             return right;
@@ -46,7 +49,7 @@ public class Solution {
         ListNode res;
         if (left.val <= right.val) {
             res = left;
-            left = left.next;
+            left = left.next!;
         } else {
             res = right;
             right = right.next;
@@ -54,21 +57,21 @@ public class Solution {
         ListNode node = res;
         while (left != null || right != null) {
             if (left == null) {
-                node.next = right;
-                right = right.next;
+                node!.next = right;
+                right = right!.next;
             } else if (right == null) {
-                node.next = left;
-                left = left.next;
+                node!.next = left;
+                left = left.next!;
             } else {
                 if (left.val <= right.val) {
-                    node.next = left;
-                    left = left.next;
+                    node!.next = left!;
+                    left = left.next!;
                 } else {
-                    node.next = right;
-                    right = right.next;
+                    node!.next = right!;
+                    right = right.next!;
                 }
             }
-            node = node.next;
+            node = node.next!;
         }
         return res;
     }

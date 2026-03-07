@@ -5,6 +5,8 @@ namespace LeetCodeNet.G0001_0100.S0035_search_insert_position {
 // #2025_06_12_Time_0_ms_(100.00%)_Space_43.13_MB_(61.70%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int SearchInsert(int[] nums, int target) {
         int lo = 0;
         int hi = nums.Length - 1;

@@ -6,7 +6,9 @@ namespace LeetCodeNet.G0001_0100.S0006_zigzag_conversion {
 using System.Text;
 
 public class Solution {
-    public string Convert(string s, int numRows) { //NOSONAR
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
+    public string Convert(string s, int numRows) {
         int sLen = s.Length;
         if (numRows == 1) {
             return s;

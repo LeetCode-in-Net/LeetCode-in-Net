@@ -1,15 +1,15 @@
 namespace LeetCodeNet.Com_github_leetcode {
 
 public class Node {
-    public int val;
-    public Node next;
-    public Node random;
+    public int val; //NOSONAR
+    public Node next; //NOSONAR
+    public Node random; //NOSONAR
 
-    public Node() {
+    public Node() { //NOSONAR
         this.val = 0;
     }
 
-    public Node(int val) {
+    public Node(int val) { //NOSONAR
         this.val = val;
     }
 

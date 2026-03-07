@@ -22,6 +22,7 @@ public class Solution {
         Reverse(nums, i + 1, nums.Length - 1);
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private void Swap(int[] nums, int i, int j) {
         int temp = nums[i];
         nums[i] = nums[j];

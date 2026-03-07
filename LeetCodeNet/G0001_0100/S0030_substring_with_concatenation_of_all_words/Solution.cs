@@ -6,6 +6,7 @@ namespace LeetCodeNet.G0001_0100.S0030_substring_with_concatenation_of_all_words
 using System.Collections.Generic;
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public IList<int> FindSubstring(string s, string[] words) {
         var res = new List<int>();
         if (string.IsNullOrEmpty(s) || words == null || words.Length == 0) {

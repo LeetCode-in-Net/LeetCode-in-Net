@@ -17,7 +17,8 @@ public class Solution {
         return sb.ToString();
     }
 
-    private int Numerals(System.Text.StringBuilder sb, int num, int one, char cTen, char cFive, char cOne) { //NOSONAR
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
+    private int Numerals(System.Text.StringBuilder sb, int num, int one, char cTen, char cFive, char cOne) {
         int div = num / one;
         switch (div) {
             case 9:

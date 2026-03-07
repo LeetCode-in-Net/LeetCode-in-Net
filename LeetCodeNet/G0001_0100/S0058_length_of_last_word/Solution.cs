@@ -4,6 +4,8 @@ namespace LeetCodeNet.G0001_0100.S0058_length_of_last_word {
 // #2025_07_02_Time_0_ms_(100.00%)_Space_40.17_MB_(24.14%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int LengthOfLastWord(string s) {
         int len = 0;
         for (int i = s.Length - 1; i >= 0; i--) {

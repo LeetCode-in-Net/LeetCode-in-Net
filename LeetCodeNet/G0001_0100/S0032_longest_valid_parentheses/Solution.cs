@@ -4,6 +4,7 @@ namespace LeetCodeNet.G0001_0100.S0032_longest_valid_parentheses {
 // #2025_06_12_Time_2_ms_(94.56%)_Space_40.52_MB_(91.98%)
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int LongestValidParentheses(string s) {
         int max = 0;
         int left = 0;

@@ -6,6 +6,8 @@ namespace LeetCodeNet.G0001_0100.S0057_insert_interval {
 using System.Collections.Generic;
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int[][] Insert(int[][] intervals, int[] newInterval) {
         var result = new List<int[]>();
         int i = 0, n = intervals.Length;

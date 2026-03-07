@@ -5,6 +5,7 @@ namespace LeetCodeNet.G0001_0100.S0028_find_the_index_of_the_first_occurrence_in
 // #2025_06_30_Time_0_ms_(100.00%)_Space_39.28_MB_(63.22%)
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int StrStr(string haystack, string needle) {
         if (string.IsNullOrEmpty(needle)) {
             return 0;
