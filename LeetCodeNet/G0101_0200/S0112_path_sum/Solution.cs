@@ -19,6 +19,7 @@ using LeetCodeNet.Com_github_leetcode;
  * }
  */
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public bool HasPathSum(TreeNode root, int sum) {
         if (root == null) {
             return false;
@@ -26,7 +27,7 @@ public class Solution {
         if (sum == root.val && root.left == null && root.right == null) {
             return true;
         }
-        return HasPathSum(root.left, (int)(sum - root.val)) || HasPathSum(root.right, (int)(sum - root.val));
+        return HasPathSum(root.left!, (int)(sum - root.val)!) || HasPathSum(root.right, (int)(sum - root.val)! );
     }
 }
 }

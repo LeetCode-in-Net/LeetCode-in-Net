@@ -7,6 +7,7 @@ namespace LeetCodeNet.G0001_0100.S0073_set_matrix_zeroes {
 public class Solution {
     // Approach: Use first row and first column for storing whether in future
     //           the entire row or column needs to be marked 0
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public void SetZeroes(int[][] matrix) {
         int m = matrix.Length;
         int n = matrix[0].Length;

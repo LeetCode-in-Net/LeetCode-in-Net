@@ -21,7 +21,7 @@ using LeetCodeNet.Com_github_leetcode;
  */
 public class Solution {
     private int j;
-    private Dictionary<int, int> map = new Dictionary<int, int>();
+    private readonly Dictionary<int, int> map = new Dictionary<int, int>();
 
     public int Get(int key) {
         return map[key];
@@ -29,7 +29,7 @@ public class Solution {
 
     private TreeNode Answer(int[] preorder, int[] inorder, int start, int end) {
         if (start > end || j > preorder.Length) {
-            return null;
+            return null!;
         }
         int value = preorder[j++];
         int index = Get(value);

@@ -5,6 +5,7 @@ namespace LeetCodeNet.G0001_0100.S0076_minimum_window_substring {
 // #Big_O_Time_O(s.length())_Space_O(1) #2025_06_13_Time_3_ms_(99.36%)_Space_44.55_MB_(73.13%)
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public string MinWindow(string s, string t) {
         int[] map = new int[128];
         foreach (char c in t) {

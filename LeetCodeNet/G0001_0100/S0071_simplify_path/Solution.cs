@@ -4,6 +4,8 @@ namespace LeetCodeNet.G0001_0100.S0071_simplify_path {
 // #2025_07_04_Time_2_ms_(90.87%)_Space_42.38_MB_(89.63%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public string SimplifyPath(string path) {
         var parts = path.Split('/');
         var newParts = new List<string>();

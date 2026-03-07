@@ -24,9 +24,10 @@ public class Solution {
         return MakeTree(nums, 0, nums.Length - 1);
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private TreeNode MakeTree(int[] nums, int left, int right) {
         if (left > right) {
-            return null;
+            return null!;
         }
         int mid = (left + right) / 2;
         TreeNode midNode = new TreeNode(nums[mid]);

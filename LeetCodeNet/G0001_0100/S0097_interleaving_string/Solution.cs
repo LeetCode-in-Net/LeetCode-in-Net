@@ -4,6 +4,7 @@ namespace LeetCodeNet.G0001_0100.S0097_interleaving_string {
 // #2025_07_05_Time_56_ms_(87.55%)_Space_41.87_MB_(38.83%)
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public bool IsInterleave(string s1, string s2, string s3) {
         if (s1.Length + s2.Length != s3.Length) {
             return false;

@@ -4,6 +4,8 @@ namespace LeetCodeNet.G0001_0100.S0067_add_binary {
 // #Top_Interview_150_Bit_Manipulation #2025_07_02_Time_1_ms_(91.47%)_Space_41.80_MB_(61.20%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public string AddBinary(string a, string b) {
         var sb = new System.Text.StringBuilder();
         int i = a.Length - 1; 

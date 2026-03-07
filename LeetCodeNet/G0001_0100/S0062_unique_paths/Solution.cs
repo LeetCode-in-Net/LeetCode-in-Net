@@ -6,6 +6,8 @@ namespace LeetCodeNet.G0001_0100.S0062_unique_paths {
 // #Big_O_Time_O(m*n)_Space_O(m*n) #2025_06_13_Time_0_ms_(100.00%)_Space_28.91_MB_(75.80%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int UniquePaths(int m, int n) {
         int[] array = new int[n];
         for (int i = 0; i < n; i++) {

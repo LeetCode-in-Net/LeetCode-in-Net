@@ -5,6 +5,7 @@ namespace LeetCodeNet.G0001_0100.S0075_sort_colors {
 // #2025_06_13_Time_0_ms_(100.00%)_Space_46.46_MB_(73.50%)
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public void SortColors(int[] nums) {
         int zeroes = 0;
         int ones = 0;

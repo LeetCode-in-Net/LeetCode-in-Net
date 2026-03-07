@@ -4,6 +4,8 @@ namespace LeetCodeNet.G0001_0100.S0069_sqrtx {
 // #Top_Interview_150_Math #2025_07_04_Time_0_ms_(100.00%)_Space_29.30_MB_(44.18%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int MySqrt(int x) {
         if (x < 2) {
             return x;

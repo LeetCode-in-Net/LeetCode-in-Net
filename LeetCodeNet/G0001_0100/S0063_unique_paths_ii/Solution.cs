@@ -4,6 +4,8 @@ namespace LeetCodeNet.G0001_0100.S0063_unique_paths_ii {
 // #Top_Interview_150_Multidimensional_DP #2025_07_02_Time_0_ms_(100.00%)_Space_42.12_MB_(14.91%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int UniquePathsWithObstacles(int[][] obstacleGrid) {
         int m = obstacleGrid.Length;
         int  n = obstacleGrid[0].Length;

@@ -28,6 +28,7 @@ public class Solution {
         return Helper(root.left, root.right);
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private bool Helper(TreeNode leftNode, TreeNode rightNode) {
         if (leftNode == null || rightNode == null) {
             return leftNode == null && rightNode == null;

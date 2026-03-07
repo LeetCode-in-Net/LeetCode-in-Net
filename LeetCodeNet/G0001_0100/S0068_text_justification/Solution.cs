@@ -4,6 +4,8 @@ namespace LeetCodeNet.G0001_0100.S0068_text_justification {
 // #2025_07_02_Time_1_ms_(83.99%)_Space_47.93_MB_(33.99%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public IList<string> FullJustify(string[] words, int maxWidth) {
         var res = new List<string>();
         int i = 0;

@@ -25,12 +25,13 @@ public class Solution {
         return Helper(inorder, postorder, ref inIndex, ref postIndex, int.MaxValue);
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private TreeNode Helper(int[] inorder, int[] postorder, ref int inIndex, ref int postIndex, int target) {
         if (inIndex < 0 || inorder[inIndex] == target) {
-            return null;
+            return null!;
         }
         TreeNode root = new TreeNode(postorder[postIndex--]);
-        root.right = Helper(inorder, postorder, ref inIndex, ref postIndex, (int)root.val);
+        root.right = Helper(inorder, postorder, ref inIndex, ref postIndex, (int)root.val!);
         inIndex--;
         root.left = Helper(inorder, postorder, ref inIndex, ref postIndex, target);
         return root;

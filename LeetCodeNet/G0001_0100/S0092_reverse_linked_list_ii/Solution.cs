@@ -17,23 +17,24 @@ using LeetCodeNet.Com_github_leetcode;
  * }
  */
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public ListNode ReverseBetween(ListNode head, int left, int right) {
         if (head == null || left == right) {
-            return head;
+            return head!;
         }
         ListNode dummy = new ListNode(0, head);
         ListNode prev = dummy;
         for (int i = 0; i < left - 1; i++) {
-            prev = prev.next;
+            prev = prev.next!;
         }
-        ListNode curr = prev.next;
+        ListNode curr = prev.next!;
         for (int i = 0; i < right - left; i++) {
-            ListNode next = curr.next;
-            curr.next = next.next;
+            ListNode next = curr.next!;
+            curr.next = next!.next;
             next.next = prev.next;
             prev.next = next;
         }
-        return dummy.next;
+        return dummy.next!;
     }
 }
 }

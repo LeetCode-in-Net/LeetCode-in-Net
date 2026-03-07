@@ -5,6 +5,8 @@ namespace LeetCodeNet.G0001_0100.S0064_minimum_path_sum {
 // #Big_O_Time_O(m*n)_Space_O(m*n) #2025_06_13_Time_1_ms_(100.00%)_Space_46.72_MB_(52.77%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int MinPathSum(int[][] grid) {
         int m = grid.Length;
         int n = grid[0].Length;

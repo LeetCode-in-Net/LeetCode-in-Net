@@ -17,6 +17,7 @@ using LeetCodeNet.Com_github_leetcode;
  * }
  */
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public ListNode Partition(ListNode head, int x) {
         ListNode beforeHead = new ListNode(0);
         ListNode afterHead = new ListNode(0);
@@ -30,11 +31,11 @@ public class Solution {
                 after.next = head;
                 after = after.next;
             }
-            head = head.next;
+            head = head.next!;
         }
         after.next = null;
         before.next = afterHead.next;
-        return beforeHead.next;
+        return beforeHead.next!;
     }
 }
 }
