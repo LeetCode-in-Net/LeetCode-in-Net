@@ -25,6 +25,7 @@ public class Solution {
         }
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private bool IsPanlindrome(string s, int start, int end) {
         while (start < end && s[start] == s[end]) {
             start++;

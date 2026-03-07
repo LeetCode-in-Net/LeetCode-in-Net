@@ -18,15 +18,17 @@ using LeetCodeNet.Com_github_leetcode;
  * }
  */
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public ListNode DetectCycle(ListNode head) {
         if (head == null || head.next == null) {
-           return null;
+           return null!;
         }
         ListNode slow = head;
         ListNode fast = head;
         while (fast != null && fast.next != null) {
-            fast = fast.next.next;
-            slow = slow.next;
+            fast = fast.next.next!;
+            slow = slow.next!;
             if (slow == fast) {
                 break;
             }
@@ -36,10 +38,10 @@ public class Solution {
         }
         slow = head;
         while (slow != fast) {
-            slow = slow.next;
-            fast = fast.next;
+            slow = slow.next!;
+            fast = fast.next!;
         }
-        return slow;
+        return slow!;
     }
 }
 }

@@ -6,6 +6,7 @@ namespace LeetCodeNet.G0101_0200.S0138_copy_list_with_random_pointer {
 
 using LeetCodeNet.Com_github_leetcode;
 
+// NOSONAR
 /*
 // Definition for a Node.
 public class Node {
@@ -21,9 +22,11 @@ public class Node {
 }
 */
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public Node CopyRandomList(Node head) {
         if (head == null) {
-            return null;
+            return null!;
         }
         // first pass to have a clone node point to the next node. ie A->B becomes A->clonedNode->B
         Node curr = head;
@@ -41,13 +44,13 @@ public class Solution {
             if (curr.random != null) {
                 curr.next.random = curr.random.next;
             } else {
-                curr.next.random = null;
+                curr.next.random = null!;
             }
             curr = curr.next.next;
         }
         curr = head;
         // third pass to restore the links and return the head of the cloned nodes' list.
-        Node newHead = null;
+        Node newHead = null!;
         while (curr != null) {
             Node clonedNode;
             if (newHead == null) {
@@ -60,11 +63,11 @@ public class Solution {
             if (curr.next != null) {
                 clonedNode.next = curr.next.next;
             } else {
-                clonedNode.next = null;
+                clonedNode.next = null!;
             }
-            curr = curr.next;
+            curr = curr.next!;
         }
-        return newHead;
+        return newHead!;
     }
 }
 }

@@ -4,6 +4,8 @@ namespace LeetCodeNet.G0101_0200.S0123_best_time_to_buy_and_sell_stock_iii {
 // #2025_07_10_Time_3_ms_(86.18%)_Space_63.38_MB_(69.12%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int MaxProfit(int[] prices) {
         if (prices.Length == 0) {
             return 0;

@@ -22,6 +22,7 @@ public class Solution {
         return Dfs(triangle, dp, 0, 0);
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private int Dfs(IList<IList<int>> triangle, int[][] dp, int row, int col) {
         if (row >= triangle.Count) {
             return 0;

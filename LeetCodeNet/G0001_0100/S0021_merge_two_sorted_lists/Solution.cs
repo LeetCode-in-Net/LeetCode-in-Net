@@ -19,7 +19,8 @@ using LeetCodeNet.Com_github_leetcode;
  * }
  */
 public class Solution {
-    public ListNode MergeTwoLists(ListNode l1, ListNode l2) { //NOSONAR
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
+    public ListNode MergeTwoLists(ListNode l1, ListNode l2) {
         ListNode list = new ListNode(-1);
         ListNode head = list;
         while (l1 != null || l2 != null) {

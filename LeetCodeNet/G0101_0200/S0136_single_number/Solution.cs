@@ -6,6 +6,8 @@ namespace LeetCodeNet.G0101_0200.S0136_single_number {
 // #Big_O_Time_O(N)_Space_O(1) #2025_06_14_Time_0_ms_(100.00%)_Space_46.90_MB_(50.83%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int SingleNumber(int[] nums) {
         int res = 0;
         foreach (int num in nums) {

@@ -21,7 +21,8 @@ public class Solution {
         return ans;
     }
 
-    private void FindCombinations( //NOSONAR
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
+    private void FindCombinations(
             int start, string nums, string[] letters, StringBuilder curr, List<string> ans) {
         if (curr.Length == nums.Length) {
             ans.Add(curr.ToString());

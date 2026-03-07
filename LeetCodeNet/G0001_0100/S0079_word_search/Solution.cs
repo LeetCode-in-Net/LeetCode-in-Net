@@ -9,10 +9,8 @@ public class Solution {
         for (int i = 0; i < board.Length; i++) {
             for (int j = 0; j < board[0].Length; j++) {
                 char ch = word[0];
-                if (board[i][j] == ch) {
-                    if (helper(i, j, board, word, 1)) {
-                        return true;
-                    }
+                if (board[i][j] == ch && helper(i, j, board, word, 1)) {
+                    return true;
                 }
             }
         }

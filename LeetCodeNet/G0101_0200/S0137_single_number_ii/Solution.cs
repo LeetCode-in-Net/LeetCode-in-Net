@@ -4,6 +4,8 @@ namespace LeetCodeNet.G0101_0200.S0137_single_number_ii {
 // #2025_07_12_Time_0_ms_(100.00%)_Space_43.58_MB_(81.90%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int SingleNumber(int[] nums) {
         int ones = 0;
         int twos = 0;

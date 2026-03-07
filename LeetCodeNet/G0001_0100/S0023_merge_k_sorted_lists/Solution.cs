@@ -52,7 +52,7 @@ public class Solution {
             left = left.next!;
         } else {
             res = right;
-            right = right.next;
+            right = right.next!;
         }
         ListNode node = res;
         while (left != null || right != null) {

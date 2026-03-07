@@ -29,11 +29,11 @@ public class Solution {
         // to avoid the -ve values in left side we will compare them with 0
         int left = Math.Max(0, Helper(root.left));
         int right = Math.Max(0, Helper(root.right));
-        int current = (int)(root.val + left + right);
+        int current = (int)(root.val + left + right)!;
         if (current > max) {
             max = current;
         }
-        return (int)(root.val + Math.Max(left, right));
+        return (int)(root.val + Math.Max(left, right))!;
     }
 
     public int MaxPathSum(TreeNode root) {

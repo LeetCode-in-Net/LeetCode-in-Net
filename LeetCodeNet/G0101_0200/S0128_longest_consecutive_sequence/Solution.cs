@@ -5,6 +5,8 @@ namespace LeetCodeNet.G0101_0200.S0128_longest_consecutive_sequence {
 // #2025_06_14_Time_16_ms_(100.00%)_Space_75.12_MB_(14.84%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int LongestConsecutive(int[] nums) {
         Dictionary<int, int> mapToHighest = new(nums.Length);
         int best = 0;
