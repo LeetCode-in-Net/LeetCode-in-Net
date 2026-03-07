@@ -6,6 +6,8 @@ namespace LeetCodeNet.G0001_0100.S0074_search_a_2d_matrix {
 // #2025_06_13_Time_0_ms_(100.00%)_Space_44.41_MB_(51.93%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public bool SearchMatrix(int[][] matrix, int target) {
         int endRow = matrix.Length;
         int endCol = matrix[0].Length;

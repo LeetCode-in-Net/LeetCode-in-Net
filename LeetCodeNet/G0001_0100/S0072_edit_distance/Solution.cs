@@ -6,6 +6,8 @@ namespace LeetCodeNet.G0001_0100.S0072_edit_distance {
 // #2025_06_13_Time_4_ms_(89.69%)_Space_46.23_MB_(62.11%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int MinDistance(string word1, string word2) {
         var map = new int[word1.Length + 1, word2.Length + 1];
         for (int i = 0; i <= word1.Length; i++) {

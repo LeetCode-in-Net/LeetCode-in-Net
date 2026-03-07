@@ -21,6 +21,7 @@ using LeetCodeNet.Com_github_leetcode;
  * }
  */
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public IList<IList<int>> ZigzagLevelOrder(TreeNode root) {
         var queue = new Queue<TreeNode>();
         var results = new List<IList<int>>();
@@ -29,7 +30,7 @@ public class Solution {
         }
         var level = new List<int>();
         queue.Enqueue(root);
-        queue.Enqueue(null);
+        queue.Enqueue(null!);
         var d = false;
         while (queue.Count > 0) {
             var c = queue.Dequeue();
@@ -41,12 +42,12 @@ public class Solution {
                 if (queue.Count == 0) {
                     break;
                 } else {
-                    queue.Enqueue(null);
+                    queue.Enqueue(null!);
                     level = new List<int>();
                     d = !d;
                 }
             } else {
-                level.Add((int)c.val);
+                level.Add((int)c.val!);
                 if (c.left != null) {
                     queue.Enqueue(c.left);
                 }

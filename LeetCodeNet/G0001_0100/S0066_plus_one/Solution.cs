@@ -4,6 +4,8 @@ namespace LeetCodeNet.G0001_0100.S0066_plus_one {
 // #Top_Interview_150_Math #2025_07_02_Time_0_ms_(100.00%)_Space_46.64_MB_(51.35%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int[] PlusOne(int[] digits) {
         for (int i = digits.Length - 1; i >= 0; i--) {
             if (digits[i] < 9) {

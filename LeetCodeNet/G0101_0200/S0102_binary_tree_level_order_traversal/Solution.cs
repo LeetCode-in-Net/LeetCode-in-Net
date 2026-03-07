@@ -21,6 +21,7 @@ using LeetCodeNet.Com_github_leetcode;
  * }
  */
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public IList<IList<int>> LevelOrder(TreeNode root) {
         IList<IList<int>> result = new List<IList<int>>();
         if (root == null) {
@@ -28,12 +29,12 @@ public class Solution {
         }
         Queue<TreeNode> queue = new Queue<TreeNode>();
         queue.Enqueue(root);
-        queue.Enqueue(null);
+        queue.Enqueue(null!);
         List<int> level = new List<int>();
         while (queue.Count > 0) {
             root = queue.Dequeue();
             while (queue.Count > 0 && root != null) {
-                level.Add((int)root.val);
+                level.Add((int)root.val!);
                 if (root.left != null) {
                     queue.Enqueue(root.left);
                 }
@@ -45,7 +46,7 @@ public class Solution {
             result.Add(level);
             level = new List<int>();
             if (queue.Count > 0) {
-                queue.Enqueue(null);
+                queue.Enqueue(null!);
             }
         }
         return result;

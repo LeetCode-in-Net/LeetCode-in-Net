@@ -13,6 +13,7 @@ public class Solution {
         return res;
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private void Solve(int[] nums, List<int> temp, IList<IList<int>> res, int start) {
         res.Add(new List<int>(temp));
         for (int i = start; i < nums.Length; i++) {

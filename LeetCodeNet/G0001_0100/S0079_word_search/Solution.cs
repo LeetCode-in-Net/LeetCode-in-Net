@@ -19,6 +19,7 @@ public class Solution {
         return false;
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private bool helper(int r, int c, char[][] board, string word, int count) {
         if (count == word.Length) {
             return true;
@@ -26,17 +27,17 @@ public class Solution {
         char currChar = board[r][c];
         board[r][c] = '!';
         char nextChar = word[count];
-        if (r > 0 && board[r - 1][c] == nextChar) {
-            if (helper(r - 1, c, board, word, count + 1)) return true;
+        if (r > 0 && board[r - 1][c] == nextChar && helper(r - 1, c, board, word, count + 1)) {
+            return true;
         }
-        if (r < board.Length - 1 && board[r + 1][c] == nextChar) {
-            if (helper(r + 1, c, board, word, count + 1)) return true;
+        if (r < board.Length - 1 && board[r + 1][c] == nextChar && helper(r + 1, c, board, word, count + 1)) {
+            return true;
         }
-        if (c > 0 && board[r][c - 1] == nextChar) {
-            if (helper(r, c - 1, board, word, count + 1)) return true;
+        if (c > 0 && board[r][c - 1] == nextChar && helper(r, c - 1, board, word, count + 1)) {
+            return true;
         }
-        if (c < board[0].Length - 1 && board[r][c + 1] == nextChar) {
-            if (helper(r, c + 1, board, word, count + 1)) return true;
+        if (c < board[0].Length - 1 && board[r][c + 1] == nextChar && helper(r, c + 1, board, word, count + 1)) {
+            return true;
         }
         board[r][c] = currChar;
         return false;

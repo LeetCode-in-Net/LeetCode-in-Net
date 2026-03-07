@@ -6,6 +6,8 @@ namespace LeetCodeNet.G0001_0100.S0070_climbing_stairs {
 // #Big_O_Time_O(n)_Space_O(n) #2025_06_13_Time_0_ms_(100.00%)_Space_29.08_MB_(56.18%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int ClimbStairs(int n) {
         int[] dp = new int[n + 1];
         dp[0] = 1;

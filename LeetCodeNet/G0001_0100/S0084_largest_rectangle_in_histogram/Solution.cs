@@ -4,6 +4,7 @@ namespace LeetCodeNet.G0001_0100.S0084_largest_rectangle_in_histogram {
 // #Big_O_Time_O(n_log_n)_Space_O(log_n) #2025_06_13_Time_5_ms_(100.00%)_Space_57.76_MB_(41.84%)
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int LargestRectangleArea(int[] heights) {
         int len = heights.Length;
         int maxArea = 0;

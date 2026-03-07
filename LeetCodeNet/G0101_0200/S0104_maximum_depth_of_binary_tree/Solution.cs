@@ -26,6 +26,7 @@ public class Solution {
         return FindDepth(root, 0);
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private int FindDepth(TreeNode node, int currentDepth) {
         if (node == null) {
             return 0;

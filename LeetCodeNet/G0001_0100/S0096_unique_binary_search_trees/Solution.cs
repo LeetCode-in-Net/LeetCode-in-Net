@@ -5,6 +5,8 @@ namespace LeetCodeNet.G0001_0100.S0096_unique_binary_search_trees {
 // #2025_06_13_Time_0_ms_(100.00%)_Space_28.70_MB_(95.42%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int NumTrees(int n) {
         long result = 1;
         for (int i = 0; i < n; i++) {

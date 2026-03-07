@@ -4,6 +4,7 @@ namespace LeetCodeNet.G0001_0100.S0088_merge_sorted_array {
 // #Top_Interview_150_Array/String #2025_07_05_Time_0_ms_(100.00%)_Space_46.88_MB_(90.46%)
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public void Merge(int[] nums1, int m, int[] nums2, int n) {
         int i = m - 1; 
         int j = n - 1; 

@@ -9,6 +9,8 @@ public class Solution {
         Backtrack(1, n, k, new List<int>(), res);
         return res;
     }
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private void Backtrack(int start, int n, int k, List<int> curr, List<IList<int>> res) {
         if (curr.Count == k) {
             res.Add(new List<int>(curr));

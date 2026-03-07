@@ -29,6 +29,7 @@ public class Solution {
         return answer;
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private void InorderTraversal(TreeNode root, IList<int> answer) {
         if (root == null) {
             return;
@@ -36,7 +37,7 @@ public class Solution {
         if (root.left != null) {
             InorderTraversal(root.left, answer);
         }
-        answer.Add((int)root.val);
+        answer.Add((int)root.val!);
         if (root.right != null) {
             InorderTraversal(root.right, answer);
         }

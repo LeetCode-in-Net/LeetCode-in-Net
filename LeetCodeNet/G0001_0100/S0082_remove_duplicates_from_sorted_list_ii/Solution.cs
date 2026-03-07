@@ -18,6 +18,7 @@ using LeetCodeNet.Com_github_leetcode;
  * }
  */
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public ListNode DeleteDuplicates(ListNode head) {
         ListNode dummy = new ListNode(0, head);
         ListNode prev = dummy;
@@ -26,13 +27,13 @@ public class Solution {
                 while (head.next != null && head.val == head.next.val) {
                     head = head.next;
                 }
-                prev.next = head.next;
+                prev!.next = head.next;
             } else {
-                prev = prev.next;
+                prev = prev.next!;
             }
-            head = head.next;
+            head = head.next!;
         }
-        return dummy.next;
+        return dummy.next!;
     }
 }
 }

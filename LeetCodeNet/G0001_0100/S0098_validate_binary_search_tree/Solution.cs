@@ -26,6 +26,7 @@ public class Solution {
     }
     // we will send a valid range and check whether the root lies in the range
     // and update the range for the subtrees
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private bool Solve(TreeNode root, long left, long right) {
         if (root == null) {
             return true;
@@ -33,7 +34,7 @@ public class Solution {
         if (root.val <= left || root.val >= right) {
             return false;
         }
-        return Solve(root.left, left, (long)root.val) && Solve(root.right, (long)root.val, right);
+        return Solve(root.left, left, (long)root.val!) && Solve(root.right, (long)root.val, right);
     }
 }
 }

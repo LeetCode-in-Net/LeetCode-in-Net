@@ -26,6 +26,7 @@ public class Solution {
         }
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private TreeNode FindTail(TreeNode root) {
         TreeNode left = root.left;
         TreeNode right = root.right;
@@ -34,7 +35,7 @@ public class Solution {
         if (left != null) {
             tail = FindTail(left);
             // stitch the right subtree below the tail
-            root.left = null;
+            root.left = null!;
             root.right = left;
             tail.right = right;
         } else {
