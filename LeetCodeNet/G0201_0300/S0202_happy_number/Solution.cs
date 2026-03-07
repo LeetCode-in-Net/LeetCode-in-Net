@@ -5,6 +5,7 @@ namespace LeetCodeNet.G0201_0300.S0202_happy_number {
 // #Top_Interview_150_Hashmap #2025_07_13_Time_0_ms_(100.00%)_Space_30.91_MB_(85.61%)
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public bool IsHappy(int n) {
         bool happy;
         int a = n;

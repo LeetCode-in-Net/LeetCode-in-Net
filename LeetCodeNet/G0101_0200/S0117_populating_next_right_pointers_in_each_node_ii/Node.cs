@@ -1,11 +1,11 @@
 namespace LeetCodeNet.G0101_0200.S0117_populating_next_right_pointers_in_each_node_ii {
 
-[System.Diagnostics.CodeAnalysis.SuppressMessage("Design", "CA1051", Justification = "LeetCode"), System.Diagnostics.CodeAnalysis.SuppressMessage("Compiler", "CS8618", Justification = "LeetCode")]
 public class Node {
-    public int val;
-    public Node left;
-    public Node right;
-    public Node next;
+    public int val; //NOSONAR
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Compiler", "CS8618", Justification = "LeetCode")]
+    public Node left; //NOSONAR
+    public Node right; //NOSONAR
+    public Node next; //NOSONAR
 
     public Node() { }
 

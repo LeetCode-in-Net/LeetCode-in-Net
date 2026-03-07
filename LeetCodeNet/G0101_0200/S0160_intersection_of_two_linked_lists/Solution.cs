@@ -15,14 +15,15 @@ using LeetCodeNet.Com_github_leetcode;
  * }
  */
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public ListNode GetIntersectionNode(ListNode headA, ListNode headB) {
         ListNode node1 = headA;
         ListNode node2 = headB;
         while (node1 != node2) {
-            node1 = node1 == null ? headB : node1.next;
-            node2 = node2 == null ? headA : node2.next;
+            node1 = node1 == null ? headB : node1!.next!;
+            node2 = node2 == null ? headA : node2!.next!;
         }
-        return node1;
+        return node1!;
     }
 }
 }

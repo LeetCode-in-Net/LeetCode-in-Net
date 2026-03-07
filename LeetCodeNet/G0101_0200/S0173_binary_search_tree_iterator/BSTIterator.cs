@@ -19,7 +19,7 @@ using LeetCodeNet.Com_github_leetcode;
  *     }
  * }
  */
-public class BSTIterator {
+public class BSTIterator { //NOSONAR
     private TreeNode node;
 
     public BSTIterator(TreeNode root) {
@@ -36,10 +36,10 @@ public class BSTIterator {
                 }
                 rightMost.right = node;
                 TreeNode temp = node.left;
-                node.left = null;
+                node.left = null!;
                 node = temp;
             } else {
-                res = node.val.Value;
+                res = node.val!.Value;
                 node = node.right;
                 return res;
             }

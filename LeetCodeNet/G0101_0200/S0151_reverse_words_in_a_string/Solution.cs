@@ -6,6 +6,8 @@ namespace LeetCodeNet.G0101_0200.S0151_reverse_words_in_a_string {
 using System.Text;
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public string ReverseWords(string s) {
         var sb = new StringBuilder();
         int i = s.Length - 1;

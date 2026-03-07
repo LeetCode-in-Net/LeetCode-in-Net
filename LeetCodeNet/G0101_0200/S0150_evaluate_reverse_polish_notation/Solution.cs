@@ -20,6 +20,7 @@ public class Solution {
         return st.Pop();
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private int Eval(int first, int second, string op) {
         return op switch {
             "+" => first + second,

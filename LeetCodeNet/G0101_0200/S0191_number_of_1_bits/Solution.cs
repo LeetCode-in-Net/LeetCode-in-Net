@@ -5,6 +5,7 @@ namespace LeetCodeNet.G0101_0200.S0191_number_of_1_bits {
 // #2025_07_13_Time_0_ms_(100.00%)_Space_28.91_MB_(71.79%)
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int HammingWeight(int n) {
         int sum = 0;
         bool flag = false;

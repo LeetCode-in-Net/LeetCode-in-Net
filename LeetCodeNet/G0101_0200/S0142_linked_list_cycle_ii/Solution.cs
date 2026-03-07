@@ -34,7 +34,7 @@ public class Solution {
             }
         }
         if (fast == null || fast.next == null) {
-            return null;
+            return null!;
         }
         slow = head;
         while (slow != fast) {

@@ -5,6 +5,8 @@ namespace LeetCodeNet.G0201_0300.S0209_minimum_size_subarray_sum {
 // #2025_07_14_Time_0_ms_(100.00%)_Space_52.33_MB_(91.45%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int MinSubArrayLen(int target, int[] nums) {
         int i = 0, j = 0, sum = 0, min = int.MaxValue;
         while (j < nums.Length) {

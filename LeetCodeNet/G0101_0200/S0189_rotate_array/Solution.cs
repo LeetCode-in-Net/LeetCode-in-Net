@@ -5,6 +5,8 @@ namespace LeetCodeNet.G0101_0200.S0189_rotate_array {
 // #Big_O_Time_O(n)_Space_O(1) #2025_06_14_Time_0_ms_(100.00%)_Space_66.44_MB_(15.51%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private void Reverse(int[] nums, int l, int r) {
         while (l <= r) {
             int temp = nums[l];

@@ -6,7 +6,7 @@ namespace LeetCodeNet.G0101_0200.S0155_min_stack {
 // #2025_06_14_Time_1_ms_(100.00%)_Space_54.77_MB_(33.45%)
 
 public class MinStack {
-    private class Node {
+    private sealed class Node {
         public int min;
         public int data;
         public Node nextNode;
@@ -20,6 +20,7 @@ public class MinStack {
         }
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Compiler", "CS8618", Justification = "LeetCode")]
     private Node currentNode;
 
     // initialize your data structure here.
@@ -29,9 +30,9 @@ public class MinStack {
 
     public void Push(int val) {
         if (currentNode == null) {
-            currentNode = new Node(val, val, null, null);
+            currentNode = new Node(val, val, null!, null!);
         } else {
-            currentNode.nextNode = new Node(Math.Min(currentNode.min, val), val, currentNode, null);
+            currentNode.nextNode = new Node(Math.Min(currentNode.min, val), val, currentNode, null!);
             currentNode = currentNode.nextNode;
         }
     }

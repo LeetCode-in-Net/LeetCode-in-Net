@@ -6,6 +6,8 @@ namespace LeetCodeNet.G0101_0200.S0190_reverse_bits {
 
 public class Solution {
     // you need treat n as an unsigned value
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public uint reverseBits(uint n) {
         uint ret = 0;
         // because there are 32 bits in total

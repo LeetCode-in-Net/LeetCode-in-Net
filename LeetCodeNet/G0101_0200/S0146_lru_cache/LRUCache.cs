@@ -4,7 +4,7 @@ namespace LeetCodeNet.G0101_0200.S0146_lru_cache {
 // #Doubly_Linked_List #Udemy_Linked_List #Top_Interview_150_Linked_List
 // #Big_O_Time_O(1)_Space_O(capacity) #2025_06_14_Time_28_ms_(80.36%)_Space_174.73_MB_(41.35%)
 
-public class LRUCache {
+public class LRUCache { //NOSONAR
     private readonly int capacity;
     private readonly Dictionary<int, LinkedListNode<CacheItem>> cacheMap;
     private readonly LinkedList<CacheItem> cacheList;
@@ -32,7 +32,7 @@ public class LRUCache {
         } else {
             if (cacheMap.Count >= capacity) {
                 var lastNode = cacheList.Last;
-                cacheMap.Remove(lastNode.Value.Key);
+                cacheMap.Remove(lastNode!.Value.Key);
                 cacheList.RemoveLast();
             }
             var newNode = new LinkedListNode<CacheItem>(new CacheItem(key, value));
@@ -41,7 +41,7 @@ public class LRUCache {
         }
     }
 
-    private class CacheItem {
+    private sealed class CacheItem {
         public int Key { get; }
         public int Value { get; set; }
 
@@ -53,34 +53,22 @@ public class LRUCache {
 }
 
 public class KeyNode {
-    private int _key;
-    private int _val;
-    private KeyNode _next;
 
-    public int key { 
-        get { return _key; }
-        set { _key = value; } 
-    }
+    public int key { get; set; }
 
-    public int val {
-        get { return _val; }
-        set { _val = value; }
-    }
+    public int val { get; set; }
 
-    public KeyNode next {
-        get { return _next; }
-        set { _next = value; }
-    }
+    public KeyNode next { get; set; }
 
     public KeyNode() {
-        _key = int.MinValue;
-        _val = int.MinValue;
-        _next = null;
+        key = int.MinValue;
+        val = int.MinValue;
+        next = null!;
     }
 
     public KeyNode(int key, int val): this() {
-        _key = key;
-        _val = val;
+        this.key = key;
+        this.val = val;
     }
 }
 
