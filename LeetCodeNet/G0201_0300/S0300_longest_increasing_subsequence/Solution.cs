@@ -6,6 +6,7 @@ namespace LeetCodeNet.G0201_0300.S0300_longest_increasing_subsequence {
 // #2025_06_16_Time_2_ms_(93.82%)_Space_43.33_MB_(52.97%)
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int LengthOfLIS(int[] nums) {
         if (nums == null || nums.Length == 0) {
             return 0;
@@ -35,7 +36,7 @@ public class Solution {
             } else if (curr > dp[start] && curr < dp[end]) {
                 dp[end] = curr;
             } else if (curr > dp[end]) {
-                dp[++end] = curr;
+                dp[end] = curr;
                 right++;
             }
         }

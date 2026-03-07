@@ -8,8 +8,8 @@ using System;
 using System.Collections.Generic;
 
 public class MedianFinder {
-    private PriorityQueue<int, int> left = new();
-    private PriorityQueue<int, int> right = new();
+    private readonly PriorityQueue<int, int> left = new();
+    private readonly PriorityQueue<int, int> right = new();
     private bool odd = false;
 
     public void AddNum(int n) {

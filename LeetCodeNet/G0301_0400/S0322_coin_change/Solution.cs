@@ -6,6 +6,7 @@ namespace LeetCodeNet.G0301_0400.S0322_coin_change {
 // #2025_06_16_Time_12_ms_(97.87%)_Space_45.88_MB_(62.94%)
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int CoinChange(int[] coins, int amount) {
         int[] dp = new int[amount + 1];
         dp[0] = 1;

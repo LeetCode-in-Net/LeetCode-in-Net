@@ -4,6 +4,7 @@ namespace LeetCodeNet.G0601_0700.S0647_palindromic_substrings {
 // #2025_06_16_Time_10_ms_(72.48%)_Space_38.84_MB_(83.72%)
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private void Expand(char[] a, int l, int r, int[] res) {
         while (l >= 0 && r < a.Length) {
             if (a[l] != a[r]) {

@@ -21,9 +21,11 @@ using LeetCodeNet.Com_github_leetcode;
  * }
  */
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public TreeNode InvertTree(TreeNode root) {
         if (root == null) {
-            return null;
+            return null!;
         }
         TreeNode temp = root.left;
         root.left = InvertTree(root.right);

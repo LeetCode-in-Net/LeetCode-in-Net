@@ -15,6 +15,7 @@ public class Solution {
         }
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private void Swap(int index1, int index2, int[] numbers) {
         int val2 = numbers[index2];
         numbers[index2] = numbers[index1];

@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int[] TopKFrequent(int[] nums, int k) {
         if (k == nums.Length) {
             return nums;

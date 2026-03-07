@@ -6,6 +6,7 @@ namespace LeetCodeNet.G0501_0600.S0560_subarray_sum_equals_k {
 using System.Collections.Generic;
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int SubarraySum(int[] nums, int k) {
         int tempSum = 0;
         int ret = 0;

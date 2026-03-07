@@ -3,6 +3,8 @@ namespace LeetCodeNet.G0201_0300.S0228_summary_ranges {
 // #Easy #Array #Top_Interview_150_Intervals #2025_07_15_Time_0_ms_(100.00%)_Space_47.48_MB_(50.51%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public IList<string> SummaryRanges(int[] nums) {
         List<string> result = new List<string>();
         if (nums.Length == 0) {

@@ -4,6 +4,7 @@ namespace LeetCodeNet.G0301_0400.S0383_ransom_note {
 // #2025_07_16_Time_1_ms_(98.72%)_Space_46.21_MB_(69.80%)
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public bool CanConstruct(string ransomNote, string magazine) {
         int[] count = new int[26];
         foreach (char c in magazine) count[c - 'a']++;

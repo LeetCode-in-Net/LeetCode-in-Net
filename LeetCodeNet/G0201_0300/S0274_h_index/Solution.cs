@@ -4,6 +4,8 @@ namespace LeetCodeNet.G0201_0300.S0274_h_index {
 // #2025_07_15_Time_0_ms_(100.00%)_Space_41.48_MB_(96.76%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int HIndex(int[] citations) {
         int len = citations.Length;
         int[] freqArray = new int[len + 1];

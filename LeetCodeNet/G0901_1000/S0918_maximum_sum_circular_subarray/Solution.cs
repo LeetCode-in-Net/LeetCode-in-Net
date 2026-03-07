@@ -8,6 +8,8 @@ using System;
 using System.Linq;
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private int Kadane(int[] nums, int sign) {
         int currSum = int.MinValue;
         int maxSum = int.MinValue;

@@ -18,6 +18,7 @@ public class Solution {
      * {0, 6} won't be burst however, if we sort by ending points, then it becomes:
      * {0, 6}, {7, 8}, {0, 9}, then we shoot at 6, then at 8, this gives us the result of bursting all balloons.
      */
+     [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int FindMinArrowShots(int[][] points) {
         if (points == null || points.Length == 0) {
             return 0;

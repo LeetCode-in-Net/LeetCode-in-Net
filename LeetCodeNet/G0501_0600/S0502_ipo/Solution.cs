@@ -7,6 +7,7 @@ using System;
 using System.Collections.Generic;
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int FindMaximizedCapital(int k, int w, int[] profits, int[] capital) {
         // Min-heap for projects based on capital required
         // TElement is int[] {profit, capital}, TPriority is capital (for min-heap)

@@ -9,6 +9,7 @@ using System;
 using System.Collections.Generic;
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public IList<int> FindAnagrams(string s, string p) {
         int[] map = new int[26];
         for (int index = 0; index < p.Length; ++index) {

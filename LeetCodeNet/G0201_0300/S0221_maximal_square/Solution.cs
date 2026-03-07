@@ -5,6 +5,7 @@ namespace LeetCodeNet.G0201_0300.S0221_maximal_square {
 // #2025_06_15_Time_3_ms_(96.90%)_Space_67.76_MB_(80.23%)
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int MaximalSquare(char[][] matrix) {
         int m = matrix.Length;
         if (m == 0) {

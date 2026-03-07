@@ -4,6 +4,7 @@ namespace LeetCodeNet.G0201_0300.S0289_game_of_life {
 // #2025_07_16_Time_0_ms_(100.00%)_Space_46.31_MB_(66.67%)
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public void GameOfLife(int[][] board) {
         int m = board.Length, n = board[0].Length;
         int[] dx = {0, 0, 1, 1, 1, -1, -1, -1};

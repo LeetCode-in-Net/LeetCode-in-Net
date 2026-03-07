@@ -6,6 +6,7 @@ namespace LeetCodeNet.G0301_0400.S0373_find_k_pairs_with_smallest_sums {
 using System.Collections.Generic;
 
 public class Solution {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public IList<IList<int>> KSmallestPairs(int[] nums1, int[] nums2, int k) {
         var result = new List<IList<int>>();
         if (nums1.Length == 0 || nums2.Length == 0 || k == 0) {
