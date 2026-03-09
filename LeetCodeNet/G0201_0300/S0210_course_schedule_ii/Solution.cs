@@ -15,14 +15,13 @@ public class Solution {
         prerequisites.ToList().ForEach(classes => graph[classes[0]].Add(classes[1]));
         var output = new List<int>();
         var visited = new Dictionary<int, bool>();
-        foreach (var c in graph.Keys) {
-            if (Dfs(c, graph, visited, output)) {
-                return Array.Empty<int>();
-            }
+        if (graph.Keys.Any(c => Dfs(c, graph, visited, output))) {
+            return Array.Empty<int>();
         }
         return output.ToArray();
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     private bool Dfs(int course, Dictionary<int, List<int>> graph, Dictionary<int, bool> visited, List<int> output) {
         if (visited.ContainsKey(course)) {
             return visited[course];

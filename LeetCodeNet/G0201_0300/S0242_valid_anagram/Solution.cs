@@ -5,6 +5,8 @@ namespace LeetCodeNet.G0201_0300.S0242_valid_anagram {
 // #2025_07_15_Time_0_ms_(100.00%)_Space_43.94_MB_(45.52%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public bool IsAnagram(string s, string t) {
         if (s.Length != t.Length) {
             return false;

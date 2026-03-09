@@ -4,13 +4,16 @@ public class Node {
     public int val; //NOSONAR
     [System.Diagnostics.CodeAnalysis.SuppressMessage("Compiler", "CS8618", Justification = "LeetCode")]
     public Node next; //NOSONAR
+
     [System.Diagnostics.CodeAnalysis.SuppressMessage("Compiler", "CS8618", Justification = "LeetCode")]
     public Node random; //NOSONAR
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Compiler", "CS8618", Justification = "LeetCode")]
     public Node() { //NOSONAR
         this.val = 0;
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Compiler", "CS8618", Justification = "LeetCode")]
     public Node(int val) { //NOSONAR
         this.val = val;
     }

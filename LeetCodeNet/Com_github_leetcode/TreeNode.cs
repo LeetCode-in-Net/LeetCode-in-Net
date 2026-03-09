@@ -10,6 +10,7 @@ public class TreeNode {
     [System.Diagnostics.CodeAnalysis.SuppressMessage("Compiler", "CS8618", Justification = "LeetCode")]
     public TreeNode right; //NOSONAR
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Compiler", "CS8618", Justification = "LeetCode")]
     public TreeNode(int? val) { //NOSONAR
         this.val = val;
     }

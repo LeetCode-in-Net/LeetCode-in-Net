@@ -8,6 +8,8 @@ namespace LeetCodeNet.G0201_0300.S0215_kth_largest_element_in_an_array {
 using System;
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int FindKthLargest(int[] nums, int k) {
         int n = nums.Length;
         Array.Sort(nums);

@@ -6,12 +6,12 @@ namespace LeetCodeNet.G0401_0500.S0427_construct_quad_tree {
 using System.Text;
 
 public class Node {
-    public bool val;
-    public bool isLeaf;
-    public Node? topLeft;
-    public Node? topRight;
-    public Node? bottomLeft;
-    public Node? bottomRight;
+    public bool val; // NOSONAR
+    public bool isLeaf; // NOSONAR
+    public Node? topLeft; // NOSONAR
+    public Node? topRight; // NOSONAR
+    public Node? bottomLeft; // NOSONAR
+    public Node? bottomRight; // NOSONAR
 
     public Node(bool val, bool isLeaf) {
         this.val = val;

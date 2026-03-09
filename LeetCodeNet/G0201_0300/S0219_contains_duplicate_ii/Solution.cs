@@ -4,6 +4,8 @@ namespace LeetCodeNet.G0201_0300.S0219_contains_duplicate_ii {
 // #2025_07_14_Time_12_ms_(98.14%)_Space_69.92_MB_(59.27%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public bool ContainsNearbyDuplicate(int[] nums, int k) {
         var map = new Dictionary<int, int>();
         int len = nums.Length;
