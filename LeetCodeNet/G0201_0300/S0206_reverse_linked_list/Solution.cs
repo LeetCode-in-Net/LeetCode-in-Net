@@ -22,7 +22,7 @@ public class Solution {
 
     [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public ListNode ReverseList(ListNode head) {
-        ListNode prev = null;
+        ListNode prev = null!;
         ListNode curr = head;
         while (curr != null) {
             ListNode next = curr.next!;

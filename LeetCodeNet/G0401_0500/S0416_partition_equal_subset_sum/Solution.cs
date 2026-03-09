@@ -4,6 +4,8 @@ namespace LeetCodeNet.G0401_0500.S0416_partition_equal_subset_sum {
 // #Big_O_Time_O(n*sums)_Space_O(n*sums) #2025_06_16_Time_22_ms_(82.19%)_Space_44.17_MB_(96.67%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public bool CanPartition(int[] nums) {
         int sums = 0;
         foreach (int num in nums) {

@@ -24,6 +24,7 @@ public class MinStack {
     private Node currentNode;
 
     // initialize your data structure here.
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Compiler", "CS8618", Justification = "LeetCode")]
     public MinStack() {
         // no initialization needed.
     }

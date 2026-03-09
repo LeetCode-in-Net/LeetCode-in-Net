@@ -7,8 +7,10 @@ public class Node {
     public Node right; //NOSONAR
     public Node next; //NOSONAR
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Compiler", "CS8618", Justification = "LeetCode")]
     public Node() { }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Compiler", "CS8618", Justification = "LeetCode")]
     public Node(int _val) {
         val = _val;
     }

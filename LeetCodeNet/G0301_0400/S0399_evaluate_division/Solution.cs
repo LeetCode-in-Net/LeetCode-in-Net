@@ -8,7 +8,11 @@ using System;
 using System.Collections.Generic;
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Compiler", "CS8618", Justification = "LeetCode")]
     private Dictionary<string, string> root;
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Compiler", "CS8618", Justification = "LeetCode")]
     private Dictionary<string, double> rate;
 
     public double[] CalcEquation(

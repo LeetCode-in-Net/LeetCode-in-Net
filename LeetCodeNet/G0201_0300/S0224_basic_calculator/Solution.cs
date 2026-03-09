@@ -4,6 +4,8 @@ namespace LeetCodeNet.G0201_0300.S0224_basic_calculator {
 // #2025_07_15_Time_3_ms_(96.26%)_Space_42.26_MB_(95.95%)
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public int Calculate(string s) {
         Stack<int> st = new Stack<int>();
         int ans = 0;

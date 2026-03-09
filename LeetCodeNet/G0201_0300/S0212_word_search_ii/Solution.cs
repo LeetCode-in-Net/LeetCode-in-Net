@@ -6,6 +6,8 @@ namespace LeetCodeNet.G0201_0300.S0212_word_search_ii {
 using System.Collections.Generic;
 
 public class Solution {
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Compiler", "CS8618", Justification = "LeetCode")]
     private Tree root;
 
     public IList<string> FindWords(char[][] board, string[] words) {
@@ -59,7 +61,7 @@ public class Solution {
     }
 
     // Internal Trie/Tree class
-    private class Tree {
+    private sealed class Tree {
         private readonly Tree[] children = new Tree[26];
         public string? end;
 
@@ -68,13 +70,7 @@ public class Solution {
         }
 
         public int Len() {
-            int count = 0;
-            foreach (var child in children) {
-                if (child != null) {
-                    count++;
-                }
-            }
-            return count;
+            return children.Count(child => child != null);
         }
 
         public static void AddWord(Tree root, string word) {
@@ -103,14 +99,14 @@ public class Solution {
             else {
                 int idx = word[d] - 'a';
                 if (DeleteWordHelper(node.children[idx], word, d + 1)) {
-                    node.children[idx] = null;
+                    node.children[idx] = null!;
                 }
             }
             if (node.end != null) {
                 return false;
             }
-            foreach (var child in node.children) {
-                if (child != null) return false;
+            if (node.children.Any(child => child != null)) {
+                return false;
             }
             return true;
         }
