@@ -7,28 +7,21 @@ namespace LeetCodeNet.G0201_0300.S0300_longest_increasing_subsequence {
 
 public class Solution {
     [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
-    public int LengthOfLIS(int[] nums)
-    {
+    public int LengthOfLIS(int[] nums) {
         int[] dp = new int[nums.Length];
         int len = 0;
-        foreach (int x in nums)
-        {
+        foreach (int x in nums) {
             int l = 0, r = len;
-            while (l < r)
-            {
+            while (l < r) {
                 int m = (l + r) / 2;
-                if (dp[m] < x)
-                {
+                if (dp[m] < x) {
                     l = m + 1;
-                }
-                else
-                {
+                } else {
                     r = m;
                 }
             }
             dp[l] = x;
-            if (l == len)
-            {
+            if (l == len) {
                 len++;
             }
         }
