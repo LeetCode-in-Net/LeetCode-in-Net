@@ -1,20 +1,20 @@
 namespace LeetCodeNet.Com_github_leetcode {
 
 public class Node { 
-    public int val; //NOSONAR
+    public int val; // NOSONAR
     [System.Diagnostics.CodeAnalysis.SuppressMessage("Compiler", "CS8618", Justification = "LeetCode")]
-    public Node next; //NOSONAR
+    public Node next; // NOSONAR
 
     [System.Diagnostics.CodeAnalysis.SuppressMessage("Compiler", "CS8618", Justification = "LeetCode")]
-    public Node random; //NOSONAR
+    public Node random; // NOSONAR
 
     [System.Diagnostics.CodeAnalysis.SuppressMessage("Compiler", "CS8618", Justification = "LeetCode")]
-    public Node() { //NOSONAR
+    public Node() { // NOSONAR
         this.val = 0;
     }
 
     [System.Diagnostics.CodeAnalysis.SuppressMessage("Compiler", "CS8618", Justification = "LeetCode")]
-    public Node(int val) { //NOSONAR
+    public Node(int val) { // NOSONAR
         this.val = val;
     }
 
