@@ -7,9 +7,9 @@ namespace LeetCodeNet.G0001_0100.S0004_median_of_two_sorted_arrays {
 public class Solution {
     
     [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
-    public double FindMedianSortedArrays(int[] nums1, int[] nums2) { //NOSONAR
+    public double FindMedianSortedArrays(int[] nums1, int[] nums2) {
         if (nums2.Length < nums1.Length) {
-            return FindMedianSortedArrays(nums1, nums2);
+            return FindMedianSortedArrays(nums2, nums1); // NOSONAR
         }
         int cut1;
         int cut2;
