@@ -9,7 +9,7 @@ public class Solution {
     [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "LeetCode")]
     public double FindMedianSortedArrays(int[] nums1, int[] nums2) { //NOSONAR
         if (nums2.Length < nums1.Length) {
-            return FindMedianSortedArrays(nums1, nums2);
+            return FindMedianSortedArrays(nums2, nums1);
         }
         int cut1;
         int cut2;
